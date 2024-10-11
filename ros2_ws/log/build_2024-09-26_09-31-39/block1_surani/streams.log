@@ -1,0 +1,40 @@
+[0.018s] Invoking command in '/home/dominik/RRM/ros2_ws/build/block1_surani': CMAKE_PREFIX_PATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs:/home/dominik/RRM/ros2_ws/install/block1_surani:/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model:/home/dominik/RRM/ros2_ws/install/rrm_sim:/home/dominik/RRM/ros2_ws/install/cv1:/home/dominik/RRM/zad1/install/zad1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/block1_surani -- -j16 -l16
+[0.065s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.403s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.443s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.457s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.475s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.494s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.592s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.594s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.698s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.793s] -- Found rrm_msgs: 0.0.0 (/home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/cmake)
+[0.811s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.868s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.937s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.937s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/dominik/RRM/ros2_ws/src/block1_surani/include>
+[0.937s] -- Configured cppcheck exclude dirs and/or files: 
+[0.937s] -- Added test 'lint_cmake' to check CMake code style
+[0.938s] -- Added test 'uncrustify' to check C / C++ code style
+[0.938s] -- Configured uncrustify additional arguments: 
+[0.938s] -- Added test 'xmllint' to check XML markup files
+[0.939s] -- Configuring done (0.9s)
+[0.951s] -- Generating done (0.0s)
+[0.952s] -- Build files have been written to: /home/dominik/RRM/ros2_ws/build/block1_surani
+[0.996s] [ 25%] [32mBuilding CXX object CMakeFiles/logger_node.dir/src/logger_node.cpp.o[0m
+[1.003s] [ 50%] [32mBuilding CXX object CMakeFiles/teleop_node.dir/src/teleop_node.cpp.o[0m
+[3.123s] [01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/logger_node.cpp:7:9:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KJointLogger::[m[K’ on member ‘[01m[KJointLogger[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.124s]     7 |         [01;31m[KJointLogger[m[K::JointLogger() : Node("joint_logger"){
+[3.124s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[3.124s] [01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/logger_node.cpp:12:9:[m[K [01;31m[Kerror: [m[K‘[01m[KJointLogger::[01;32m[KJointLogger[m[K()[m[K’ cannot be overloaded with ‘[01m[KJointLogger::[01;32m[KJointLogger[m[K()[m[K’
+[3.124s]    12 |         [01;31m[KJointLogger[m[K();
+[3.124s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[3.124s] [01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/logger_node.cpp:7:9:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[KJointLogger::[01;32m[KJointLogger[m[K()[m[K’
+[3.124s]     7 |         [01;36m[KJointLogger[m[K::JointLogger() : Node("joint_logger"){
+[3.124s]       |         [01;36m[K^~~~~~~~~~~[m[K
+[5.031s] [ 75%] [32m[1mLinking CXX executable teleop_node[0m
+[5.169s] [ 75%] Built target teleop_node
+[5.368s] gmake[2]: *** [CMakeFiles/logger_node.dir/build.make:76: CMakeFiles/logger_node.dir/src/logger_node.cpp.o] Error 1
+[5.369s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/logger_node.dir/all] Error 2
+[5.369s] gmake: *** [Makefile:146: all] Error 2
+[5.373s] Invoked command in '/home/dominik/RRM/ros2_ws/build/block1_surani' returned '2': CMAKE_PREFIX_PATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs:/home/dominik/RRM/ros2_ws/install/block1_surani:/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model:/home/dominik/RRM/ros2_ws/install/rrm_sim:/home/dominik/RRM/ros2_ws/install/cv1:/home/dominik/RRM/zad1/install/zad1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/block1_surani -- -j16 -l16

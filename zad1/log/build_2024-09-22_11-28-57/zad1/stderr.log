@@ -1,0 +1,66 @@
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/zad1_node.cpp:14:9:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+   14 | cout << [01;35m[K"[m[KEnter one letter of WASD, like game,
+      |         [01;35m[K^[m[K
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/zad1_node.cpp:14:9:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+   14 | cout << [01;31m[K"Enter one letter of WASD, like game,[m[K
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/zad1_node.cpp:15:25:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+   15 |     to make robot move: [01;35m[K"[m[K << endl;
+      |                         [01;35m[K^[m[K
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/zad1_node.cpp:15:25:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+   15 |     to make robot move: [01;31m[K" << endl;[m[K
+      |                         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/robot.cpp:[m[K In member function ‘[01m[Kvoid Robot::[01;32m[Kmove[m[K(double, double)[m[K’:
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/robot.cpp:10:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Robot[m[K’ has no member named ‘[01m[Kpositionx_[m[K’; did you mean ‘[01m[Kposition_[m[K’?
+   10 | this->[01;31m[Kpositionx_[m[K = double x;
+      |       [01;31m[K^~~~~~~~~~[m[K
+      |       [32m[Kposition_[m[K
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/robot.cpp:10:20:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+   10 | this->positionx_ = [01;31m[Kdouble[m[K x;
+      |                    [01;31m[K^~~~~~[m[K
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/robot.cpp:11:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Robot[m[K’ has no member named ‘[01m[Kpositiony_[m[K’; did you mean ‘[01m[Kposition_[m[K’?
+   11 | this->[01;31m[Kpositiony_[m[K = double y;
+      |       [01;31m[K^~~~~~~~~~[m[K
+      |       [32m[Kposition_[m[K
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/robot.cpp:11:20:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+   11 | this->positiony_ = [01;31m[Kdouble[m[K y;
+      |                    [01;31m[K^~~~~~[m[K
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/robot.cpp:9:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    9 | void Robot::move([01;35m[Kconst double x[m[K, const double y) {
+      |                  [01;35m[K~~~~~~~~~~~~~^[m[K
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/robot.cpp:9:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    9 | void Robot::move(const double x, [01;35m[Kconst double y[m[K) {
+      |                                  [01;35m[K~~~~~~~~~~~~~^[m[K
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/robot.cpp:[m[K In member function ‘[01m[Kdouble Robot::[01;32m[KgetX[m[K() const[m[K’:
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/robot.cpp:15:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kpositionx_[m[K’ was not declared in this scope; did you mean ‘[01m[Kposition_[m[K’?
+   15 | return [01;31m[Kpositionx_[m[K;
+      |        [01;31m[K^~~~~~~~~~[m[K
+      |        [32m[Kposition_[m[K
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/robot.cpp:[m[K In member function ‘[01m[Kdouble Robot::[01;32m[KgetY[m[K() const[m[K’:
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/robot.cpp:19:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kpositiony_[m[K’ was not declared in this scope; did you mean ‘[01m[Kposition_[m[K’?
+   19 | return [01;31m[Kpositiony_[m[K;
+      |        [01;31m[K^~~~~~~~~~[m[K
+      |        [32m[Kposition_[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/dominik/RRM/zad1/src/zad1/src/zad1_node.cpp:2[m[K:
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/zad1_node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/zad1_node.cpp:12:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Robot[m[K’ has no member named ‘[01m[KgetCurrentPosition[m[K’
+   12 |     "Position: %f", robot.[01;31m[KgetCurrentPosition[m[K());
+      |                           [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/zad1_node.cpp:15:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kto[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+   15 |     [01;31m[Kto[m[K make robot move: " << endl;
+      |     [01;31m[K^~[m[K
+      |     [32m[Ktm[m[K
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/zad1_node.cpp:17:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kc[m[K’ was not declared in this scope
+   17 | cin >> [01;31m[Kc[m[K;
+      |        [01;31m[K^[m[K
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/zad1_node.cpp:37:5:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+   37 |     [01;35m[K"Position X: %f"[m[K, robot.getX(),
+      |     [01;35m[K^~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/zad1_node.dir/build.make:90: CMakeFiles/zad1_node.dir/src/robot.cpp.o] Error 1
+gmake[2]: *** Čaká sa na nedokončené úlohy....
+gmake[2]: *** [CMakeFiles/zad1_node.dir/build.make:76: CMakeFiles/zad1_node.dir/src/zad1_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/zad1_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

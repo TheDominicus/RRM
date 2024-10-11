@@ -1,0 +1,13 @@
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/robot.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kcv1/robot.hpp: Adresár alebo súbor neexistuje
+    1 | #include [01;31m[K"cv1/robot.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/zad1_node.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kcv1/robot.hpp: Adresár alebo súbor neexistuje
+    1 | #include [01;31m[K"cv1/robot.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+compilation terminated.
+compilation terminated.
+gmake[2]: *** [CMakeFiles/zad1_node.dir/build.make:90: CMakeFiles/zad1_node.dir/src/robot.cpp.o] Error 1
+gmake[2]: *** Čaká sa na nedokončené úlohy....
+gmake[2]: *** [CMakeFiles/zad1_node.dir/build.make:76: CMakeFiles/zad1_node.dir/src/zad1_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/zad1_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

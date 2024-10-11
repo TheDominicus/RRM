@@ -1,0 +1,43 @@
+[ 66%] [32mBuilding CXX object CMakeFiles/zad1_node.dir/src/robot.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/zad1_node.dir/src/zad1_node.cpp.o[0m
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/robot.cpp:8:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid Robot::[01;32m[Kmove[m[K(double)[m[K’
+    8 | void [01;31m[KRobot[m[K::move(const double position){
+      |      [01;31m[K^~~~~[m[K
+In file included from [01m[K/home/dominik/RRM/zad1/src/zad1/src/robot.cpp:1[m[K:
+[01m[K/home/dominik/RRM/zad1/src/zad1/include/zad1/robot.hpp:4:14:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid Robot::[01;32m[Kmove[m[K(double, double)[m[K’
+    4 |         void [01;36m[Kmove[m[K(double x, double y);
+      |              [01;36m[K^~~~[m[K
+[01m[K/home/dominik/RRM/zad1/src/zad1/include/zad1/robot.hpp:1:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Robot[m[K’ defined here
+    1 | class [01;36m[KRobot[m[K {
+      |       [01;36m[K^~~~~[m[K
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/robot.cpp:11:8:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kdouble Robot::[01;32m[KgetCurrentPosition[m[K() const[m[K’
+   11 | double [01;31m[KRobot[m[K::getCurrentPosition () const {
+      |        [01;31m[K^~~~~[m[K
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/robot.cpp:11:8:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kdouble Robot::[01;32m[KgetCurrentPosition[m[K() const[m[K’
+[01m[K/home/dominik/RRM/zad1/src/zad1/include/zad1/robot.hpp:1:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Robot[m[K’ defined here
+    1 | class [01;36m[KRobot[m[K {
+      |       [01;36m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/dominik/RRM/zad1/src/zad1/src/zad1_node.cpp:2[m[K:
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/zad1_node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/zad1_node.cpp:9:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Robot[m[K’ has no member named ‘[01m[KgetCurrentPosition[m[K’
+    9 |     "Position: %f", robot.[01;31m[KgetCurrentPosition[m[K());
+      |                           [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/zad1_node.cpp:10:11:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRobot::move(double)[m[K’
+   10 | [01;31m[Krobot.move(1.0)[m[K;
+      | [01;31m[K~~~~~~~~~~^~~~~[m[K
+In file included from [01m[K/home/dominik/RRM/zad1/src/zad1/src/zad1_node.cpp:1[m[K:
+[01m[K/home/dominik/RRM/zad1/src/zad1/include/zad1/robot.hpp:4:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Robot::[01;32m[Kmove[m[K(double, double)[m[K’
+    4 |         void [01;36m[Kmove[m[K(double x, double y);
+      |              [01;36m[K^~~~[m[K
+[01m[K/home/dominik/RRM/zad1/src/zad1/include/zad1/robot.hpp:4:14:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/zad1_node.cpp:12:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Robot[m[K’ has no member named ‘[01m[KgetCurrentPosition[m[K’
+   12 |     "Position: %f", robot.[01;31m[KgetCurrentPosition[m[K());
+      |                           [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/zad1_node.dir/build.make:90: CMakeFiles/zad1_node.dir/src/robot.cpp.o] Error 1
+gmake[2]: *** Čaká sa na nedokončené úlohy....
+gmake[2]: *** [CMakeFiles/zad1_node.dir/build.make:76: CMakeFiles/zad1_node.dir/src/zad1_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/zad1_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

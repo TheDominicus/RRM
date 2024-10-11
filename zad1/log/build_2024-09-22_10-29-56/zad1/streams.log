@@ -1,0 +1,62 @@
+[0.019s] Invoking command in '/home/dominik/RRM/zad1/build/zad1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dominik/RRM/zad1/src/zad1 -DCMAKE_INSTALL_PREFIX=/home/dominik/RRM/zad1/install/zad1
+[0.176s] -- The C compiler identification is GNU 13.2.0
+[0.328s] -- The CXX compiler identification is GNU 13.2.0
+[0.362s] -- Detecting C compiler ABI info
+[0.537s] -- Detecting C compiler ABI info - done
+[0.550s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.551s] -- Detecting C compile features
+[0.552s] -- Detecting C compile features - done
+[0.569s] -- Detecting CXX compiler ABI info
+[0.748s] -- Detecting CXX compiler ABI info - done
+[0.762s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.762s] -- Detecting CXX compile features
+[0.763s] -- Detecting CXX compile features - done
+[0.774s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.000s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.194s] -- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.269s] -- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.292s] -- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.323s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.355s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.493s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.498s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.659s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.689s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.732s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.866s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.036s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.036s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/dominik/RRM/zad1/src/zad1/include>
+[2.037s] -- Configured cppcheck exclude dirs and/or files: 
+[2.038s] -- Added test 'lint_cmake' to check CMake code style
+[2.039s] -- Added test 'uncrustify' to check C / C++ code style
+[2.040s] -- Configured uncrustify additional arguments: 
+[2.041s] -- Added test 'xmllint' to check XML markup files
+[2.043s] -- Configuring done (2.0s)
+[2.060s] -- Generating done (0.0s)
+[2.062s] -- Build files have been written to: /home/dominik/RRM/zad1/build/zad1
+[2.082s] Invoked command in '/home/dominik/RRM/zad1/build/zad1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dominik/RRM/zad1/src/zad1 -DCMAKE_INSTALL_PREFIX=/home/dominik/RRM/zad1/install/zad1
+[2.085s] Invoking command in '/home/dominik/RRM/zad1/build/zad1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/zad1/build/zad1 -- -j16 -l16
+[2.180s] [ 50%] [32mBuilding CXX object CMakeFiles/zad1_node.dir/src/zad1_node.cpp.o[0m
+[2.259s] [100%] [32m[1mLinking CXX executable zad1_node[0m
+[2.376s] [100%] Built target zad1_node
+[2.390s] Invoked command in '/home/dominik/RRM/zad1/build/zad1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/zad1/build/zad1 -- -j16 -l16
+[2.434s] Invoking command in '/home/dominik/RRM/zad1/build/zad1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/zad1/build/zad1
+[2.441s] -- Install configuration: ""
+[2.441s] -- Installing: /home/dominik/RRM/zad1/install/zad1/lib/zad1/zad1_node
+[2.441s] -- Set non-toolchain portion of runtime path of "/home/dominik/RRM/zad1/install/zad1/lib/zad1/zad1_node" to ""
+[2.441s] -- Installing: /home/dominik/RRM/zad1/install/zad1/share/ament_index/resource_index/package_run_dependencies/zad1
+[2.441s] -- Installing: /home/dominik/RRM/zad1/install/zad1/share/ament_index/resource_index/parent_prefix_path/zad1
+[2.442s] -- Installing: /home/dominik/RRM/zad1/install/zad1/share/zad1/environment/ament_prefix_path.sh
+[2.442s] -- Installing: /home/dominik/RRM/zad1/install/zad1/share/zad1/environment/ament_prefix_path.dsv
+[2.442s] -- Installing: /home/dominik/RRM/zad1/install/zad1/share/zad1/environment/path.sh
+[2.442s] -- Installing: /home/dominik/RRM/zad1/install/zad1/share/zad1/environment/path.dsv
+[2.442s] -- Installing: /home/dominik/RRM/zad1/install/zad1/share/zad1/local_setup.bash
+[2.442s] -- Installing: /home/dominik/RRM/zad1/install/zad1/share/zad1/local_setup.sh
+[2.442s] -- Installing: /home/dominik/RRM/zad1/install/zad1/share/zad1/local_setup.zsh
+[2.442s] -- Installing: /home/dominik/RRM/zad1/install/zad1/share/zad1/local_setup.dsv
+[2.442s] -- Installing: /home/dominik/RRM/zad1/install/zad1/share/zad1/package.dsv
+[2.442s] -- Installing: /home/dominik/RRM/zad1/install/zad1/share/ament_index/resource_index/packages/zad1
+[2.443s] -- Installing: /home/dominik/RRM/zad1/install/zad1/share/zad1/cmake/zad1Config.cmake
+[2.443s] -- Installing: /home/dominik/RRM/zad1/install/zad1/share/zad1/cmake/zad1Config-version.cmake
+[2.443s] -- Installing: /home/dominik/RRM/zad1/install/zad1/share/zad1/package.xml
+[2.445s] Invoked command in '/home/dominik/RRM/zad1/build/zad1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/zad1/build/zad1

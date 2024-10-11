@@ -1,0 +1,25 @@
+[0.018s] Invoking command in '/home/dominik/RRM/ros2_ws/build/block1_surani': CMAKE_PREFIX_PATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs:/home/dominik/RRM/ros2_ws/install/block1_surani:/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model:/home/dominik/RRM/ros2_ws/install/rrm_sim:/home/dominik/RRM/ros2_ws/install/cv1:/home/dominik/RRM/zad1/install/zad1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/block1_surani -- -j16 -l16
+[0.125s] [ 50%] Built target teleop_node
+[0.130s] [ 75%] [32mBuilding CXX object CMakeFiles/logger_node.dir/src/logger_node.cpp.o[0m
+[2.256s] [01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/logger_node.cpp:7:9:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KJointLogger::[m[K’ on member ‘[01m[KJointLogger[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.256s]     7 |         [01;31m[KJointLogger[m[K::JointLogger() : Node("joint_logger"){
+[2.256s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.256s] [01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/logger_node.cpp:12:14:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KJointLogger::[m[K’ on member ‘[01m[Kjoint_states_callback[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.256s]    12 |         void [01;31m[KJointLogger[m[K::joint_states_callback(const sensor_msgs::msg::JointState::SharedPtr msg){
+[2.256s]       |              [01;31m[K^~~~~~~~~~~[m[K
+[2.256s] [01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/logger_node.cpp:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[KJointLogger::[01;32m[KJointLogger[m[K()[m[K’ cannot be overloaded with ‘[01m[KJointLogger::[01;32m[KJointLogger[m[K()[m[K’
+[2.256s]    17 |         [01;31m[KJointLogger[m[K();
+[2.256s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.256s] [01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/logger_node.cpp:7:9:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[KJointLogger::[01;32m[KJointLogger[m[K()[m[K’
+[2.256s]     7 |         [01;36m[KJointLogger[m[K::JointLogger() : Node("joint_logger"){
+[2.257s]       |         [01;36m[K^~~~~~~~~~~[m[K
+[2.257s] [01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/logger_node.cpp:18:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid JointLogger::[01;32m[Kjoint_states_callback[m[K(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’ cannot be overloaded with ‘[01m[Kvoid JointLogger::[01;32m[Kjoint_states_callback[m[K(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’
+[2.257s]    18 |         void [01;31m[Kjoint_states_callback[m[K(const sensor_msgs::msg::JointState::SharedPtr msg);
+[2.257s]       |              [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.257s] [01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/logger_node.cpp:12:14:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid JointLogger::[01;32m[Kjoint_states_callback[m[K(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’
+[2.257s]    12 |         void [01;36m[KJointLogger[m[K::joint_states_callback(const sensor_msgs::msg::JointState::SharedPtr msg){
+[2.257s]       |              [01;36m[K^~~~~~~~~~~[m[K
+[4.339s] gmake[2]: *** [CMakeFiles/logger_node.dir/build.make:76: CMakeFiles/logger_node.dir/src/logger_node.cpp.o] Error 1
+[4.340s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/logger_node.dir/all] Error 2
+[4.340s] gmake: *** [Makefile:146: all] Error 2
+[4.343s] Invoked command in '/home/dominik/RRM/ros2_ws/build/block1_surani' returned '2': CMAKE_PREFIX_PATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs:/home/dominik/RRM/ros2_ws/install/block1_surani:/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model:/home/dominik/RRM/ros2_ws/install/rrm_sim:/home/dominik/RRM/ros2_ws/install/cv1:/home/dominik/RRM/zad1/install/zad1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/block1_surani -- -j16 -l16

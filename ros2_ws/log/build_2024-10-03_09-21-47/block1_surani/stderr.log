@@ -1,0 +1,100 @@
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:35:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+   35 |   while (![01;31m[Kclient_[m[K ->wait_for_service (std::chrono::seconds (1))) {
+      |           [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:1[m[K:
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:37:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   37 |       RCLCPP_ERROR ([01;31m[Kthis[m[K->get_logger (), "Interrupted while waiting for the service. Exiting." );
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:37:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:37:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   37 |       [01;31m[KRCLCPP_ERROR[m[K (this->get_logger (), "Interrupted while waiting for the service. Exiting." );
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:37:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   37 |       [01;31m[KRCLCPP_ERROR[m[K (this->get_logger (), "Interrupted while waiting for the service. Exiting." );
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:37:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   37 |       [01;31m[KRCLCPP_ERROR[m[K (this->get_logger (), "Interrupted while waiting for the service. Exiting." );
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K:
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:37:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   37 |       RCLCPP_ERROR ([01;31m[Kthis[m[K->get_logger (), "Interrupted while waiting for the service. Exiting." );
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:37:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   37 |       RCLCPP_ERROR ([01;31m[Kthis[m[K->get_logger (), "Interrupted while waiting for the service. Exiting." );
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:38:5:[m[K [01;31m[Kerror: [m[Kreturn-statement with no value, in function returning ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   38 |     [01;31m[Kreturn[m[K;
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:41:18:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   41 |     RCLCPP_INFO ([01;31m[Kthis[m[K->get_logger (), "Service not available, waiting again..." );
+      |                  [01;31m[K^~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:41:18:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:41:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   41 |     [01;31m[KRCLCPP_INFO[m[K (this->get_logger (), "Service not available, waiting again..." );
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:41:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   41 |     [01;31m[KRCLCPP_INFO[m[K (this->get_logger (), "Service not available, waiting again..." );
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:41:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   41 |     [01;31m[KRCLCPP_INFO[m[K (this->get_logger (), "Service not available, waiting again..." );
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:41:18:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   41 |     RCLCPP_INFO ([01;31m[Kthis[m[K->get_logger (), "Service not available, waiting again..." );
+      |                  [01;31m[K^~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:41:18:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   41 |     RCLCPP_INFO ([01;31m[Kthis[m[K->get_logger (), "Service not available, waiting again..." );
+      |                  [01;31m[K^~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:48:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+   48 |   auto result = [01;31m[Kclient_[m[K->async_send_request(request);
+      |                 [01;31m[K^~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:50:42:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   50 |   if (rclcpp::spin_until_future_complete([01;31m[Kthis[m[K->get_node_base_interface(), result) !=
+      |                                          [01;31m[K^~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:52:20:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   52 |       RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Service call failed"); // Log an error if the service call failed
+      |                    [01;31m[K^~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:52:20:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:52:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   52 |       [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Service call failed"); // Log an error if the service call failed
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:52:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   52 |       [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Service call failed"); // Log an error if the service call failed
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:52:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   52 |       [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Service call failed"); // Log an error if the service call failed
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:52:20:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   52 |       RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Service call failed"); // Log an error if the service call failed
+      |                    [01;31m[K^~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:52:20:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   52 |       RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Service call failed"); // Log an error if the service call failed
+      |                    [01;31m[K^~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:58:13:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   58 | RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Service call succeeded: result_code = %d, message = %s",
+      |             [01;31m[K^~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:58:13:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:58:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   58 | [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Service call succeeded: result_code = %d, message = %s",
+      | [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:58:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   58 | [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Service call succeeded: result_code = %d, message = %s",
+      | [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:58:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   58 | [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Service call succeeded: result_code = %d, message = %s",
+      | [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:58:13:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   58 | RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Service call succeeded: result_code = %d, message = %s",
+      |             [01;31m[K^~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:58:13:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   58 | RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Service call succeeded: result_code = %d, message = %s",
+      |             [01;31m[K^~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:62:36:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   62 | rclcpp::spin_until_future_complete([01;31m[Kthis[m[K->get_node_base_interface(), result,
+      |                                    [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/teleop_node.dir/build.make:76: CMakeFiles/teleop_node.dir/src/teleop_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/teleop_node.dir/all] Error 2
+gmake[1]: *** Čaká sa na nedokončené úlohy....
+gmake: *** [Makefile:146: all] Error 2

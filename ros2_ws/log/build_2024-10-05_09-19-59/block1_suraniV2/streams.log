@@ -1,0 +1,64 @@
+[0.011s] Invoking command in '/home/dominik/RRM/ros2_ws/build/block1_suraniV2': CMAKE_PREFIX_PATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs:/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model:/home/dominik/RRM/ros2_ws/install/rrm_sim:/home/dominik/RRM/ros2_ws/install/block1_surani:/home/dominik/RRM/ros2_ws/install/cv1:/home/dominik/RRM/zad1/install/zad1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dominik/RRM/ros2_ws/src/block1_suraniV2 -DCMAKE_INSTALL_PREFIX=/home/dominik/RRM/ros2_ws/install/block1_suraniV2
+[0.086s] -- The C compiler identification is GNU 13.2.0
+[0.175s] -- The CXX compiler identification is GNU 13.2.0
+[0.193s] -- Detecting C compiler ABI info
+[0.276s] -- Detecting C compiler ABI info - done
+[0.283s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.283s] -- Detecting C compile features
+[0.284s] -- Detecting C compile features - done
+[0.293s] -- Detecting CXX compiler ABI info
+[0.383s] -- Detecting CXX compiler ABI info - done
+[0.390s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.390s] -- Detecting CXX compile features
+[0.390s] -- Detecting CXX compile features - done
+[0.394s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.510s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.604s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.642s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.654s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.671s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.687s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.758s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.761s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.845s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.863s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.881s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.949s] -- Found rrm_msgs: 0.0.0 (/home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/cmake)
+[0.964s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.017s] WARNING: Package name "block1_suraniV2" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[1.051s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.051s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/dominik/RRM/ros2_ws/src/block1_suraniV2/include>
+[1.051s] -- Configured cppcheck exclude dirs and/or files: 
+[1.051s] -- Added test 'lint_cmake' to check CMake code style
+[1.052s] -- Added test 'uncrustify' to check C / C++ code style
+[1.052s] -- Configured uncrustify additional arguments: 
+[1.053s] -- Added test 'xmllint' to check XML markup files
+[1.054s] -- Configuring done (1.0s)
+[1.064s] -- Generating done (0.0s)
+[1.065s] -- Build files have been written to: /home/dominik/RRM/ros2_ws/build/block1_suraniV2
+[1.073s] Invoked command in '/home/dominik/RRM/ros2_ws/build/block1_suraniV2' returned '0': CMAKE_PREFIX_PATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs:/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model:/home/dominik/RRM/ros2_ws/install/rrm_sim:/home/dominik/RRM/ros2_ws/install/block1_surani:/home/dominik/RRM/ros2_ws/install/cv1:/home/dominik/RRM/zad1/install/zad1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dominik/RRM/ros2_ws/src/block1_suraniV2 -DCMAKE_INSTALL_PREFIX=/home/dominik/RRM/ros2_ws/install/block1_suraniV2
+[1.074s] Invoking command in '/home/dominik/RRM/ros2_ws/build/block1_suraniV2': CMAKE_PREFIX_PATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs:/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model:/home/dominik/RRM/ros2_ws/install/rrm_sim:/home/dominik/RRM/ros2_ws/install/block1_surani:/home/dominik/RRM/ros2_ws/install/cv1:/home/dominik/RRM/zad1/install/zad1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/block1_suraniV2 -- -j16 -l16
+[1.120s] [ 50%] [32mBuilding CXX object CMakeFiles/teleop_node.dir/src/teleop_node.cpp.o[0m
+[4.726s] [100%] [32m[1mLinking CXX executable teleop_node[0m
+[4.861s] [100%] Built target teleop_node
+[4.871s] Invoked command in '/home/dominik/RRM/ros2_ws/build/block1_suraniV2' returned '0': CMAKE_PREFIX_PATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs:/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model:/home/dominik/RRM/ros2_ws/install/rrm_sim:/home/dominik/RRM/ros2_ws/install/block1_surani:/home/dominik/RRM/ros2_ws/install/cv1:/home/dominik/RRM/zad1/install/zad1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/block1_suraniV2 -- -j16 -l16
+[4.901s] Invoking command in '/home/dominik/RRM/ros2_ws/build/block1_suraniV2': CMAKE_PREFIX_PATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs:/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model:/home/dominik/RRM/ros2_ws/install/rrm_sim:/home/dominik/RRM/ros2_ws/install/block1_surani:/home/dominik/RRM/ros2_ws/install/cv1:/home/dominik/RRM/zad1/install/zad1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/block1_suraniV2
+[4.908s] -- Install configuration: ""
+[4.908s] -- Installing: /home/dominik/RRM/ros2_ws/install/block1_suraniV2/lib/block1_suraniV2/teleop_node
+[4.909s] -- Set non-toolchain portion of runtime path of "/home/dominik/RRM/ros2_ws/install/block1_suraniV2/lib/block1_suraniV2/teleop_node" to ""
+[4.909s] -- Installing: /home/dominik/RRM/ros2_ws/install/block1_suraniV2/share/ament_index/resource_index/package_run_dependencies/block1_suraniV2
+[4.909s] -- Installing: /home/dominik/RRM/ros2_ws/install/block1_suraniV2/share/ament_index/resource_index/parent_prefix_path/block1_suraniV2
+[4.909s] -- Installing: /home/dominik/RRM/ros2_ws/install/block1_suraniV2/share/block1_suraniV2/environment/ament_prefix_path.sh
+[4.909s] -- Installing: /home/dominik/RRM/ros2_ws/install/block1_suraniV2/share/block1_suraniV2/environment/ament_prefix_path.dsv
+[4.909s] -- Installing: /home/dominik/RRM/ros2_ws/install/block1_suraniV2/share/block1_suraniV2/environment/path.sh
+[4.910s] -- Installing: /home/dominik/RRM/ros2_ws/install/block1_suraniV2/share/block1_suraniV2/environment/path.dsv
+[4.910s] -- Installing: /home/dominik/RRM/ros2_ws/install/block1_suraniV2/share/block1_suraniV2/local_setup.bash
+[4.910s] -- Installing: /home/dominik/RRM/ros2_ws/install/block1_suraniV2/share/block1_suraniV2/local_setup.sh
+[4.910s] -- Installing: /home/dominik/RRM/ros2_ws/install/block1_suraniV2/share/block1_suraniV2/local_setup.zsh
+[4.910s] -- Installing: /home/dominik/RRM/ros2_ws/install/block1_suraniV2/share/block1_suraniV2/local_setup.dsv
+[4.910s] -- Installing: /home/dominik/RRM/ros2_ws/install/block1_suraniV2/share/block1_suraniV2/package.dsv
+[4.910s] -- Installing: /home/dominik/RRM/ros2_ws/install/block1_suraniV2/share/ament_index/resource_index/packages/block1_suraniV2
+[4.910s] -- Installing: /home/dominik/RRM/ros2_ws/install/block1_suraniV2/share/block1_suraniV2/cmake/block1_suraniV2Config.cmake
+[4.911s] -- Installing: /home/dominik/RRM/ros2_ws/install/block1_suraniV2/share/block1_suraniV2/cmake/block1_suraniV2Config-version.cmake
+[4.911s] -- Installing: /home/dominik/RRM/ros2_ws/install/block1_suraniV2/share/block1_suraniV2/package.xml
+[4.912s] Invoked command in '/home/dominik/RRM/ros2_ws/build/block1_suraniV2' returned '0': CMAKE_PREFIX_PATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs:/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model:/home/dominik/RRM/ros2_ws/install/rrm_sim:/home/dominik/RRM/ros2_ws/install/block1_surani:/home/dominik/RRM/ros2_ws/install/cv1:/home/dominik/RRM/zad1/install/zad1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/block1_suraniV2

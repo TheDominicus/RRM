@@ -1,0 +1,102 @@
+[ 75%] [32mBuilding CXX object CMakeFiles/teleop_node.dir/src/teleop_node.cpp.o[0m
+[ 75%] Built target logger_node
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:77:15:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kint[m[K’ to ‘[01m[Kconst std::vector<double, std::allocator<double> >&[m[K’
+   77 |   robot->move([01;31m[K1[m[K, 0);
+      |               [01;31m[K^[m[K
+      |               [01;31m[K|[m[K
+      |               [01;31m[Kint[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:28:40:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kbool Teleop::[01;32m[Kmove[m[K(const std::vector<double, std::allocator<double> >&, double)[m[K’
+   28 |   bool move([01;36m[Kconst std::vector<double>& positions[m[K, double max_velocity) {
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:78:15:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kint[m[K’ to ‘[01m[Kconst std::vector<double, std::allocator<double> >&[m[K’
+   78 |   robot->move([01;31m[K2[m[K, 0);
+      |               [01;31m[K^[m[K
+      |               [01;31m[K|[m[K
+      |               [01;31m[Kint[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:28:40:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kbool Teleop::[01;32m[Kmove[m[K(const std::vector<double, std::allocator<double> >&, double)[m[K’
+   28 |   bool move([01;36m[Kconst std::vector<double>& positions[m[K, double max_velocity) {
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:87:21:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kint[m[K’ to ‘[01m[Kconst std::vector<double, std::allocator<double> >&[m[K’
+   87 |         robot->move([01;31m[K1[m[K, 1);
+      |                     [01;31m[K^[m[K
+      |                     [01;31m[K|[m[K
+      |                     [01;31m[Kint[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:28:40:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kbool Teleop::[01;32m[Kmove[m[K(const std::vector<double, std::allocator<double> >&, double)[m[K’
+   28 |   bool move([01;36m[Kconst std::vector<double>& positions[m[K, double max_velocity) {
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:88:21:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kint[m[K’ to ‘[01m[Kconst std::vector<double, std::allocator<double> >&[m[K’
+   88 |         robot->move([01;31m[K2[m[K, 1);
+      |                     [01;31m[K^[m[K
+      |                     [01;31m[K|[m[K
+      |                     [01;31m[Kint[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:28:40:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kbool Teleop::[01;32m[Kmove[m[K(const std::vector<double, std::allocator<double> >&, double)[m[K’
+   28 |   bool move([01;36m[Kconst std::vector<double>& positions[m[K, double max_velocity) {
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:91:21:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kint[m[K’ to ‘[01m[Kconst std::vector<double, std::allocator<double> >&[m[K’
+   91 |         robot->move([01;31m[K1[m[K, -1);
+      |                     [01;31m[K^[m[K
+      |                     [01;31m[K|[m[K
+      |                     [01;31m[Kint[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:28:40:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kbool Teleop::[01;32m[Kmove[m[K(const std::vector<double, std::allocator<double> >&, double)[m[K’
+   28 |   bool move([01;36m[Kconst std::vector<double>& positions[m[K, double max_velocity) {
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:92:21:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kint[m[K’ to ‘[01m[Kconst std::vector<double, std::allocator<double> >&[m[K’
+   92 |         robot->move([01;31m[K2[m[K, -1);
+      |                     [01;31m[K^[m[K
+      |                     [01;31m[K|[m[K
+      |                     [01;31m[Kint[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:28:40:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kbool Teleop::[01;32m[Kmove[m[K(const std::vector<double, std::allocator<double> >&, double)[m[K’
+   28 |   bool move([01;36m[Kconst std::vector<double>& positions[m[K, double max_velocity) {
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:95:21:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kint[m[K’ to ‘[01m[Kconst std::vector<double, std::allocator<double> >&[m[K’
+   95 |         robot->move([01;31m[K1[m[K, 1);
+      |                     [01;31m[K^[m[K
+      |                     [01;31m[K|[m[K
+      |                     [01;31m[Kint[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:28:40:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kbool Teleop::[01;32m[Kmove[m[K(const std::vector<double, std::allocator<double> >&, double)[m[K’
+   28 |   bool move([01;36m[Kconst std::vector<double>& positions[m[K, double max_velocity) {
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:96:21:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kint[m[K’ to ‘[01m[Kconst std::vector<double, std::allocator<double> >&[m[K’
+   96 |         robot->move([01;31m[K2[m[K, -1);
+      |                     [01;31m[K^[m[K
+      |                     [01;31m[K|[m[K
+      |                     [01;31m[Kint[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:28:40:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kbool Teleop::[01;32m[Kmove[m[K(const std::vector<double, std::allocator<double> >&, double)[m[K’
+   28 |   bool move([01;36m[Kconst std::vector<double>& positions[m[K, double max_velocity) {
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:99:21:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kint[m[K’ to ‘[01m[Kconst std::vector<double, std::allocator<double> >&[m[K’
+   99 |         robot->move([01;31m[K1[m[K, -1);
+      |                     [01;31m[K^[m[K
+      |                     [01;31m[K|[m[K
+      |                     [01;31m[Kint[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:28:40:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kbool Teleop::[01;32m[Kmove[m[K(const std::vector<double, std::allocator<double> >&, double)[m[K’
+   28 |   bool move([01;36m[Kconst std::vector<double>& positions[m[K, double max_velocity) {
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:100:21:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kint[m[K’ to ‘[01m[Kconst std::vector<double, std::allocator<double> >&[m[K’
+  100 |         robot->move([01;31m[K2[m[K, 1);
+      |                     [01;31m[K^[m[K
+      |                     [01;31m[K|[m[K
+      |                     [01;31m[Kint[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:28:40:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kbool Teleop::[01;32m[Kmove[m[K(const std::vector<double, std::allocator<double> >&, double)[m[K’
+   28 |   bool move([01;36m[Kconst std::vector<double>& positions[m[K, double max_velocity) {
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:103:21:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kint[m[K’ to ‘[01m[Kconst std::vector<double, std::allocator<double> >&[m[K’
+  103 |         robot->move([01;31m[K1[m[K, 0);
+      |                     [01;31m[K^[m[K
+      |                     [01;31m[K|[m[K
+      |                     [01;31m[Kint[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:28:40:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kbool Teleop::[01;32m[Kmove[m[K(const std::vector<double, std::allocator<double> >&, double)[m[K’
+   28 |   bool move([01;36m[Kconst std::vector<double>& positions[m[K, double max_velocity) {
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:104:21:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kint[m[K’ to ‘[01m[Kconst std::vector<double, std::allocator<double> >&[m[K’
+  104 |         robot->move([01;31m[K2[m[K, 0);
+      |                     [01;31m[K^[m[K
+      |                     [01;31m[K|[m[K
+      |                     [01;31m[Kint[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:28:40:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kbool Teleop::[01;32m[Kmove[m[K(const std::vector<double, std::allocator<double> >&, double)[m[K’
+   28 |   bool move([01;36m[Kconst std::vector<double>& positions[m[K, double max_velocity) {
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/teleop_node.dir/build.make:76: CMakeFiles/teleop_node.dir/src/teleop_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/teleop_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

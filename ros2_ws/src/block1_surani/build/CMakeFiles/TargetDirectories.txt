@@ -1,0 +1,11 @@
+/home/dominik/RRM/ros2_ws/src/block1_surani/build/CMakeFiles/uninstall.dir
+/home/dominik/RRM/ros2_ws/src/block1_surani/build/CMakeFiles/block1_surani_uninstall.dir
+/home/dominik/RRM/ros2_ws/src/block1_surani/build/CMakeFiles/teleop_node.dir
+/home/dominik/RRM/ros2_ws/src/block1_surani/build/CMakeFiles/logger_node.dir
+/home/dominik/RRM/ros2_ws/src/block1_surani/build/CMakeFiles/test.dir
+/home/dominik/RRM/ros2_ws/src/block1_surani/build/CMakeFiles/edit_cache.dir
+/home/dominik/RRM/ros2_ws/src/block1_surani/build/CMakeFiles/rebuild_cache.dir
+/home/dominik/RRM/ros2_ws/src/block1_surani/build/CMakeFiles/list_install_components.dir
+/home/dominik/RRM/ros2_ws/src/block1_surani/build/CMakeFiles/install.dir
+/home/dominik/RRM/ros2_ws/src/block1_surani/build/CMakeFiles/install/local.dir
+/home/dominik/RRM/ros2_ws/src/block1_surani/build/CMakeFiles/install/strip.dir

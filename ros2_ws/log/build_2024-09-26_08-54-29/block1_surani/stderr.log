@@ -1,0 +1,7 @@
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:[m[K In member function ‘[01m[Kvoid Teleop::[01;32m[Kmove[m[K(int, double)[m[K’:
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:10:17:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kjoint_id[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   10 |   void move([01;35m[Kint joint_id[m[K, double position) {
+      |             [01;35m[K~~~~^~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:10:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kposition[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   10 |   void move(int joint_id, [01;35m[Kdouble position[m[K) {
+      |                           [01;35m[K~~~~~~~^~~~~~~~[m[K

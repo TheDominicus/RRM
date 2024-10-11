@@ -1,0 +1,23 @@
+[  2%] Built target rrm_msgs__rosidl_generator_type_description
+[  2%] Built target ament_cmake_python_copy_rrm_msgs
+[  4%] Built target rrm_msgs__cpp
+[ 22%] Built target rrm_msgs__rosidl_generator_c
+[ 50%] Built target rrm_msgs__rosidl_typesupport_cpp
+[ 50%] Built target rrm_msgs__rosidl_typesupport_introspection_c
+[ 50%] Built target rrm_msgs__rosidl_typesupport_introspection_cpp
+[ 59%] Built target rrm_msgs__rosidl_typesupport_c
+[ 68%] Built target rrm_msgs__rosidl_typesupport_fastrtps_c
+[ 77%] Built target rrm_msgs__rosidl_typesupport_fastrtps_cpp
+[ 77%] Built target rrm_msgs
+[ 79%] Built target rrm_msgs__py
+[ 86%] Built target rrm_msgs__rosidl_generator_py
+[100%] Built target rrm_msgs_s__rosidl_typesupport_fastrtps_c
+[100%] Built target rrm_msgs_s__rosidl_typesupport_c
+[100%] Built target rrm_msgs_s__rosidl_typesupport_introspection_c
+running egg_info
+writing rrm_msgs.egg-info/PKG-INFO
+writing dependency_links to rrm_msgs.egg-info/dependency_links.txt
+writing top-level names to rrm_msgs.egg-info/top_level.txt
+reading manifest file 'rrm_msgs.egg-info/SOURCES.txt'
+writing manifest file 'rrm_msgs.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_rrm_msgs_egg

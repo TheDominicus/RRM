@@ -1,0 +1,20 @@
+[ 66%] [32mBuilding CXX object CMakeFiles/zad1_node.dir/src/zad1_node.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/zad1_node.dir/src/robot.cpp.o[0m
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/robot.cpp:[m[K In constructor ‘[01m[KRobot::[01;32m[KRobot[m[K()[m[K’:
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/robot.cpp:4:18:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KRobot[m[K’ does not have any field named ‘[01m[Kposition_[m[K’
+    4 | Robot::Robot() : [01;31m[Kposition_[m[K(0.0) {
+      |                  [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/robot.cpp:[m[K At global scope:
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/robot.cpp:9:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid Robot::[01;32m[Kmove[m[K(double, double)[m[K’
+    9 | void [01;31m[KRobot[m[K::move(const double x, const double y) {
+      |      [01;31m[K^~~~~[m[K
+In file included from [01m[K/home/dominik/RRM/zad1/src/zad1/src/robot.cpp:1[m[K:
+[01m[K/home/dominik/RRM/zad1/src/zad1/include/zad1/robot.hpp:4:14:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid Robot::[01;32m[Kmove[m[K(double, float)[m[K’
+    4 |         void [01;36m[Kmove[m[K(double x, float y);
+      |              [01;36m[K^~~~[m[K
+[01m[K/home/dominik/RRM/zad1/src/zad1/include/zad1/robot.hpp:1:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Robot[m[K’ defined here
+    1 | class [01;36m[KRobot[m[K {
+      |       [01;36m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/zad1_node.dir/build.make:90: CMakeFiles/zad1_node.dir/src/robot.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/zad1_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

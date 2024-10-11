@@ -1,0 +1,7 @@
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/zad1_node.cpp:36:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   36 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/zad1_node.dir/build.make:76: CMakeFiles/zad1_node.dir/src/zad1_node.cpp.o] Error 1
+gmake[2]: *** Čaká sa na nedokončené úlohy....
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/zad1_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

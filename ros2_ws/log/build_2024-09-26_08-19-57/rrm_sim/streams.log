@@ -1,0 +1,24 @@
+[0.022s] Invoking command in '/home/dominik/RRM/ros2_ws/build/rrm_sim': AMENT_PREFIX_PATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs:/home/dominik/RRM/zad1/install/zad1:/home/dominik/RRM/ros2_ws/install/cv1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/rrm_sim -- -j16 -l16
+[0.142s] [100%] Built target robot_sim_node
+[0.162s] Invoked command in '/home/dominik/RRM/ros2_ws/build/rrm_sim' returned '0': AMENT_PREFIX_PATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs:/home/dominik/RRM/zad1/install/zad1:/home/dominik/RRM/ros2_ws/install/cv1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/rrm_sim -- -j16 -l16
+[0.220s] Invoking command in '/home/dominik/RRM/ros2_ws/build/rrm_sim': AMENT_PREFIX_PATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs:/home/dominik/RRM/zad1/install/zad1:/home/dominik/RRM/ros2_ws/install/cv1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/rrm_sim
+[0.234s] -- Install configuration: ""
+[0.235s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_sim/lib/rrm_sim/robot_sim_node
+[0.235s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_sim/share/rrm_sim/launch
+[0.235s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_sim/share/rrm_sim/launch/rrm_sim.launch.xml
+[0.235s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_sim/share/ament_index/resource_index/package_run_dependencies/rrm_sim
+[0.235s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_sim/share/ament_index/resource_index/parent_prefix_path/rrm_sim
+[0.236s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_sim/share/rrm_sim/environment/ament_prefix_path.sh
+[0.236s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_sim/share/rrm_sim/environment/ament_prefix_path.dsv
+[0.236s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_sim/share/rrm_sim/environment/path.sh
+[0.236s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_sim/share/rrm_sim/environment/path.dsv
+[0.236s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_sim/share/rrm_sim/local_setup.bash
+[0.236s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_sim/share/rrm_sim/local_setup.sh
+[0.236s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_sim/share/rrm_sim/local_setup.zsh
+[0.236s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_sim/share/rrm_sim/local_setup.dsv
+[0.236s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_sim/share/rrm_sim/package.dsv
+[0.236s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_sim/share/ament_index/resource_index/packages/rrm_sim
+[0.237s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_sim/share/rrm_sim/cmake/rrm_simConfig.cmake
+[0.237s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_sim/share/rrm_sim/cmake/rrm_simConfig-version.cmake
+[0.237s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_sim/share/rrm_sim/package.xml
+[0.240s] Invoked command in '/home/dominik/RRM/ros2_ws/build/rrm_sim' returned '0': AMENT_PREFIX_PATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs:/home/dominik/RRM/zad1/install/zad1:/home/dominik/RRM/ros2_ws/install/cv1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/rrm_sim

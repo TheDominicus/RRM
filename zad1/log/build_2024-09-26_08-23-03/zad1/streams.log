@@ -1,0 +1,25 @@
+[0.021s] Invoking command in '/home/dominik/RRM/zad1/build/zad1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/zad1/build/zad1 -- -j16 -l16
+[0.142s] [ 33%] [32mBuilding CXX object CMakeFiles/zad1_node.dir/src/zad1_node.cpp.o[0m
+[3.658s] [ 66%] [32m[1mLinking CXX executable zad1_node[0m
+[3.749s] [100%] Built target zad1_node
+[3.758s] Invoked command in '/home/dominik/RRM/zad1/build/zad1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/zad1/build/zad1 -- -j16 -l16
+[3.801s] Invoking command in '/home/dominik/RRM/zad1/build/zad1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/zad1/build/zad1
+[3.807s] -- Install configuration: ""
+[3.808s] -- Installing: /home/dominik/RRM/zad1/install/zad1/lib/zad1/zad1_node
+[3.809s] -- Set non-toolchain portion of runtime path of "/home/dominik/RRM/zad1/install/zad1/lib/zad1/zad1_node" to ""
+[3.809s] -- Up-to-date: /home/dominik/RRM/zad1/install/zad1/share/ament_index/resource_index/package_run_dependencies/zad1
+[3.809s] -- Installing: /home/dominik/RRM/zad1/install/zad1/share/ament_index/resource_index/parent_prefix_path/zad1
+[3.809s] -- Up-to-date: /home/dominik/RRM/zad1/install/zad1/share/zad1/environment/ament_prefix_path.sh
+[3.809s] -- Up-to-date: /home/dominik/RRM/zad1/install/zad1/share/zad1/environment/ament_prefix_path.dsv
+[3.809s] -- Up-to-date: /home/dominik/RRM/zad1/install/zad1/share/zad1/environment/path.sh
+[3.809s] -- Up-to-date: /home/dominik/RRM/zad1/install/zad1/share/zad1/environment/path.dsv
+[3.809s] -- Up-to-date: /home/dominik/RRM/zad1/install/zad1/share/zad1/local_setup.bash
+[3.810s] -- Up-to-date: /home/dominik/RRM/zad1/install/zad1/share/zad1/local_setup.sh
+[3.810s] -- Up-to-date: /home/dominik/RRM/zad1/install/zad1/share/zad1/local_setup.zsh
+[3.810s] -- Up-to-date: /home/dominik/RRM/zad1/install/zad1/share/zad1/local_setup.dsv
+[3.810s] -- Installing: /home/dominik/RRM/zad1/install/zad1/share/zad1/package.dsv
+[3.810s] -- Up-to-date: /home/dominik/RRM/zad1/install/zad1/share/ament_index/resource_index/packages/zad1
+[3.810s] -- Up-to-date: /home/dominik/RRM/zad1/install/zad1/share/zad1/cmake/zad1Config.cmake
+[3.810s] -- Up-to-date: /home/dominik/RRM/zad1/install/zad1/share/zad1/cmake/zad1Config-version.cmake
+[3.810s] -- Up-to-date: /home/dominik/RRM/zad1/install/zad1/share/zad1/package.xml
+[3.811s] Invoked command in '/home/dominik/RRM/zad1/build/zad1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/zad1/build/zad1

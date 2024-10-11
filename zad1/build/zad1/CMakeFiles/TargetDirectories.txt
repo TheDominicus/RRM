@@ -1,0 +1,10 @@
+/home/dominik/RRM/zad1/build/zad1/CMakeFiles/uninstall.dir
+/home/dominik/RRM/zad1/build/zad1/CMakeFiles/zad1_uninstall.dir
+/home/dominik/RRM/zad1/build/zad1/CMakeFiles/zad1_node.dir
+/home/dominik/RRM/zad1/build/zad1/CMakeFiles/test.dir
+/home/dominik/RRM/zad1/build/zad1/CMakeFiles/edit_cache.dir
+/home/dominik/RRM/zad1/build/zad1/CMakeFiles/rebuild_cache.dir
+/home/dominik/RRM/zad1/build/zad1/CMakeFiles/list_install_components.dir
+/home/dominik/RRM/zad1/build/zad1/CMakeFiles/install.dir
+/home/dominik/RRM/zad1/build/zad1/CMakeFiles/install/local.dir
+/home/dominik/RRM/zad1/build/zad1/CMakeFiles/install/strip.dir

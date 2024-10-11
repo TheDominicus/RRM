@@ -1,0 +1,16 @@
+/home/dominik/RRM/ros2_ws/install/block1_suraniV2/lib/block1_suraniV2/teleop_node
+/home/dominik/RRM/ros2_ws/install/block1_suraniV2/share/ament_index/resource_index/package_run_dependencies/block1_suraniV2
+/home/dominik/RRM/ros2_ws/install/block1_suraniV2/share/ament_index/resource_index/parent_prefix_path/block1_suraniV2
+/home/dominik/RRM/ros2_ws/install/block1_suraniV2/share/block1_suraniV2/environment/ament_prefix_path.sh
+/home/dominik/RRM/ros2_ws/install/block1_suraniV2/share/block1_suraniV2/environment/ament_prefix_path.dsv
+/home/dominik/RRM/ros2_ws/install/block1_suraniV2/share/block1_suraniV2/environment/path.sh
+/home/dominik/RRM/ros2_ws/install/block1_suraniV2/share/block1_suraniV2/environment/path.dsv
+/home/dominik/RRM/ros2_ws/install/block1_suraniV2/share/block1_suraniV2/local_setup.bash
+/home/dominik/RRM/ros2_ws/install/block1_suraniV2/share/block1_suraniV2/local_setup.sh
+/home/dominik/RRM/ros2_ws/install/block1_suraniV2/share/block1_suraniV2/local_setup.zsh
+/home/dominik/RRM/ros2_ws/install/block1_suraniV2/share/block1_suraniV2/local_setup.dsv
+/home/dominik/RRM/ros2_ws/install/block1_suraniV2/share/block1_suraniV2/package.dsv
+/home/dominik/RRM/ros2_ws/install/block1_suraniV2/share/ament_index/resource_index/packages/block1_suraniV2
+/home/dominik/RRM/ros2_ws/install/block1_suraniV2/share/block1_suraniV2/cmake/block1_suraniV2Config.cmake
+/home/dominik/RRM/ros2_ws/install/block1_suraniV2/share/block1_suraniV2/cmake/block1_suraniV2Config-version.cmake
+/home/dominik/RRM/ros2_ws/install/block1_suraniV2/share/block1_suraniV2/package.xml

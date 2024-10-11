@@ -1,0 +1,85 @@
+[0.000000] (-) TimerEvent: {}
+[0.000537] (zad1) JobQueued: {'identifier': 'zad1', 'dependencies': OrderedDict()}
+[0.001254] (zad1) JobStarted: {'identifier': 'zad1'}
+[0.014782] (zad1) JobProgress: {'identifier': 'zad1', 'progress': 'cmake'}
+[0.015771] (zad1) JobProgress: {'identifier': 'zad1', 'progress': 'build'}
+[0.016989] (zad1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dominik/RRM/zad1/build/zad1', '--', '-j16', '-l16'], 'cwd': '/home/dominik/RRM/zad1/build/zad1', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'sk:en_US:en', 'USER': 'dominik', 'LC_TIME': 'sk_SK.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/dominik', 'OLDPWD': '/home/dominik/RRM/zad1/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'sk_SK.UTF-8', 'SYSTEMD_EXEC_PID': '2955', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/dominik/RRM/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'dominik', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dominik', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/dominik-ntb-ubuntu:@/tmp/.ICE-unix/2915,unix/dominik-ntb-ubuntu:/tmp/.ICE-unix/2915', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'sk_SK.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6e5cc9cc_878f_4fad_b7cb_858c35a3e8c5', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'sk_SK.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'sk_SK.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.XRGFU2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/dominik/RRM/ros2_ws/install/cv1:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'sk_SK.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'sk_SK.UTF-8', 'LC_IDENTIFICATION': 'sk_SK.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/dominik/RRM/zad1/build/zad1', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'sk_SK.UTF-8', 'LC_PAPER': 'sk_SK.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/dominik/RRM/ros2_ws/install/cv1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099705] (-) TimerEvent: {}
+[0.140852] (zad1) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/zad1_node.dir/src/robot.cpp.o\x1b[0m\n'}
+[0.141346] (zad1) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/zad1_node.dir/src/zad1_node.cpp.o\x1b[0m\n'}
+[0.199908] (-) TimerEvent: {}
+[0.300431] (-) TimerEvent: {}
+[0.400935] (-) TimerEvent: {}
+[0.501936] (-) TimerEvent: {}
+[0.602464] (-) TimerEvent: {}
+[0.702997] (-) TimerEvent: {}
+[0.803521] (-) TimerEvent: {}
+[0.904072] (-) TimerEvent: {}
+[1.004596] (-) TimerEvent: {}
+[1.105114] (-) TimerEvent: {}
+[1.205549] (-) TimerEvent: {}
+[1.305989] (-) TimerEvent: {}
+[1.406419] (-) TimerEvent: {}
+[1.506879] (-) TimerEvent: {}
+[1.607698] (-) TimerEvent: {}
+[1.708170] (-) TimerEvent: {}
+[1.808608] (-) TimerEvent: {}
+[1.909579] (-) TimerEvent: {}
+[2.009955] (-) TimerEvent: {}
+[2.110309] (-) TimerEvent: {}
+[2.210656] (-) TimerEvent: {}
+[2.311018] (-) TimerEvent: {}
+[2.411362] (-) TimerEvent: {}
+[2.511717] (-) TimerEvent: {}
+[2.612085] (-) TimerEvent: {}
+[2.712438] (-) TimerEvent: {}
+[2.721970] (zad1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dominik/RRM/zad1/src/zad1/src/robot.cpp:8:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvoid Robot::\x1b[01;32m\x1b[Kmove\x1b[m\x1b[K(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.722258] (zad1) StderrLine: {'line': b'    8 | void \x1b[01;31m\x1b[KRobot\x1b[m\x1b[K::move(const double position){\n'}
+[2.722312] (zad1) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.722486] (zad1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/dominik/RRM/zad1/src/zad1/src/robot.cpp:1\x1b[m\x1b[K:\n'}
+[2.722558] (zad1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dominik/RRM/zad1/src/zad1/include/zad1/robot.hpp:4:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate is: \xe2\x80\x98\x1b[01m\x1b[Kvoid Robot::\x1b[01;32m\x1b[Kmove\x1b[m\x1b[K(double, double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.722608] (zad1) StderrLine: {'line': b'    4 |         void \x1b[01;36m\x1b[Kmove\x1b[m\x1b[K(double x, double y);\n'}
+[2.722652] (zad1) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.722692] (zad1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dominik/RRM/zad1/src/zad1/include/zad1/robot.hpp:1:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass Robot\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[2.722733] (zad1) StderrLine: {'line': b'    1 | class \x1b[01;36m\x1b[KRobot\x1b[m\x1b[K {\n'}
+[2.722772] (zad1) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.722811] (zad1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dominik/RRM/zad1/src/zad1/src/robot.cpp:11:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kdouble Robot::\x1b[01;32m\x1b[KgetCurrentPosition\x1b[m\x1b[K() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.722875] (zad1) StderrLine: {'line': b'   11 | double \x1b[01;31m\x1b[KRobot\x1b[m\x1b[K::getCurrentPosition () const {\n'}
+[2.722921] (zad1) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.722959] (zad1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dominik/RRM/zad1/src/zad1/src/robot.cpp:11:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kdouble Robot::\x1b[01;32m\x1b[KgetCurrentPosition\x1b[m\x1b[K() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.722998] (zad1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dominik/RRM/zad1/src/zad1/include/zad1/robot.hpp:1:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass Robot\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[2.723036] (zad1) StderrLine: {'line': b'    1 | class \x1b[01;36m\x1b[KRobot\x1b[m\x1b[K {\n'}
+[2.723072] (zad1) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.743333] (zad1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.743668] (zad1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27\x1b[m\x1b[K,\n'}
+[2.743813] (zad1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171\x1b[m\x1b[K,\n'}
+[2.743934] (zad1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dominik/RRM/zad1/src/zad1/src/zad1_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.744034] (zad1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dominik/RRM/zad1/src/zad1/src/zad1_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[01;32m\x1b[K main\x1b[m\x1b[K(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.744131] (zad1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dominik/RRM/zad1/src/zad1/src/zad1_node.cpp:9:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass Robot\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KgetCurrentPosition\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.744227] (zad1) StderrLine: {'line': b'    9 |     "Position: %f", robot.\x1b[01;31m\x1b[KgetCurrentPosition\x1b[m\x1b[K());\n'}
+[2.744317] (zad1) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.744359] (zad1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dominik/RRM/zad1/src/zad1/src/zad1_node.cpp:10:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KRobot::move(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.744401] (zad1) StderrLine: {'line': b'   10 | \x1b[01;31m\x1b[Krobot.move(1.0)\x1b[m\x1b[K;\n'}
+[2.744442] (zad1) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.744481] (zad1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/dominik/RRM/zad1/src/zad1/src/zad1_node.cpp:1\x1b[m\x1b[K:\n'}
+[2.744520] (zad1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dominik/RRM/zad1/src/zad1/include/zad1/robot.hpp:4:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid Robot::\x1b[01;32m\x1b[Kmove\x1b[m\x1b[K(double, double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.744564] (zad1) StderrLine: {'line': b'    4 |         void \x1b[01;36m\x1b[Kmove\x1b[m\x1b[K(double x, double y);\n'}
+[2.744604] (zad1) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.744643] (zad1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dominik/RRM/zad1/src/zad1/include/zad1/robot.hpp:4:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[2.744724] (zad1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dominik/RRM/zad1/src/zad1/src/zad1_node.cpp:12:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass Robot\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KgetCurrentPosition\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.744785] (zad1) StderrLine: {'line': b'   12 |     "Position: %f", robot.\x1b[01;31m\x1b[KgetCurrentPosition\x1b[m\x1b[K());\n'}
+[2.744834] (zad1) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.812570] (-) TimerEvent: {}
+[2.912923] (-) TimerEvent: {}
+[3.013276] (-) TimerEvent: {}
+[3.113629] (-) TimerEvent: {}
+[3.213996] (-) TimerEvent: {}
+[3.314336] (-) TimerEvent: {}
+[3.316346] (zad1) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/zad1_node.dir/build.make:90: CMakeFiles/zad1_node.dir/src/robot.cpp.o] Error 1\n'}
+[3.316551] (zad1) StderrLine: {'line': b'gmake[2]: *** \xc4\x8cak\xc3\xa1 sa na nedokon\xc4\x8den\xc3\xa9 \xc3\xbalohy....\n'}
+[3.336865] (zad1) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/zad1_node.dir/build.make:76: CMakeFiles/zad1_node.dir/src/zad1_node.cpp.o] Error 1\n'}
+[3.337326] (zad1) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/zad1_node.dir/all] Error 2\n'}
+[3.337664] (zad1) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.340021] (zad1) CommandEnded: {'returncode': 2}
+[3.378390] (zad1) JobEnded: {'identifier': 'zad1', 'rc': 2}
+[3.389159] (-) EventReactorShutdown: {}

@@ -1,0 +1,38 @@
+[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_uninstall_target-extras.cmake:40 (add_custom_target):
+  The target name "surani_interface~_uninstall" is reserved or not valid for
+  certain CMake features, such as generator expressions, and may result in
+  undefined behavior.
+Call Stack (most recent call first):
+  /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+  CMakeLists.txt:9 (find_package)
+
+[0m
+Error parsing '/home/dominik/RRM/ros2_ws/src/surani_interface~/package.xml':
+Traceback (most recent call last):
+  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+    main()
+  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+    raise e
+  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+    package = parse_package_string(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+    pkg.validate(warnings=warnings)
+  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+    raise InvalidPackage('\n'.join(errors), self.filename)
+catkin_pkg.package.InvalidPackage: Error(s) in package '/home/dominik/RRM/ros2_ws/src/surani_interface~/package.xml':
+Package name "surani_interface~" does not follow naming conventions
+[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+  execute_process(/usr/bin/python3
+  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+  /home/dominik/RRM/ros2_ws/src/surani_interface~/package.xml
+  /home/dominik/RRM/ros2_ws/build/surani_interface~/ament_cmake_core/package.cmake)
+  returned error code 1
+Call Stack (most recent call first):
+  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+  CMakeLists.txt:23 (ament_lint_auto_find_test_dependencies)
+
+[0m

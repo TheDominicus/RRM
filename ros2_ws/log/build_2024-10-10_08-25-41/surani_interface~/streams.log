@@ -1,0 +1,43 @@
+[0.032s] Invoking command in '/home/dominik/RRM/ros2_ws/build/surani_interface~': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dominik/RRM/ros2_ws/src/surani_interface~ -DCMAKE_INSTALL_PREFIX=/home/dominik/RRM/ros2_ws/install/surani_interface~
+[0.054s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.452s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_uninstall_target-extras.cmake:40 (add_custom_target):
+[0.452s]   The target name "surani_interface~_uninstall" is reserved or not valid for
+[0.452s]   certain CMake features, such as generator expressions, and may result in
+[0.453s]   undefined behavior.
+[0.453s] Call Stack (most recent call first):
+[0.453s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.453s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.453s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.453s]   CMakeLists.txt:9 (find_package)
+[0.453s] 
+[0.453s] [0m
+[0.469s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.575s] Error parsing '/home/dominik/RRM/ros2_ws/src/surani_interface~/package.xml':
+[1.892s] Traceback (most recent call last):
+[1.892s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[1.892s]     main()
+[1.892s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[1.892s]     raise e
+[1.892s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[1.892s]     package = parse_package_string(
+[1.892s]               ^^^^^^^^^^^^^^^^^^^^^
+[1.893s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[1.893s]     pkg.validate(warnings=warnings)
+[1.893s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[1.893s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[1.893s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/dominik/RRM/ros2_ws/src/surani_interface~/package.xml':
+[1.893s] Package name "surani_interface~" does not follow naming conventions
+[1.932s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[1.932s]   execute_process(/usr/bin/python3
+[1.932s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.932s]   /home/dominik/RRM/ros2_ws/src/surani_interface~/package.xml
+[1.932s]   /home/dominik/RRM/ros2_ws/build/surani_interface~/ament_cmake_core/package.cmake)
+[1.932s]   returned error code 1
+[1.932s] Call Stack (most recent call first):
+[1.932s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.932s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[1.933s]   CMakeLists.txt:23 (ament_lint_auto_find_test_dependencies)
+[1.933s] 
+[1.933s] [0m
+[1.933s] -- Configuring incomplete, errors occurred!
+[1.935s] Invoked command in '/home/dominik/RRM/ros2_ws/build/surani_interface~' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dominik/RRM/ros2_ws/src/surani_interface~ -DCMAKE_INSTALL_PREFIX=/home/dominik/RRM/ros2_ws/install/surani_interface~

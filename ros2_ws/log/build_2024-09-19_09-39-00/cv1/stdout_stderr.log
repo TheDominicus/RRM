@@ -1,0 +1,11 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/cv1_node.dir/src/cv1_node.cpp.o[0m
+[01m[K/home/dominik/RRM/ros2_ws/src/cv1/src/cv1_node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/dominik/RRM/ros2_ws/src/cv1/src/cv1_node.cpp:11:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   11 | return 0;
+      |          [01;31m[K^[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/cv1/src/cv1_node.cpp:4:33:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+    4 | int main(int argc, char **argv) [01;36m[K{[m[K
+      |                                 [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/cv1_node.dir/build.make:76: CMakeFiles/cv1_node.dir/src/cv1_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cv1_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,16 @@
+/home/dominik/RRM/zad1/install/zad1/lib/zad1/zad1_node
+/home/dominik/RRM/zad1/install/zad1/share/ament_index/resource_index/package_run_dependencies/zad1
+/home/dominik/RRM/zad1/install/zad1/share/ament_index/resource_index/parent_prefix_path/zad1
+/home/dominik/RRM/zad1/install/zad1/share/zad1/environment/ament_prefix_path.sh
+/home/dominik/RRM/zad1/install/zad1/share/zad1/environment/ament_prefix_path.dsv
+/home/dominik/RRM/zad1/install/zad1/share/zad1/environment/path.sh
+/home/dominik/RRM/zad1/install/zad1/share/zad1/environment/path.dsv
+/home/dominik/RRM/zad1/install/zad1/share/zad1/local_setup.bash
+/home/dominik/RRM/zad1/install/zad1/share/zad1/local_setup.sh
+/home/dominik/RRM/zad1/install/zad1/share/zad1/local_setup.zsh
+/home/dominik/RRM/zad1/install/zad1/share/zad1/local_setup.dsv
+/home/dominik/RRM/zad1/install/zad1/share/zad1/package.dsv
+/home/dominik/RRM/zad1/install/zad1/share/ament_index/resource_index/packages/zad1
+/home/dominik/RRM/zad1/install/zad1/share/zad1/cmake/zad1Config.cmake
+/home/dominik/RRM/zad1/install/zad1/share/zad1/cmake/zad1Config-version.cmake
+/home/dominik/RRM/zad1/install/zad1/share/zad1/package.xml

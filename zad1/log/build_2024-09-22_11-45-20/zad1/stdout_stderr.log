@@ -1,0 +1,38 @@
+[ 66%] [32mBuilding CXX object CMakeFiles/zad1_node.dir/src/zad1_node.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/zad1_node.dir/src/robot.cpp.o[0m
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/zad1_node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/zad1_node.cpp:12:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[Kexit[m[K’
+   12 |     while [01;31m[Ke[m[K[32m[Kxit[m[K!=true
+      |           [01;31m[K^[m[K[32m[K~~~[m[K
+      |           [32m[K([m[K
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/zad1_node.cpp:12:15:[m[K [01;31m[Kerror: [m[KISO C++ forbids comparison between pointer and integer [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   12 |     while [01;31m[Kexit!=true[m[K
+      |           [01;31m[K~~~~^~~~~~[m[K
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/zad1_node.cpp:12:21:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K{[m[K’ token
+   12 |     while [34m[Kexit[m[K!=true
+      |           [34m[K~~~~[m[K      [01;31m[K^[m[K
+      |                     [32m[K)[m[K
+   13 |     [32m[K{[m[K
+      |     [32m[K~[m[K                
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/robot.cpp:[m[K In constructor ‘[01m[KRobot::[01;32m[KRobot[m[K()[m[K’:
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/robot.cpp:4:18:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KRobot[m[K’ does not have any field named ‘[01m[Kposition_[m[K’
+    4 | Robot::Robot() : [01;31m[Kposition_[m[K(0.0) {
+      |                  [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/robot.cpp:[m[K In member function ‘[01m[Kvoid Robot::[01;32m[Kmove[m[K(double, double)[m[K’:
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/robot.cpp:10:24:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+   10 |     this->positionX_ = [01;31m[Kdouble[m[K x;
+      |                        [01;31m[K^~~~~~[m[K
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/robot.cpp:11:24:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+   11 |     this->positionY_ = [01;31m[Kdouble[m[K y;
+      |                        [01;31m[K^~~~~~[m[K
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/robot.cpp:9:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    9 | void Robot::move([01;35m[Kconst double x[m[K, const double y) {
+      |                  [01;35m[K~~~~~~~~~~~~~^[m[K
+[01m[K/home/dominik/RRM/zad1/src/zad1/src/robot.cpp:9:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    9 | void Robot::move(const double x, [01;35m[Kconst double y[m[K) {
+      |                                  [01;35m[K~~~~~~~~~~~~~^[m[K
+gmake[2]: *** [CMakeFiles/zad1_node.dir/build.make:76: CMakeFiles/zad1_node.dir/src/zad1_node.cpp.o] Error 1
+gmake[2]: *** Čaká sa na nedokončené úlohy....
+gmake[2]: *** [CMakeFiles/zad1_node.dir/build.make:90: CMakeFiles/zad1_node.dir/src/robot.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/zad1_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

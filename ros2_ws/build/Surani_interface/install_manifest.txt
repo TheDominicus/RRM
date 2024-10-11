@@ -1,0 +1,15 @@
+/home/dominik/RRM/ros2_ws/install/Surani_interface/share/ament_index/resource_index/package_run_dependencies/Surani_interface
+/home/dominik/RRM/ros2_ws/install/Surani_interface/share/ament_index/resource_index/parent_prefix_path/Surani_interface
+/home/dominik/RRM/ros2_ws/install/Surani_interface/share/Surani_interface/environment/ament_prefix_path.sh
+/home/dominik/RRM/ros2_ws/install/Surani_interface/share/Surani_interface/environment/ament_prefix_path.dsv
+/home/dominik/RRM/ros2_ws/install/Surani_interface/share/Surani_interface/environment/path.sh
+/home/dominik/RRM/ros2_ws/install/Surani_interface/share/Surani_interface/environment/path.dsv
+/home/dominik/RRM/ros2_ws/install/Surani_interface/share/Surani_interface/local_setup.bash
+/home/dominik/RRM/ros2_ws/install/Surani_interface/share/Surani_interface/local_setup.sh
+/home/dominik/RRM/ros2_ws/install/Surani_interface/share/Surani_interface/local_setup.zsh
+/home/dominik/RRM/ros2_ws/install/Surani_interface/share/Surani_interface/local_setup.dsv
+/home/dominik/RRM/ros2_ws/install/Surani_interface/share/Surani_interface/package.dsv
+/home/dominik/RRM/ros2_ws/install/Surani_interface/share/ament_index/resource_index/packages/Surani_interface
+/home/dominik/RRM/ros2_ws/install/Surani_interface/share/Surani_interface/cmake/Surani_interfaceConfig.cmake
+/home/dominik/RRM/ros2_ws/install/Surani_interface/share/Surani_interface/cmake/Surani_interfaceConfig-version.cmake
+/home/dominik/RRM/ros2_ws/install/Surani_interface/share/Surani_interface/package.xml

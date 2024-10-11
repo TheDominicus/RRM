@@ -1,0 +1,21 @@
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/logger_node.cpp:7:9:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KJointLogger::[m[K’ on member ‘[01m[KJointLogger[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+    7 |         [01;31m[KJointLogger[m[K::JointLogger() : Node("joint_logger"){
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/logger_node.cpp:12:14:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KJointLogger::[m[K’ on member ‘[01m[Kjoint_states_callback[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   12 |         void [01;31m[KJointLogger[m[K::joint_states_callback(const sensor_msgs::msg::JointState::SharedPtr msg){
+      |              [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/logger_node.cpp:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[KJointLogger::[01;32m[KJointLogger[m[K()[m[K’ cannot be overloaded with ‘[01m[KJointLogger::[01;32m[KJointLogger[m[K()[m[K’
+   17 |         [01;31m[KJointLogger[m[K();
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/logger_node.cpp:7:9:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[KJointLogger::[01;32m[KJointLogger[m[K()[m[K’
+    7 |         [01;36m[KJointLogger[m[K::JointLogger() : Node("joint_logger"){
+      |         [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/logger_node.cpp:18:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid JointLogger::[01;32m[Kjoint_states_callback[m[K(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’ cannot be overloaded with ‘[01m[Kvoid JointLogger::[01;32m[Kjoint_states_callback[m[K(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’
+   18 |         void [01;31m[Kjoint_states_callback[m[K(const sensor_msgs::msg::JointState::SharedPtr msg);
+      |              [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/logger_node.cpp:12:14:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid JointLogger::[01;32m[Kjoint_states_callback[m[K(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’
+   12 |         void [01;36m[KJointLogger[m[K::joint_states_callback(const sensor_msgs::msg::JointState::SharedPtr msg){
+      |              [01;36m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/logger_node.dir/build.make:76: CMakeFiles/logger_node.dir/src/logger_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/logger_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

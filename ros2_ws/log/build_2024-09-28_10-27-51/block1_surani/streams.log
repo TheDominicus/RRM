@@ -1,0 +1,21 @@
+[0.011s] Invoking command in '/home/dominik/RRM/ros2_ws/build/block1_surani': CMAKE_PREFIX_PATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs:/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model:/home/dominik/RRM/ros2_ws/install/rrm_sim:/home/dominik/RRM/ros2_ws/install/block1_surani:/home/dominik/RRM/ros2_ws/install/cv1:/home/dominik/RRM/zad1/install/zad1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/block1_surani -- -j16 -l16
+[0.069s] [ 25%] [32mBuilding CXX object CMakeFiles/teleop_node.dir/src/teleop_node.cpp.o[0m
+[0.073s] [ 75%] Built target logger_node
+[0.364s] [01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:48:9:[m[K [01;31m[Kerror: [m[Kextended character   is not valid in an identifier
+[0.364s]    48 |         [01;31m[Kc[m[Kout << "Quitting" << endl;
+[0.364s]       |         [01;31m[K^[m[K
+[2.036s] [01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:5:20:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kclass[m[K’
+[2.036s]     5 | using namespace std
+[2.036s]       |                    [01;31m[K^[m[K
+[2.036s]       |                    [32m[K;[m[K
+[2.036s]     6 | 
+[2.037s]     7 | [32m[Kclass[m[K Teleop : public rclcpp::Node{
+[2.037s]       | [32m[K~~~~~[m[K               
+[2.051s] [01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[2.051s] [01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:48:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout [m[K’ was not declared in this scope
+[2.051s]    48 |         [01;31m[Kcout [m[K<< "Quitting" << endl;
+[2.051s]       |         [01;31m[K^~~~~[m[K
+[2.882s] gmake[2]: *** [CMakeFiles/teleop_node.dir/build.make:76: CMakeFiles/teleop_node.dir/src/teleop_node.cpp.o] Error 1
+[2.882s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/teleop_node.dir/all] Error 2
+[2.882s] gmake: *** [Makefile:146: all] Error 2
+[2.885s] Invoked command in '/home/dominik/RRM/ros2_ws/build/block1_surani' returned '2': CMAKE_PREFIX_PATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs:/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model:/home/dominik/RRM/ros2_ws/install/rrm_sim:/home/dominik/RRM/ros2_ws/install/block1_surani:/home/dominik/RRM/ros2_ws/install/cv1:/home/dominik/RRM/zad1/install/zad1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/block1_surani -- -j16 -l16

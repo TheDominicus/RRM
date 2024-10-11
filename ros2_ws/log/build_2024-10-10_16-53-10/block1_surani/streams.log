@@ -1,0 +1,28 @@
+[0.010s] Invoking command in '/home/dominik/RRM/ros2_ws/build/block1_surani': CMAKE_PREFIX_PATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs:/home/dominik/RRM/ros2_ws/install/surani_interface:/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model:/home/dominik/RRM/ros2_ws/install/rrm_sim:/home/dominik/RRM/ros2_ws/install/block1_suraniV2:/home/dominik/RRM/ros2_ws/install/block1_surani:/home/dominik/RRM/ros2_ws/install/cv1:/home/dominik/RRM/ros2_ws/install/Surani_interface:/home/dominik/RRM/zad1/install/zad1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/block1_surani -- -j16 -l16
+[0.060s] [ 50%] Built target logger_node
+[0.063s] [ 75%] [32mBuilding CXX object CMakeFiles/teleop_node.dir/src/teleop_node.cpp.o[0m
+[4.131s] [100%] [32m[1mLinking CXX executable teleop_node[0m
+[4.269s] [100%] Built target teleop_node
+[4.281s] Invoked command in '/home/dominik/RRM/ros2_ws/build/block1_surani' returned '0': CMAKE_PREFIX_PATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs:/home/dominik/RRM/ros2_ws/install/surani_interface:/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model:/home/dominik/RRM/ros2_ws/install/rrm_sim:/home/dominik/RRM/ros2_ws/install/block1_suraniV2:/home/dominik/RRM/ros2_ws/install/block1_surani:/home/dominik/RRM/ros2_ws/install/cv1:/home/dominik/RRM/ros2_ws/install/Surani_interface:/home/dominik/RRM/zad1/install/zad1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/block1_surani -- -j16 -l16
+[4.316s] Invoking command in '/home/dominik/RRM/ros2_ws/build/block1_surani': CMAKE_PREFIX_PATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs:/home/dominik/RRM/ros2_ws/install/surani_interface:/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model:/home/dominik/RRM/ros2_ws/install/rrm_sim:/home/dominik/RRM/ros2_ws/install/block1_suraniV2:/home/dominik/RRM/ros2_ws/install/block1_surani:/home/dominik/RRM/ros2_ws/install/cv1:/home/dominik/RRM/ros2_ws/install/Surani_interface:/home/dominik/RRM/zad1/install/zad1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/block1_surani
+[4.325s] -- Install configuration: ""
+[4.325s] -- Installing: /home/dominik/RRM/ros2_ws/install/block1_surani/lib/block1_surani/teleop_node
+[4.327s] -- Set non-toolchain portion of runtime path of "/home/dominik/RRM/ros2_ws/install/block1_surani/lib/block1_surani/teleop_node" to ""
+[4.327s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/lib/block1_surani/teleop_node
+[4.327s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/lib/block1_surani/logger_node
+[4.327s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/ament_index/resource_index/package_run_dependencies/block1_surani
+[4.327s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/ament_index/resource_index/parent_prefix_path/block1_surani
+[4.328s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/environment/ament_prefix_path.sh
+[4.328s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/environment/ament_prefix_path.dsv
+[4.328s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/environment/path.sh
+[4.328s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/environment/path.dsv
+[4.328s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/local_setup.bash
+[4.328s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/local_setup.sh
+[4.328s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/local_setup.zsh
+[4.328s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/local_setup.dsv
+[4.328s] -- Installing: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/package.dsv
+[4.328s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/ament_index/resource_index/packages/block1_surani
+[4.328s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/cmake/block1_suraniConfig.cmake
+[4.328s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/cmake/block1_suraniConfig-version.cmake
+[4.328s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/package.xml
+[4.330s] Invoked command in '/home/dominik/RRM/ros2_ws/build/block1_surani' returned '0': CMAKE_PREFIX_PATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs:/home/dominik/RRM/ros2_ws/install/surani_interface:/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model:/home/dominik/RRM/ros2_ws/install/rrm_sim:/home/dominik/RRM/ros2_ws/install/block1_suraniV2:/home/dominik/RRM/ros2_ws/install/block1_surani:/home/dominik/RRM/ros2_ws/install/cv1:/home/dominik/RRM/ros2_ws/install/Surani_interface:/home/dominik/RRM/zad1/install/zad1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/block1_surani

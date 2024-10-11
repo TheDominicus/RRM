@@ -1,0 +1,18 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/teleop_node.dir/src/teleop_node.cpp.o[0m
+[ 75%] Built target logger_node
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:35:17:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::Client<rrm_msgs::srv::Command>::SharedPtr Teleop::client_[m[K’ is private within this context
+   35 |   while (!robot.[01;31m[Kclient_[m[K->wait_for_service (std::chrono::seconds (1))) {
+      |                 [01;31m[K^~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:24:55:[m[K [01;36m[Knote: [m[Kdeclared private here
+   24 |     rclcpp::Client<rrm_msgs::srv::Command>::SharedPtr [01;36m[Kclient_[m[K;
+      |                                                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:48:23:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::Client<rrm_msgs::srv::Command>::SharedPtr Teleop::client_[m[K’ is private within this context
+   48 |   auto result = robot.[01;31m[Kclient_[m[K->async_send_request(request);
+      |                       [01;31m[K^~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:24:55:[m[K [01;36m[Knote: [m[Kdeclared private here
+   24 |     rclcpp::Client<rrm_msgs::srv::Command>::SharedPtr [01;36m[Kclient_[m[K;
+      |                                                       [01;36m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/teleop_node.dir/build.make:76: CMakeFiles/teleop_node.dir/src/teleop_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/teleop_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
