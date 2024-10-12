@@ -7,6 +7,13 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
+find_package(surani_interface REQUIRED)
+ament_target_dependencies(
+logger_node
+"rclcpp"
+"sensor_msgs"
+"surani_interface"
+)
 find_package (rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces( ${PROJECT_NAME}
 	"srv/TeachPoint.srv"
