@@ -7,24 +7,38 @@
 
 using namespace std;
 
-// Define a class Teleop that inherits from rclcpp::Node
 class Teleop : public rclcpp::Node {
 public:
   // Constructor for the Teleop class
   Teleop() : Node("Teleop") {
-    RCLCPP_INFO(this->get_logger(), "Teleop initialized"); // Log initialization message
-    publisher_ = this->create_publisher<rrm_msgs::msg::Command>("move_command", 10); // Create a publisher for move_command topic
-    client_ = this->create_client<rrm_msgs::srv::Command>("move_command"); // Create a client for move_command service
+    RCLCPP_INFO(this->get_logger(), "Teleop initialized");
+    client_ = this->create_client<rrm_msgs::srv::Command>("move_command");
   }
 
-  // Method to send move command via service
+  // Function to send move commands to the robot
   bool move(const std::vector<double>& positions, double max_velocity) {
     auto request = std::make_shared<rrm_msgs::srv::Command::Request>();
-    request->velocities = calculate_velocities(positions, max_velocity);
+    request->positions = positions;
 
+    // Calculate the maximum distance any joint needs to travel
+    double max_distance = 0.0;
+    for (double position : positions) {
+      max_distance = std::max(max_distance, std::abs(position));
+    }
+
+    // Calculate the velocities for each joint based on the maximum distance
+    std::vector<double> velocities;
+    for (double position : positions) {
+      double velocity = (max_distance > 0) ? (std::abs(position) / max_distance) * max_velocity : 0;
+      velocities.push_back(velocity);
+    }
+    request->velocities = velocities;
+
+    // Send the request to the service and wait for the result
     auto result = client_->async_send_request(request);
-    if (rclcpp::spin_until_future_complete(this->get_node_base_interface(), result) == rclcpp::FutureReturnCode::SUCCESS) {
-      return result.get()->result_code ? false : true;
+    if (rclcpp::spin_until_future_complete(this->get_node_base_interface(), result) ==
+        rclcpp::FutureReturnCode::SUCCESS) {
+      return 0; //result.get()->success;
     } else {
       RCLCPP_ERROR(this->get_logger(), "Failed to call service move_command");
       return false;
@@ -32,56 +46,38 @@ public:
   }
 
 private:
-  rclcpp::Publisher<rrm_msgs::msg::Command>::SharedPtr publisher_; // Publisher for move_command topic
-  rclcpp::Client<rrm_msgs::srv::Command>::SharedPtr client_; // Client for move_command service
-
-  // Method to calculate velocities based on positions and max_velocity
-  std::vector<double> calculate_velocities(const std::vector<double>& positions, double max_velocity) {
-    std::vector<double> velocities(positions.size(), 0.0); // Initialize velocities vector with zeros
-    double max_position = 0.0; // Initialize max_position to zero
-
-    // Find the maximum position change
-    for (const auto& pos : positions) {
-      if (std::abs(pos) > max_position) {
-        max_position = std::abs(pos); // Update max_position if current position is greater
-      }
-    }
-
-    // Calculate velocities based on the maximum position change
-    for (size_t i = 0; i < positions.size(); ++i) {
-      if (max_position > 0) {
-        velocities[i] = (positions[i] / max_position) * max_velocity; // Scale velocities based on max_position
-      }
-    }
-
-    return velocities;
-  }
+  // Client to communicate with the move_command service
+  rclcpp::Client<rrm_msgs::srv::Command>::SharedPtr client_;
 };
 
 int main(int argc, char ** argv) {
   rclcpp::init(argc, argv);
-  auto robot = std::make_shared<Teleop>(); // Create a shared pointer to Teleop object
+  auto robot = std::make_shared<Teleop>();
+
+  // Initial move command
+  robot->move({0, 0, 0}, 1.0);
 
   char c;
   while (c != 'q') {
     cout << "Enter 'w' to move forward, 's' to move backward, 'a' to move left, 'd' to move right, 'q' to quit" << endl;
-    cin >> c; 
+    cin >> c;
 
+    // Handle user input and send corresponding move commands
     switch(c) {
       case 'w':
-        robot->move({1, 1, 1}, 1);
+        robot->move({1, 1, 1}, 1.0);
         break;
       case 's':
-        robot->move({-1, -1}, 1);
+        robot->move({-1, -1, -1}, 1.0);
         break;
       case 'a':
-        robot->move({1, -1}, 1);
+        robot->move({1, -1, 0}, 1.0);
         break;
       case 'd':
-        robot->move({-1, 1}, 1);
+        robot->move({-1, 1, 0}, 1.0);
         break;
       case 'h':
-        robot->move({0, 0}, 1);
+        robot->move({0, 0, 0}, 1.0);
         break;
       case 'q':
         break;

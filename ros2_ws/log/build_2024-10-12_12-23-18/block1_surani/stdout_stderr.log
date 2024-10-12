@@ -1,0 +1,9 @@
+[ 50%] Built target logger_node
+[ 75%] [32mBuilding CXX object CMakeFiles/teleop_node.dir/src/teleop_node.cpp.o[0m
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:[m[K In member function ‘[01m[Kbool Teleop::[01;32m[Kmove[m[K(const std::vector<double, std::allocator<double> >&, double)[m[K’:
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:33:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<rrm_msgs::srv::Command_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct rrm_msgs::srv::Command_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct rrm_msgs::srv::Command_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kmax_velocity[m[K’
+   33 |     request->[01;31m[Kmax_velocity[m[K = max_velocity;
+      |              [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/teleop_node.dir/build.make:76: CMakeFiles/teleop_node.dir/src/teleop_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/teleop_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
