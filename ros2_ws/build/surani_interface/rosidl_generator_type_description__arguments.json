@@ -1,0 +1,11 @@
+{
+  "package_name": "surani_interface",
+  "output_dir": "/home/dominik/RRM/ros2_ws/build/surani_interface/rosidl_generator_type_description/surani_interface",
+  "idl_tuples": [
+    "/home/dominik/RRM/ros2_ws/build/surani_interface/rosidl_adapter/surani_interface:srv/TeachPoint.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}
