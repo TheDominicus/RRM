@@ -20,6 +20,12 @@ public:
     auto request = std::make_shared<rrm_msgs::srv::Command::Request>();
     request->positions = positions;
 
+    // Debug: Print positions
+    RCLCPP_INFO(this->get_logger(), "Positions: ");
+    for (double position : positions) {
+      RCLCPP_INFO(this->get_logger(), "%f", position);
+    }
+
     // Calculate the maximum distance any joint needs to travel
     double max_distance = 0.0;
     for (double position : positions) {
@@ -33,6 +39,12 @@ public:
       velocities.push_back(velocity);
     }
     request->velocities = velocities;
+
+    // Debug: Print velocities
+    RCLCPP_INFO(this->get_logger(), "Velocities: ");
+    for (double velocity : velocities) {
+      RCLCPP_INFO(this->get_logger(), "%f", velocity);
+    }
 
     // Send the request to the service and wait for the result
     auto result = client_->async_send_request(request);
