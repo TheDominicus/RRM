@@ -30,6 +30,7 @@ int main(int argc, char ** argv){
 
   robot->move(1, 0);
   robot->move(2, 0);
+  robot->move(3, 0);
 
   char c;
   while (c != 'q'){
@@ -40,22 +41,28 @@ int main(int argc, char ** argv){
       case 'w':
       robot->move(1, 1);
       robot->move(2, 1);
+      robot->move(3, 1);
       break;
       case 's':
       robot->move(1, -1);
       robot->move(2, -1);
+      robot->move(3, -1);
       break;
       case 'a':
       robot->move(1, 1);
       robot->move(2, -1);
+      robot->move(3, 1);
       break;
       case 'd':
       robot->move(1, -1);
       robot->move(2, 1);
+      robot->move(3, -1);
       break;
       case 'h':
       robot->move(1, 0);
       robot->move(2, 0);
+      robot->move(3, 0);
+      break;
       case 'q':
       break;
     }

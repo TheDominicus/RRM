@@ -1,0 +1,13 @@
+[ 50%] Built target logger_node
+[ 75%] [32mBuilding CXX object CMakeFiles/teleop_node.dir/src/teleop_node.cpp.o[0m
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:[m[K In member function ‘[01m[Kvoid Teleop::[01;32m[Kmove[m[K(const std::vector<int>&, const std::vector<double, std::allocator<double> >&)[m[K’:
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:30:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing rrm_msgs::msg::Command = struct rrm_msgs::msg::Command_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct rrm_msgs::msg::Command_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kvelocity[m[K’
+   30 |       message.[01;31m[Kvelocity[m[K = velocities[i];
+      |               [01;31m[K^~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:[m[K In member function ‘[01m[Kstd::vector<double, std::allocator<double> > Teleop::[01;32m[Kcalculate_velocities[m[K(const std::vector<int>&, const std::vector<double, std::allocator<double> >&)[m[K’:
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/teleop_node.cpp:38:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kjoint_ids[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   38 |     vector<double> calculate_velocities([01;35m[Kconst vector<int>& joint_ids[m[K, const vector<double>& positions) {
+      |                                         [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/teleop_node.dir/build.make:76: CMakeFiles/teleop_node.dir/src/teleop_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/teleop_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
