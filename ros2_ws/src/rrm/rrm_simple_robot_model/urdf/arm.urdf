@@ -110,6 +110,8 @@
   </link>
 
   <link name="tool0">
+    <!-- Comment out or remove the visual element to make it invisible in RViz -->
+    <!--
     <visual>
       <geometry>
         <sphere radius="0.03"/>
@@ -119,6 +121,7 @@
       </material>
       <origin xyz="0 0 0" rpy = "0 0 0"/>
     </visual>
+    -->
   </link>
 
   <!--Joints-->
