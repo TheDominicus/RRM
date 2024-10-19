@@ -37,17 +37,17 @@
     </visual>
   </link>
 
-    <link name="link_2_3">
-      <visual>
-        <geometry>
-         <sphere radius="0.03"/>
-        </geometry>
-        <material name="gray">
-          <color rgba="0.2 0.2 0.2 1"/>
-        </material>
-          <origin xyz="0 0 0" rpy = "0 0 0"/>
-      </visual>
-    </link>
+  <link name="link_2_3">
+    <visual>
+      <geometry>
+       <sphere radius="0.03"/>
+      </geometry>
+      <material name="gray">
+        <color rgba="0.2 0.2 0.2 1"/>
+      </material>
+        <origin xyz="0 0 0" rpy = "0 0 0"/>
+    </visual>
+  </link>
   
   <link name="link_3">
     <visual>
@@ -61,7 +61,41 @@
     </visual>
   </link>
 
- <link name="tool0"/>
+  <link name="link_3_4">
+    <visual>
+      <geometry>
+       <sphere radius="0.03"/>
+      </geometry>
+      <material name="gray">
+        <color rgba="0.2 0.2 0.2 1"/>
+      </material>
+        <origin xyz="0 0 0" rpy = "0 0 0"/>
+    </visual>
+  </link>
+
+  <link name="link_4">
+    <visual>
+      <geometry>
+        <cylinder length="0.05" radius = "0.01"/>
+      </geometry>
+      <material name="white">
+        <color rgba="1 1 1 1"/>
+      </material>
+      <origin xyz="0 0 0.025" rpy = "0 0 0"/>
+    </visual>
+  </link>
+
+  <link name="tool0">
+    <visual>
+      <geometry>
+        <sphere radius="0.03"/>
+      </geometry>
+      <material name="gray">
+        <color rgba="0.2 0.2 0.2 1"/>
+      </material>
+      <origin xyz="0 0 0" rpy = "0 0 0"/>
+    </visual>
+  </link>
 
   <!--Joints-->
   <joint name="joint_1" type="revolute">
@@ -80,25 +114,38 @@
     <limit effort="1000.0" lower="-0.96" upper="2.182" velocity="0.5"/>
   </joint>
 
-    <joint name="joint_3" type="revolute">
-      <axis xyz="0 1 0"/>
-      <parent link="link_2"/>
-      <child link="link_3"/>
-      <origin xyz="0 0 0.203" rpy = "0 0 0"/>
-      <limit effort="1000.0" lower="-0.96" upper="2.182" velocity="0.5"/>
-    </joint>
+  <joint name="joint_3" type="revolute">
+    <axis xyz="0 1 0"/>
+    <parent link="link_2"/>
+    <child link="link_3"/>
+    <origin xyz="0 0 0.203" rpy = "0 0 0"/>
+    <limit effort="1000.0" lower="-0.96" upper="2.182" velocity="0.5"/>
+  </joint>
 
-    <joint name="joint_3-tool0" type="fixed">
-      <parent link="link_3"/>
-      <child link="tool0"/>
-      <origin xyz="0 0 0.203" rpy = "0 0 0"/>
-    </joint>
+  <joint name="joint_4" type="revolute">
+    <axis xyz="0 1 0"/>
+    <parent link="link_3"/>
+    <child link="link_4"/>
+    <origin xyz="0 0 0.203" rpy = "0 0 0"/>
+    <limit effort="1000.0" lower="-0.96" upper="2.182" velocity="0.5"/>
+  </joint>
 
-    <joint name="joint_2_3" type="fixed">
-      <parent link="link_2"/>
-      <child link="link_2_3"/>
-      <origin xyz="0 0 0.203" rpy = "0 0 0"/>
-    </joint>
+  <joint name="joint_tool0" type="fixed">
+    <parent link="link_4"/>
+    <child link="tool0"/>
+    <origin xyz="0 0 0.05" rpy = "0 0 0"/>
+  </joint>
 
+  <joint name="joint_2_3" type="fixed">
+    <parent link="link_2"/>
+    <child link="link_2_3"/>
+    <origin xyz="0 0 0.203" rpy = "0 0 0"/>
+  </joint>
+
+  <joint name="joint_3_4" type="fixed">
+    <parent link="link_3"/>
+    <child link="link_3_4"/>
+    <origin xyz="0 0 0.203" rpy = "0 0 0"/>
+  </joint>
 
 </robot>
