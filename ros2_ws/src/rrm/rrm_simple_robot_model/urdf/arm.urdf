@@ -85,6 +85,30 @@
     </visual>
   </link>
 
+  <link name="link_4_5">
+    <visual>
+      <geometry>
+       <sphere radius="0.03"/>
+      </geometry>
+      <material name="gray">
+        <color rgba="0.2 0.2 0.2 1"/>
+      </material>
+        <origin xyz="0 0 0" rpy = "0 0 0"/>
+    </visual>
+  </link>
+
+  <link name="link_5">
+    <visual>
+      <geometry>
+        <cylinder length="0.15" radius = "0.01"/>
+      </geometry>
+      <material name="white">
+        <color rgba="1 1 1 1"/>
+      </material>
+      <origin xyz="0 0 0.075" rpy = "0 0 0"/>
+    </visual>
+  </link>
+
   <link name="tool0">
     <visual>
       <geometry>
@@ -130,10 +154,24 @@
     <limit effort="1000.0" lower="-0.96" upper="2.182" velocity="0.5"/>
   </joint>
 
-  <joint name="joint_tool0" type="fixed">
+  <joint name="joint_4_5" type="fixed">
     <parent link="link_4"/>
-    <child link="tool0"/>
+    <child link="link_4_5"/>
     <origin xyz="0 0 0.05" rpy = "0 0 0"/>
+  </joint>
+
+  <joint name="joint_5" type="revolute">
+    <axis xyz="0 1 0"/>
+    <parent link="link_4_5"/>
+    <child link="link_5"/>
+    <origin xyz="0 0 0" rpy = "0 0 0"/>
+    <limit effort="1000.0" lower="-0.96" upper="2.182" velocity="0.5"/>
+  </joint>
+
+  <joint name="joint_tool0" type="fixed">
+    <parent link="link_5"/>
+    <child link="tool0"/>
+    <origin xyz="0 0 0.15" rpy = "0 0 0"/>
   </joint>
 
   <joint name="joint_2_3" type="fixed">
