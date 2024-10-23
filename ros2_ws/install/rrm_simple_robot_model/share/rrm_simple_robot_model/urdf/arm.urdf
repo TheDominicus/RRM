@@ -16,7 +16,7 @@
   <link name="link_1">
     <visual>
       <geometry>
-       <sphere radius="0.03"/>
+       <sphere radius="0.01"/>
       </geometry>
       <material name="gray">
         <color rgba="0.2 0.2 0.2 1"/>
@@ -28,7 +28,7 @@
   <link name="link_2">
      <visual>
       <geometry>
-        <cylinder length="0.178" radius = "0.01"/>
+        <cylinder length="0.203" radius = "0.01"/>
       </geometry>
       <material name="white">
         <color rgba="1 1 1 1"/>
@@ -129,7 +129,7 @@
     <axis xyz="0 0 1"/>
     <parent link="base_link"/>
     <child link="link_1"/>
-    <origin xyz="0 0 0" rpy = "0 0 0"/>
+    <origin xyz="0 0 0.005" rpy = "0 0 0"/>
     <limit effort="1000.0" lower="-1.62" upper="1.62" velocity="0.5"/>
   </joint>
   
@@ -137,7 +137,7 @@
     <axis xyz="0 1 0"/>
     <parent link="link_1"/>
     <child link="link_2"/>
-    <origin xyz="0 0 0" rpy = "0 0 0"/>
+    <origin xyz="0 0 0.01" rpy = "0 0 0"/>
     <limit effort="1000.0" lower="-0.96" upper="2.182" velocity="0.5"/>
   </joint>
 
@@ -167,7 +167,7 @@
     <axis xyz="0 1 0"/>
     <parent link="link_4_5"/>
     <child link="link_5"/>
-    <origin xyz="0 0 0" rpy = "0 0 0"/>
+    <origin xyz="0 0 0.03" rpy = "0 0 0"/>
     <limit effort="1000.0" lower="-0.96" upper="2.182" velocity="0.5"/>
   </joint>
 
