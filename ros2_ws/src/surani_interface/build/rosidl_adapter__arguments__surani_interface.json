@@ -1,0 +1,6 @@
+{
+  "package_name": "surani_interface",
+  "non_idl_tuples": [
+    "/home/dominik/RRM/ros2_ws/src/surani_interface:srv/TeachPoint.srv"
+  ]
+}

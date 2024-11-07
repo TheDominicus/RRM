@@ -1,0 +1,37 @@
+[0.028s] Invoking command in '/home/dominik/RRM/ros2_ws/build/eigen_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/eigen_example -- -j16 -l16
+[0.063s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.358s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.389s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.403s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.419s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.433s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.499s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.501s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.572s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.754s] -- Configuring done (0.7s)
+[0.769s] -- Generating done (0.0s)
+[0.771s] -- Build files have been written to: /home/dominik/RRM/ros2_ws/build/eigen_example
+[0.837s] [ 50%] [32mBuilding CXX object CMakeFiles/eigen_example.dir/src/eigen_example.cpp.o[0m
+[7.821s] [100%] [32m[1mLinking CXX executable eigen_example[0m
+[8.006s] [100%] Built target eigen_example
+[8.021s] Invoked command in '/home/dominik/RRM/ros2_ws/build/eigen_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/eigen_example -- -j16 -l16
+[8.051s] Invoking command in '/home/dominik/RRM/ros2_ws/build/eigen_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/eigen_example
+[8.059s] -- Install configuration: ""
+[8.060s] -- Installing: /home/dominik/RRM/ros2_ws/install/eigen_example/lib/eigen_example/eigen_example
+[8.062s] -- Set non-toolchain portion of runtime path of "/home/dominik/RRM/ros2_ws/install/eigen_example/lib/eigen_example/eigen_example" to ""
+[8.062s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/eigen_example/share/ament_index/resource_index/package_run_dependencies/eigen_example
+[8.062s] -- Installing: /home/dominik/RRM/ros2_ws/install/eigen_example/share/ament_index/resource_index/parent_prefix_path/eigen_example
+[8.062s] -- Installing: /home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/environment/ament_prefix_path.sh
+[8.062s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/environment/ament_prefix_path.dsv
+[8.062s] -- Installing: /home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/environment/path.sh
+[8.062s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/environment/path.dsv
+[8.063s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/local_setup.bash
+[8.063s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/local_setup.sh
+[8.063s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/local_setup.zsh
+[8.063s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/local_setup.dsv
+[8.063s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/package.dsv
+[8.063s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/eigen_example/share/ament_index/resource_index/packages/eigen_example
+[8.063s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/cmake/eigen_exampleConfig.cmake
+[8.063s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/cmake/eigen_exampleConfig-version.cmake
+[8.063s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/package.xml
+[8.065s] Invoked command in '/home/dominik/RRM/ros2_ws/build/eigen_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/eigen_example
