@@ -17,6 +17,9 @@
   <depend>tf2_ros</depend>
   <depend>rrm_msgs</depend>
   <depend>sensor_msgs</depend>
+  <depend>surani_interfaces</depend>
+  <depend>rrm_simple_robot_model</depend>
+  <depend>Eigen3</depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
