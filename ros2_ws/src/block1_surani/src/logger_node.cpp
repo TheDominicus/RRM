@@ -57,8 +57,8 @@ void JointLogger::joint_states_callback(const sensor_msgs::msg::JointState::Shar
 	transform.header.frame_id = "base_link";
 	transform.child_frame_id = "tool0";
 
-	std::array<double, 6> a = {0, 0.25, 0.3, 0, 1, 0};
-	std::array<double, 6> d = {0, 1, 0, 0.5, 0, 0.1805 + msg->position[5]};
+	std::array<double, 6> a = {0, 0.203, 0.203, 0.05, 0.15, 0};
+	std::array<double, 6> d = {0, 0, 0, 0.25, 0, 0.1805 + msg->position[5]};
 	std::array<double, 6> Alpha = {M_PI / 2, 0, M_PI / 2, M_PI / 2, M_PI / 2, 0};
 	std::array<double, 6> Theta = {msg->position[0] + M_PI, msg->position[1] + M_PI / 2, msg->position[2] + M_PI / 2,
 	 msg->position[3] + M_PI, msg->position[4] + M_PI, 0};
