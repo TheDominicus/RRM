@@ -1,7 +1,0 @@
-{
-  "package_name": "rrm_msgs",
-  "non_idl_tuples": [
-    "/home/dominik/RRM/ros2_ws/src/rrm/rrm_msgs:msg/Command.msg",
-    "/home/dominik/RRM/ros2_ws/src/rrm/rrm_msgs:srv/Command.srv"
-  ]
-}

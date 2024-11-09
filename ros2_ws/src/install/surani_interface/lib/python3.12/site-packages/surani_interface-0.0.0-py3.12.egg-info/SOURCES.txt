@@ -1,8 +1,0 @@
-setup.py
-surani_interface/__init__.py
-surani_interface.egg-info/PKG-INFO
-surani_interface.egg-info/SOURCES.txt
-surani_interface.egg-info/dependency_links.txt
-surani_interface.egg-info/top_level.txt
-surani_interface/srv/__init__.py
-surani_interface/srv/_teach_point.py

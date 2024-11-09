@@ -1,8 +1,0 @@
-[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/logger_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ktf2_ros/transform_broadcaster.h: Adresár alebo súbor neexistuje
-    2 | #include [01;31m[K<tf2_ros/transform_broadcaster.h>[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/logger_node.dir/build.make:76: CMakeFiles/logger_node.dir/src/logger_node.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/logger_node.dir/all] Error 2
-gmake[1]: *** Čaká sa na nedokončené úlohy....
-gmake: *** [Makefile:146: all] Error 2
