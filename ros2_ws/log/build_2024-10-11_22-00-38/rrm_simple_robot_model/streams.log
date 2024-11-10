@@ -1,0 +1,32 @@
+[0.025s] Invoking command in '/home/dominik/RRM/ros2_ws/build/rrm_simple_robot_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/rrm_simple_robot_model -- -j16 -l16
+[0.080s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.443s] -- Found rviz2: 14.1.5 (/opt/ros/jazzy/share/rviz2/cmake)
+[0.585s] -- Configuring done (0.5s)
+[0.591s] -- Generating done (0.0s)
+[0.592s] -- Build files have been written to: /home/dominik/RRM/ros2_ws/build/rrm_simple_robot_model
+[0.632s] Invoked command in '/home/dominik/RRM/ros2_ws/build/rrm_simple_robot_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/rrm_simple_robot_model -- -j16 -l16
+[0.674s] Invoking command in '/home/dominik/RRM/ros2_ws/build/rrm_simple_robot_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/rrm_simple_robot_model
+[0.688s] -- Install configuration: ""
+[0.688s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/urdf
+[0.689s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/urdf/arm.urdf
+[0.689s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/config
+[0.689s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/config/rrm_cv3.rviz
+[0.689s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/launch
+[0.690s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/launch/robot_state_publisher.launch.py
+[0.690s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/launch/robot_state_publisher.launch.xml
+[0.690s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/share/ament_index/resource_index/package_run_dependencies/rrm_simple_robot_model
+[0.691s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/share/ament_index/resource_index/parent_prefix_path/rrm_simple_robot_model
+[0.691s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/environment/ament_prefix_path.sh
+[0.691s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/environment/ament_prefix_path.dsv
+[0.691s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/environment/path.sh
+[0.692s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/environment/path.dsv
+[0.692s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/local_setup.bash
+[0.692s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/local_setup.sh
+[0.692s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/local_setup.zsh
+[0.692s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/local_setup.dsv
+[0.693s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/package.dsv
+[0.693s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/share/ament_index/resource_index/packages/rrm_simple_robot_model
+[0.693s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/cmake/rrm_simple_robot_modelConfig.cmake
+[0.693s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/cmake/rrm_simple_robot_modelConfig-version.cmake
+[0.693s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/package.xml
+[0.696s] Invoked command in '/home/dominik/RRM/ros2_ws/build/rrm_simple_robot_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/rrm_simple_robot_model

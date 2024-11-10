@@ -7,14 +7,14 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-find_package (rosidl_default_generators REQUIRED)
-rosidl_generate_interfaces( ${PROJECT_NAME}
-	"srv/TeachPoint.srv"
-	#DEPENDENCIES geometry_msgs # Ak chcete aby vase interfaces pouzivali aj ine zavislosti
-)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
+find_package (rosidl_default_generators REQUIRED)
+rosidl_generate_interfaces( ${PROJECT_NAME}
+  "srv/TeachPoint.srv"
+  #DEPENDENCIES geometry_msgs # Ak chcete aby vase interfaces pouzivali aj ine zavislosti
+)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -29,4 +29,3 @@ if(BUILD_TESTING)
 endif()
 
 ament_package()
-

@@ -8,8 +8,12 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(tf2_ros REQUIRED)
+find_package(geometry_msgs REQUIRED)
 find_package(rrm_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
+find_package(surani_interface REQUIRED)
+find_package(Eigen3 REQUIRED)
 
 add_executable(teleop_node src/teleop_node.cpp)
 add_executable(logger_node src/logger_node.cpp)
