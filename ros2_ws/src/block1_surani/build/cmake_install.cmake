@@ -54,7 +54,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/block1_surani/teleop_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/block1_surani/teleop_node"
-         OLD_RPATH "/opt/ros/jazzy/lib:/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib:"
+         OLD_RPATH "/home/dominik/RRM/ros2_ws/install/surani_interface/lib:/opt/ros/jazzy/lib:/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/block1_surani/teleop_node")
@@ -78,7 +78,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/block1_surani/teleop_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/block1_surani/teleop_node"
-         OLD_RPATH "/opt/ros/jazzy/lib:/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib:"
+         OLD_RPATH "/home/dominik/RRM/ros2_ws/install/surani_interface/lib:/opt/ros/jazzy/lib:/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/block1_surani/teleop_node")
@@ -100,10 +100,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/block1_surani" TYPE EXECUTABLE FILES "/home/dominik/RRM/ros2_ws/src/block1_surani/build/logger_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/block1_surani/logger_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/block1_surani/logger_node")
-    file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/block1_surani/logger_node"
-         OLD_RPATH "/opt/ros/jazzy/lib:"
-         NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/block1_surani/logger_node")
     endif()

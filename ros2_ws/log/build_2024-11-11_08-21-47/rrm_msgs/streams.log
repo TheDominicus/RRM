@@ -1,0 +1,281 @@
+[0.046s] Invoking command in '/home/dominik/RRM/ros2_ws/build/rrm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dominik/RRM/ros2_ws/install/rrm_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dominik/RRM/ros2_ws/src/rrm/rrm_msgs -DCMAKE_INSTALL_PREFIX=/home/dominik/RRM/ros2_ws/install/rrm_msgs
+[0.155s] -- The C compiler identification is GNU 13.2.0
+[0.242s] -- The CXX compiler identification is GNU 13.2.0
+[0.269s] -- Detecting C compiler ABI info
+[0.374s] -- Detecting C compiler ABI info - done
+[0.386s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.386s] -- Detecting C compile features
+[0.386s] -- Detecting C compile features - done
+[0.396s] -- Detecting CXX compiler ABI info
+[0.493s] -- Detecting CXX compiler ABI info - done
+[0.500s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.500s] -- Detecting CXX compile features
+[0.501s] -- Detecting CXX compile features - done
+[0.504s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.647s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.763s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.770s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.825s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.870s] -- Found rosidl_adapter: 4.6.4 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.406s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.796s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.305s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.310s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.434s] -- Found PythonExtra: /usr/bin/python3  
+[2.840s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.873s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.910s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.913s] -- Added test 'lint_cmake' to check CMake code style
+[2.915s] -- Added test 'xmllint' to check XML markup files
+[2.920s] -- Configuring done (2.9s)
+[2.954s] -- Generating done (0.0s)
+[2.956s] -- Build files have been written to: /home/dominik/RRM/ros2_ws/build/rrm_msgs
+[2.969s] Invoked command in '/home/dominik/RRM/ros2_ws/build/rrm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dominik/RRM/ros2_ws/install/rrm_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dominik/RRM/ros2_ws/src/rrm/rrm_msgs -DCMAKE_INSTALL_PREFIX=/home/dominik/RRM/ros2_ws/install/rrm_msgs
+[2.970s] Invoking command in '/home/dominik/RRM/ros2_ws/build/rrm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dominik/RRM/ros2_ws/install/rrm_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/rrm_msgs -- -j16 -l16
+[3.025s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[3.035s] [  2%] Built target ament_cmake_python_copy_rrm_msgs
+[3.219s] [  2%] Built target rrm_msgs__rosidl_generator_type_description
+[3.231s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.237s] running egg_info
+[3.238s] creating rrm_msgs.egg-info
+[3.246s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.255s] writing rrm_msgs.egg-info/PKG-INFO
+[3.255s] writing dependency_links to rrm_msgs.egg-info/dependency_links.txt
+[3.255s] writing top-level names to rrm_msgs.egg-info/top_level.txt
+[3.255s] writing manifest file 'rrm_msgs.egg-info/SOURCES.txt'
+[3.308s] reading manifest file 'rrm_msgs.egg-info/SOURCES.txt'
+[3.308s] writing manifest file 'rrm_msgs.egg-info/SOURCES.txt'
+[3.357s] [  6%] Built target ament_cmake_python_build_rrm_msgs_egg
+[3.562s] [ 13%] [32mBuilding C object CMakeFiles/rrm_msgs__rosidl_generator_c.dir/rosidl_generator_c/rrm_msgs/srv/detail/command__description.c.o[0m
+[3.562s] [ 13%] [32mBuilding C object CMakeFiles/rrm_msgs__rosidl_generator_c.dir/rosidl_generator_c/rrm_msgs/srv/detail/command__type_support.c.o[0m
+[3.564s] [ 11%] [32mBuilding C object CMakeFiles/rrm_msgs__rosidl_generator_c.dir/rosidl_generator_c/rrm_msgs/msg/detail/command__description.c.o[0m
+[3.564s] [ 15%] [32mBuilding C object CMakeFiles/rrm_msgs__rosidl_generator_c.dir/rosidl_generator_c/rrm_msgs/msg/detail/command__type_support.c.o[0m
+[3.565s] [ 18%] [32mBuilding C object CMakeFiles/rrm_msgs__rosidl_generator_c.dir/rosidl_generator_c/rrm_msgs/msg/detail/command__functions.c.o[0m
+[3.566s] [ 20%] [32mBuilding C object CMakeFiles/rrm_msgs__rosidl_generator_c.dir/rosidl_generator_c/rrm_msgs/srv/detail/command__functions.c.o[0m
+[3.614s] [ 20%] Built target rrm_msgs__cpp
+[3.671s] [ 22%] [32m[1mLinking C shared library librrm_msgs__rosidl_generator_c.so[0m
+[3.721s] [ 22%] Built target rrm_msgs__rosidl_generator_c
+[3.733s] [ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.733s] [ 27%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.733s] [ 29%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.733s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.734s] [ 34%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.735s] [ 36%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.085s] [ 38%] [32mBuilding CXX object CMakeFiles/rrm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rrm_msgs/msg/command__type_support.cpp.o[0m
+[4.101s] [ 40%] [32mBuilding CXX object CMakeFiles/rrm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rrm_msgs/srv/command__type_support.cpp.o[0m
+[4.119s] [ 43%] [32mBuilding CXX object CMakeFiles/rrm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rrm_msgs/msg/command__type_support.cpp.o[0m
+[4.120s] [ 45%] [32mBuilding CXX object CMakeFiles/rrm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rrm_msgs/srv/command__type_support.cpp.o[0m
+[4.191s] [ 47%] [32mBuilding CXX object CMakeFiles/rrm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rrm_msgs/msg/detail/command__type_support.cpp.o[0m
+[4.199s] [ 50%] [32mBuilding CXX object CMakeFiles/rrm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rrm_msgs/srv/detail/command__type_support.cpp.o[0m
+[4.201s] [ 52%] [32mBuilding C object CMakeFiles/rrm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rrm_msgs/msg/detail/command__type_support.c.o[0m
+[4.214s] [ 54%] [32mBuilding C object CMakeFiles/rrm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rrm_msgs/srv/detail/command__type_support.c.o[0m
+[4.214s] [ 56%] [32m[1mLinking CXX shared library librrm_msgs__rosidl_typesupport_c.so[0m
+[4.302s] [ 59%] [32mBuilding CXX object CMakeFiles/rrm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rrm_msgs/msg/detail/dds_fastrtps/command__type_support.cpp.o[0m
+[4.304s] [ 61%] [32mBuilding CXX object CMakeFiles/rrm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rrm_msgs/srv/detail/dds_fastrtps/command__type_support.cpp.o[0m
+[4.321s] [ 63%] [32m[1mLinking C shared library librrm_msgs__rosidl_typesupport_introspection_c.so[0m
+[4.343s] [ 63%] Built target rrm_msgs__rosidl_typesupport_c
+[4.365s] [ 65%] [32mBuilding CXX object CMakeFiles/rrm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rrm_msgs/srv/detail/command__type_support_c.cpp.o[0m
+[4.378s] [ 68%] [32mBuilding CXX object CMakeFiles/rrm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rrm_msgs/msg/detail/command__type_support_c.cpp.o[0m
+[4.417s] [ 68%] Built target rrm_msgs__rosidl_typesupport_introspection_c
+[4.982s] [ 70%] [32m[1mLinking CXX shared library librrm_msgs__rosidl_typesupport_cpp.so[0m
+[5.138s] [ 70%] Built target rrm_msgs__rosidl_typesupport_cpp
+[5.193s] [ 72%] [32m[1mLinking CXX shared library librrm_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[5.295s] [ 75%] [32m[1mLinking CXX shared library librrm_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[5.302s] [ 75%] Built target rrm_msgs__rosidl_typesupport_introspection_cpp
+[5.346s] [ 77%] [32m[1mLinking CXX shared library librrm_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.404s] [ 77%] Built target rrm_msgs__rosidl_typesupport_fastrtps_c
+[5.442s] [ 77%] Built target rrm_msgs__rosidl_typesupport_fastrtps_cpp
+[5.467s] [ 77%] Built target rrm_msgs
+[5.488s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.843s] [ 79%] Built target rrm_msgs__py
+[5.863s] [ 81%] [32mBuilding C object CMakeFiles/rrm_msgs__rosidl_generator_py.dir/rosidl_generator_py/rrm_msgs/msg/_command_s.c.o[0m
+[5.864s] [ 84%] [32mBuilding C object CMakeFiles/rrm_msgs__rosidl_generator_py.dir/rosidl_generator_py/rrm_msgs/srv/_command_s.c.o[0m
+[6.031s] [ 86%] [32m[1mLinking C shared library librrm_msgs__rosidl_generator_py.so[0m
+[6.075s] [ 86%] Built target rrm_msgs__rosidl_generator_py
+[6.099s] [ 93%] [32mBuilding C object CMakeFiles/rrm_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/rrm_msgs/_rrm_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[6.099s] [ 93%] [32mBuilding C object CMakeFiles/rrm_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/rrm_msgs/_rrm_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.099s] [ 93%] [32mBuilding C object CMakeFiles/rrm_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/rrm_msgs/_rrm_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.221s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/rrm_msgs/rrm_msgs_s__rosidl_typesupport_c.so[0m
+[6.224s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/rrm_msgs/rrm_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[6.233s] [100%] [32m[1mLinking C shared module rosidl_generator_py/rrm_msgs/rrm_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[6.268s] [100%] Built target rrm_msgs_s__rosidl_typesupport_introspection_c
+[6.268s] [100%] Built target rrm_msgs_s__rosidl_typesupport_c
+[6.278s] [100%] Built target rrm_msgs_s__rosidl_typesupport_fastrtps_c
+[6.293s] Invoked command in '/home/dominik/RRM/ros2_ws/build/rrm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dominik/RRM/ros2_ws/install/rrm_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/rrm_msgs -- -j16 -l16
+[6.372s] Invoking command in '/home/dominik/RRM/ros2_ws/build/rrm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dominik/RRM/ros2_ws/install/rrm_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/rrm_msgs
+[6.381s] -- Install configuration: ""
+[6.381s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/ament_index/resource_index/rosidl_interfaces/rrm_msgs
+[6.381s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/msg/Command.json
+[6.381s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/srv/Command.json
+[6.382s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs
+[6.382s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg
+[6.382s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/command.h
+[6.382s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.382s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail
+[6.382s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail/command__functions.c
+[6.382s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail/command__description.c
+[6.382s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail/command__type_support.h
+[6.383s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail/command__struct.h
+[6.383s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail/command__type_support.c
+[6.383s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail/command__functions.h
+[6.383s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv
+[6.383s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/command.h
+[6.383s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail
+[6.384s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail/command__functions.c
+[6.384s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail/command__description.c
+[6.384s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail/command__type_support.h
+[6.384s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail/command__struct.h
+[6.384s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail/command__type_support.c
+[6.385s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail/command__functions.h
+[6.385s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/environment/library_path.sh
+[6.385s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/environment/library_path.dsv
+[6.386s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/librrm_msgs__rosidl_generator_c.so
+[6.386s] -- Set non-toolchain portion of runtime path of "/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/librrm_msgs__rosidl_generator_c.so" to ""
+[6.386s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs
+[6.386s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg
+[6.386s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.386s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail
+[6.387s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail/command__rosidl_typesupport_fastrtps_c.h
+[6.387s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv
+[6.387s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail
+[6.387s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail/command__rosidl_typesupport_fastrtps_c.h
+[6.387s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/librrm_msgs__rosidl_typesupport_fastrtps_c.so
+[6.388s] -- Set non-toolchain portion of runtime path of "/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/librrm_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[6.388s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs
+[6.388s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg
+[6.388s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail
+[6.388s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail/command__rosidl_typesupport_introspection_c.h
+[6.388s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail/command__type_support.c
+[6.388s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.388s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv
+[6.389s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail
+[6.389s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail/command__rosidl_typesupport_introspection_c.h
+[6.389s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail/command__type_support.c
+[6.389s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/librrm_msgs__rosidl_typesupport_introspection_c.so
+[6.389s] -- Set non-toolchain portion of runtime path of "/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/librrm_msgs__rosidl_typesupport_introspection_c.so" to ""
+[6.390s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/librrm_msgs__rosidl_typesupport_c.so
+[6.390s] -- Set non-toolchain portion of runtime path of "/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/librrm_msgs__rosidl_typesupport_c.so" to ""
+[6.390s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs
+[6.390s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg
+[6.391s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.391s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail
+[6.391s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail/command__builder.hpp
+[6.391s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail/command__struct.hpp
+[6.391s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail/command__traits.hpp
+[6.391s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail/command__type_support.hpp
+[6.392s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/command.hpp
+[6.392s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv
+[6.392s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail
+[6.392s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail/command__builder.hpp
+[6.392s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail/command__struct.hpp
+[6.392s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail/command__traits.hpp
+[6.392s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail/command__type_support.hpp
+[6.392s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/command.hpp
+[6.393s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs
+[6.393s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg
+[6.393s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.393s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail
+[6.393s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail/command__rosidl_typesupport_fastrtps_cpp.hpp
+[6.393s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail/dds_fastrtps
+[6.393s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv
+[6.393s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail
+[6.393s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail/command__rosidl_typesupport_fastrtps_cpp.hpp
+[6.394s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail/dds_fastrtps
+[6.394s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/librrm_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.395s] -- Set non-toolchain portion of runtime path of "/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/librrm_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.395s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs
+[6.395s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg
+[6.395s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail
+[6.395s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail/command__rosidl_typesupport_introspection_cpp.hpp
+[6.395s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/msg/detail/command__type_support.cpp
+[6.395s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv
+[6.395s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail
+[6.396s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail/command__rosidl_typesupport_introspection_cpp.hpp
+[6.396s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/include/rrm_msgs/rrm_msgs/srv/detail/command__type_support.cpp
+[6.396s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/librrm_msgs__rosidl_typesupport_introspection_cpp.so
+[6.397s] -- Set non-toolchain portion of runtime path of "/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/librrm_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[6.397s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/librrm_msgs__rosidl_typesupport_cpp.so
+[6.398s] -- Set non-toolchain portion of runtime path of "/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/librrm_msgs__rosidl_typesupport_cpp.so" to ""
+[6.398s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/environment/pythonpath.sh
+[6.398s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/environment/pythonpath.dsv
+[6.398s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs-0.0.0-py3.12.egg-info
+[6.398s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[6.398s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[6.398s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[6.399s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[6.399s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs
+[6.399s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/msg
+[6.399s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/msg/__init__.py
+[6.399s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/msg/_command_s.c
+[6.399s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/msg/_command.py
+[6.399s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/_rrm_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.400s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/rrm_msgs_s__rosidl_typesupport_fastrtps_c.so
+[6.400s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/srv
+[6.400s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/srv/__init__.py
+[6.400s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/srv/_command_s.c
+[6.400s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/srv/_command.py
+[6.401s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/__init__.py
+[6.401s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/_rrm_msgs_s.ep.rosidl_typesupport_c.c
+[6.401s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/rrm_msgs_s__rosidl_typesupport_introspection_c.so
+[6.401s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/_rrm_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[6.401s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/rrm_msgs_s__rosidl_typesupport_c.so
+[6.441s] Listing '/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs'...
+[6.441s] Compiling '/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/__init__.py'...
+[6.441s] Listing '/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/msg'...
+[6.441s] Compiling '/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/msg/__init__.py'...
+[6.442s] Compiling '/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/msg/_command.py'...
+[6.442s] Listing '/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/srv'...
+[6.442s] Compiling '/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/srv/__init__.py'...
+[6.442s] Compiling '/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/srv/_command.py'...
+[6.448s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/rrm_msgs_s__rosidl_typesupport_fastrtps_c.so
+[6.448s] -- Set non-toolchain portion of runtime path of "/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/rrm_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[6.448s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/rrm_msgs_s__rosidl_typesupport_introspection_c.so
+[6.449s] -- Set non-toolchain portion of runtime path of "/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/rrm_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[6.449s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/rrm_msgs_s__rosidl_typesupport_c.so
+[6.449s] -- Set non-toolchain portion of runtime path of "/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages/rrm_msgs/rrm_msgs_s__rosidl_typesupport_c.so" to ""
+[6.450s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/librrm_msgs__rosidl_generator_py.so
+[6.450s] -- Set non-toolchain portion of runtime path of "/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/librrm_msgs__rosidl_generator_py.so" to ""
+[6.450s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/msg/Command.idl
+[6.451s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/srv/Command.idl
+[6.451s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/msg/Command.msg
+[6.451s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/srv/Command.srv
+[6.451s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/ament_index/resource_index/package_run_dependencies/rrm_msgs
+[6.451s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/ament_index/resource_index/parent_prefix_path/rrm_msgs
+[6.451s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/environment/ament_prefix_path.sh
+[6.452s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/environment/ament_prefix_path.dsv
+[6.452s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/environment/path.sh
+[6.452s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/environment/path.dsv
+[6.452s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/local_setup.bash
+[6.452s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/local_setup.sh
+[6.452s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/local_setup.zsh
+[6.453s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/local_setup.dsv
+[6.453s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/package.dsv
+[6.453s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/ament_index/resource_index/packages/rrm_msgs
+[6.453s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/cmake/export_rrm_msgs__rosidl_generator_cExport.cmake
+[6.454s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/cmake/export_rrm_msgs__rosidl_generator_cExport-noconfig.cmake
+[6.454s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/cmake/export_rrm_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[6.454s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/cmake/export_rrm_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.455s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/cmake/rrm_msgs__rosidl_typesupport_introspection_cExport.cmake
+[6.455s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/cmake/rrm_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.455s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/cmake/rrm_msgs__rosidl_typesupport_cExport.cmake
+[6.456s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/cmake/rrm_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[6.456s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/cmake/export_rrm_msgs__rosidl_generator_cppExport.cmake
+[6.456s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/cmake/export_rrm_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.456s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/cmake/export_rrm_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.457s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/cmake/rrm_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[6.457s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/cmake/rrm_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.457s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/cmake/rrm_msgs__rosidl_typesupport_cppExport.cmake
+[6.457s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/cmake/rrm_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[6.457s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/cmake/export_rrm_msgs__rosidl_generator_pyExport.cmake
+[6.458s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/cmake/export_rrm_msgs__rosidl_generator_pyExport-noconfig.cmake
+[6.458s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/cmake/rosidl_cmake-extras.cmake
+[6.458s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.458s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.459s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.459s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.459s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.459s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.459s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/cmake/rrm_msgsConfig.cmake
+[6.460s] -- Installing: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/cmake/rrm_msgsConfig-version.cmake
+[6.460s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/package.xml
+[6.463s] Invoked command in '/home/dominik/RRM/ros2_ws/build/rrm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dominik/RRM/ros2_ws/install/rrm_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/rrm_msgs

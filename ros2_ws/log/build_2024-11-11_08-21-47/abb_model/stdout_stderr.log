@@ -1,0 +1,74 @@
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rviz2: 14.1.5 (/opt/ros/jazzy/share/rviz2/cmake)
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/dominik/RRM/ros2_ws/build/abb_model
+-- Install configuration: ""
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/urdf
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/urdf/camera_macro.xacro
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/urdf/camera.xacro
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/urdf/abb_irb4600_60_205.xacro
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/urdf/abb_irb4600_60_205_macro.xacro
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/urdf/robot.urdf
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/config
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/config/urdf.rviz
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/launch
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/launch/test_irb4600.launch.xml
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/launch/test_irb4600.launch.py
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/launch/rsp_irb4600.launch.xml
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/launch/rsp_irb4600.launch.py
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/meshes
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/collision
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/collision/link_1.stl
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/collision/link_5.stl
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/collision/base_link.stl
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/collision/link_4.stl
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/collision/link_2.stl
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/collision/link_3.stl
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/collision/link_6.stl
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/collision/mount.stl
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/visual
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/visual/link_1.stl
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/visual/link_5.stl
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/visual/base_link.stl
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/visual/link_4.stl
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/visual/link_2.stl
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/visual/link_3.stl
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/visual/link_6.stl
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/visual/mount.stl
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/meshes/kinect
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/meshes/kinect/collision
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/meshes/kinect/collision/kinect_sensor.stl
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/meshes/kinect/collision/kinect_sensor_empty.stl
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/meshes/kinect/visual
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/meshes/kinect/visual/kinect_sensor.stl
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/meshes/kinect/visual/kinect_sensor_empty.stl
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/ament_index/resource_index/package_run_dependencies/abb_model
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/ament_index/resource_index/parent_prefix_path/abb_model
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/environment/ament_prefix_path.sh
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/environment/ament_prefix_path.dsv
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/environment/path.sh
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/environment/path.dsv
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/local_setup.bash
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/local_setup.sh
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/local_setup.zsh
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/local_setup.dsv
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/package.dsv
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/ament_index/resource_index/packages/abb_model
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/cmake/abb_modelConfig.cmake
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/cmake/abb_modelConfig-version.cmake
+-- Installing: /home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/package.xml

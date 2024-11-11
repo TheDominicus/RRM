@@ -1,0 +1,54 @@
+[0.033s] Invoking command in '/home/dominik/RRM/ros2_ws/build/eigen_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dominik/RRM/ros2_ws/install/rrm_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dominik/RRM/ros2_ws/src/eigen_example -DCMAKE_INSTALL_PREFIX=/home/dominik/RRM/ros2_ws/install/eigen_example
+[0.128s] -- The C compiler identification is GNU 13.2.0
+[0.215s] -- The CXX compiler identification is GNU 13.2.0
+[0.243s] -- Detecting C compiler ABI info
+[0.348s] -- Detecting C compiler ABI info - done
+[0.355s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.355s] -- Detecting C compile features
+[0.356s] -- Detecting C compile features - done
+[0.364s] -- Detecting CXX compiler ABI info
+[0.463s] -- Detecting CXX compiler ABI info - done
+[0.475s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.475s] -- Detecting CXX compile features
+[0.475s] -- Detecting CXX compile features - done
+[0.480s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.640s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.750s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.793s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.808s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.826s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.846s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.927s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.931s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.015s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.037s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.061s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.217s] -- Configuring done (1.2s)
+[1.225s] -- Generating done (0.0s)
+[1.229s] -- Build files have been written to: /home/dominik/RRM/ros2_ws/build/eigen_example
+[1.239s] Invoked command in '/home/dominik/RRM/ros2_ws/build/eigen_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dominik/RRM/ros2_ws/install/rrm_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dominik/RRM/ros2_ws/src/eigen_example -DCMAKE_INSTALL_PREFIX=/home/dominik/RRM/ros2_ws/install/eigen_example
+[1.240s] Invoking command in '/home/dominik/RRM/ros2_ws/build/eigen_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dominik/RRM/ros2_ws/install/rrm_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/eigen_example -- -j16 -l16
+[1.295s] [ 50%] [32mBuilding CXX object CMakeFiles/eigen_example.dir/src/eigen_example.cpp.o[0m
+[8.311s] [100%] [32m[1mLinking CXX executable eigen_example[0m
+[8.467s] [100%] Built target eigen_example
+[8.480s] Invoked command in '/home/dominik/RRM/ros2_ws/build/eigen_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dominik/RRM/ros2_ws/install/rrm_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/eigen_example -- -j16 -l16
+[8.508s] Invoking command in '/home/dominik/RRM/ros2_ws/build/eigen_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dominik/RRM/ros2_ws/install/rrm_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/eigen_example
+[8.516s] -- Install configuration: ""
+[8.517s] -- Installing: /home/dominik/RRM/ros2_ws/install/eigen_example/lib/eigen_example/eigen_example
+[8.519s] -- Set non-toolchain portion of runtime path of "/home/dominik/RRM/ros2_ws/install/eigen_example/lib/eigen_example/eigen_example" to ""
+[8.519s] -- Installing: /home/dominik/RRM/ros2_ws/install/eigen_example/share/ament_index/resource_index/package_run_dependencies/eigen_example
+[8.519s] -- Installing: /home/dominik/RRM/ros2_ws/install/eigen_example/share/ament_index/resource_index/parent_prefix_path/eigen_example
+[8.519s] -- Installing: /home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/environment/ament_prefix_path.sh
+[8.520s] -- Installing: /home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/environment/ament_prefix_path.dsv
+[8.520s] -- Installing: /home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/environment/path.sh
+[8.520s] -- Installing: /home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/environment/path.dsv
+[8.520s] -- Installing: /home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/local_setup.bash
+[8.520s] -- Installing: /home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/local_setup.sh
+[8.521s] -- Installing: /home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/local_setup.zsh
+[8.521s] -- Installing: /home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/local_setup.dsv
+[8.521s] -- Installing: /home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/package.dsv
+[8.521s] -- Installing: /home/dominik/RRM/ros2_ws/install/eigen_example/share/ament_index/resource_index/packages/eigen_example
+[8.521s] -- Installing: /home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/cmake/eigen_exampleConfig.cmake
+[8.521s] -- Installing: /home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/cmake/eigen_exampleConfig-version.cmake
+[8.522s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/package.xml
+[8.524s] Invoked command in '/home/dominik/RRM/ros2_ws/build/eigen_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dominik/RRM/ros2_ws/install/rrm_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/eigen_example

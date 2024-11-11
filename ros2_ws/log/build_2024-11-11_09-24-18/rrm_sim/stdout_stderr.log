@@ -1,0 +1,21 @@
+[100%] Built target robot_sim_node
+-- Install configuration: ""
+-- Installing: /home/dominik/RRM/ros2_ws/install/rrm_sim/lib/rrm_sim/robot_sim_node
+-- Set non-toolchain portion of runtime path of "/home/dominik/RRM/ros2_ws/install/rrm_sim/lib/rrm_sim/robot_sim_node" to ""
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_sim/share/rrm_sim/launch
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_sim/share/rrm_sim/launch/rrm_sim.launch.xml
+-- Installing: /home/dominik/RRM/ros2_ws/install/rrm_sim/share/ament_index/resource_index/package_run_dependencies/rrm_sim
+-- Installing: /home/dominik/RRM/ros2_ws/install/rrm_sim/share/ament_index/resource_index/parent_prefix_path/rrm_sim
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_sim/share/rrm_sim/environment/ament_prefix_path.sh
+-- Installing: /home/dominik/RRM/ros2_ws/install/rrm_sim/share/rrm_sim/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_sim/share/rrm_sim/environment/path.sh
+-- Installing: /home/dominik/RRM/ros2_ws/install/rrm_sim/share/rrm_sim/environment/path.dsv
+-- Installing: /home/dominik/RRM/ros2_ws/install/rrm_sim/share/rrm_sim/local_setup.bash
+-- Installing: /home/dominik/RRM/ros2_ws/install/rrm_sim/share/rrm_sim/local_setup.sh
+-- Installing: /home/dominik/RRM/ros2_ws/install/rrm_sim/share/rrm_sim/local_setup.zsh
+-- Installing: /home/dominik/RRM/ros2_ws/install/rrm_sim/share/rrm_sim/local_setup.dsv
+-- Installing: /home/dominik/RRM/ros2_ws/install/rrm_sim/share/rrm_sim/package.dsv
+-- Installing: /home/dominik/RRM/ros2_ws/install/rrm_sim/share/ament_index/resource_index/packages/rrm_sim
+-- Installing: /home/dominik/RRM/ros2_ws/install/rrm_sim/share/rrm_sim/cmake/rrm_simConfig.cmake
+-- Installing: /home/dominik/RRM/ros2_ws/install/rrm_sim/share/rrm_sim/cmake/rrm_simConfig-version.cmake
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/rrm_sim/share/rrm_sim/package.xml

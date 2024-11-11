@@ -1,0 +1,2 @@
+Invoking command in '/home/dominik/RRM/ros2_ws/build/zad2.1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dominik/RRM/ros2_ws/src/zad2.1 -DCMAKE_INSTALL_PREFIX=/home/dominik/RRM/ros2_ws/install/zad2.1
+Invoked command in '/home/dominik/RRM/ros2_ws/build/zad2.1' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dominik/RRM/ros2_ws/src/zad2.1 -DCMAKE_INSTALL_PREFIX=/home/dominik/RRM/ros2_ws/install/zad2.1

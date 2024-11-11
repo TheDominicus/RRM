@@ -26,13 +26,9 @@ $<INSTALL_INTERFACE:include/${PROJECT_NAME}>)
 target_compile_features(teleop_node PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
 ament_target_dependencies(
   teleop_node
+  surani_interface
   "rclcpp"
   "rrm_msgs"
-)
-ament_target_dependencies(
-  logger_node
-  "rclcpp"
-  "sensor_msgs"
 )
 
 install(TARGETS teleop_node
