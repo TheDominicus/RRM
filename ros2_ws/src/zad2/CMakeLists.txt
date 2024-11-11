@@ -8,6 +8,10 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(std_msgs REQUIRED)
+find_package(sensor_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(std_srvs REQUIRED)  # Add this line
 
 add_executable(zad2_node src/zad2_node.cpp)
 target_include_directories(zad2_node PUBLIC
@@ -16,14 +20,23 @@ target_include_directories(zad2_node PUBLIC
 target_compile_features(zad2_node PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
 ament_target_dependencies(
   zad2_node
-  "rclcpp"
+  rclcpp
+  std_msgs
+  sensor_msgs
+  geometry_msgs
+  std_srvs  # Add this line
 )
 
 ament_export_include_directories(include)
 ament_export_dependencies(rclcpp)
+ament_export_dependencies(std_msgs)
+ament_export_dependencies(sensor_msgs)
+ament_export_dependencies(geometry_msgs)
+ament_export_dependencies(std_srvs)  # Add this line
 
 install(TARGETS zad2_node
-  DESTINATION lib/${PROJECT_NAME})
+  DESTINATION lib/${PROJECT_NAME}
+)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

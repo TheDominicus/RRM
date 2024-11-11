@@ -12,21 +12,21 @@ using namespace std::chrono_literals;
 class TrajectoryNode : public rclcpp::Node {
 public:
     TrajectoryNode() : Node("trajectory_node"), running_(false) {
-        // Vytvoriť publisher pre joint state
-        joint_pub_ = this->create_publisher<sensor_msgs::msg::JointState>("joint_states", 10);
+        // Create publisher for joint state
+        joint_pub_ = create_publisher<sensor_msgs::msg::JointState>("joint_states", 10);
 
-        // Vytvoriť server pre spustenie trajektórie
-        service_ = this->create_service<std_srvs::srv::Trigger>("start_trajectory", 
+        // Create service for starting trajectory
+        service_ = create_service<std_srvs::srv::Trigger>("start_trajectory", 
             std::bind(&TrajectoryNode::start_trajectory, this, std::placeholders::_1, std::placeholders::_2));
 
-        timer_ = this->create_wall_timer(100ms, std::bind(&TrajectoryNode::update, this));
+        timer_ = create_wall_timer(100ms, std::bind(&TrajectoryNode::update, this));
     }
 
 private:
     void start_trajectory(const std::shared_ptr<std_srvs::srv::Trigger::Request> request,
                           std::shared_ptr<std_srvs::srv::Trigger::Response> response) {
         running_ = true;
-        start_time_ = this->now();
+        start_time_ = now();
         response->success = true;
         response->message = "Trajectory started.";
     }
@@ -34,7 +34,7 @@ private:
     void update() {
         if (!running_) return;
 
-        auto current_time = this->now() - start_time_;
+        auto current_time = now() - start_time_;
         double t = current_time.seconds();
 
         sensor_msgs::msg::JointState joint_state;
@@ -43,7 +43,7 @@ private:
         joint_state.velocity.resize(2);
         joint_state.effort.resize(2);
 
-        // Podľa tabuľky 1:
+        // According to Table 1:
         if (t < 1.0) {
             joint_state.position[0] = 0.0;
             joint_state.velocity[0] = 0.0;
