@@ -12,8 +12,10 @@ using namespace std::chrono_literals;
 class TrajectoryNode : public rclcpp::Node {
 public:
     TrajectoryNode() : Node("trajectory_node"), running_(false) {
+        // Vytvoriť publisher pre joint state
         joint_pub_ = this->create_publisher<sensor_msgs::msg::JointState>("joint_states", 10);
 
+        // Vytvoriť server pre spustenie trajektórie
         service_ = this->create_service<std_srvs::srv::Trigger>("start_trajectory", 
             std::bind(&TrajectoryNode::start_trajectory, this, std::placeholders::_1, std::placeholders::_2));
 
@@ -41,6 +43,7 @@ private:
         joint_state.velocity.resize(2);
         joint_state.effort.resize(2);
 
+        // Podľa tabuľky 1:
         if (t < 1.0) {
             joint_state.position[0] = 0.0;
             joint_state.velocity[0] = 0.0;

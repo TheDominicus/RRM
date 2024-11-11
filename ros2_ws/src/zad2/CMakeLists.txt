@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(zad2.1)
+project(zad2)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
@@ -8,20 +8,21 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
-find_package(std_msgs REQUIRED)  # Add any other required packages here
 
-add_executable(zad2.1_node src/zad2.1_node.cpp)
-target_include_directories(zad2.1_node PUBLIC
+add_executable(zad2_node src/zad2_node.cpp)
+target_include_directories(zad2_node PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include/${PROJECT_NAME}>)
-target_compile_features(zad2.1_node PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
+target_compile_features(zad2_node PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
 ament_target_dependencies(
-  zad2.1_node
+  zad2_node
   "rclcpp"
-  "std_msgs"  # Add any other required dependencies here
 )
 
-install(TARGETS zad2.1_node
+ament_export_include_directories(include)
+ament_export_dependencies(rclcpp)
+
+install(TARGETS zad2_node
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
@@ -37,3 +38,6 @@ if(BUILD_TESTING)
 endif()
 
 ament_package()
+install(DIRECTORY include/
+  DESTINATION include/${PROJECT_NAME}
+)
