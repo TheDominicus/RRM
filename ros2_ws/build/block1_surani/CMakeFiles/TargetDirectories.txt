@@ -2,6 +2,7 @@
 /home/dominik/RRM/ros2_ws/build/block1_surani/CMakeFiles/block1_surani_uninstall.dir
 /home/dominik/RRM/ros2_ws/build/block1_surani/CMakeFiles/teleop_node.dir
 /home/dominik/RRM/ros2_ws/build/block1_surani/CMakeFiles/logger_node.dir
+/home/dominik/RRM/ros2_ws/build/block1_surani/CMakeFiles/jointlogger_node.dir
 /home/dominik/RRM/ros2_ws/build/block1_surani/CMakeFiles/test.dir
 /home/dominik/RRM/ros2_ws/build/block1_surani/CMakeFiles/edit_cache.dir
 /home/dominik/RRM/ros2_ws/build/block1_surani/CMakeFiles/rebuild_cache.dir

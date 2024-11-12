@@ -17,24 +17,54 @@ find_package(Eigen3 REQUIRED)
 
 add_executable(teleop_node src/teleop_node.cpp)
 add_executable(logger_node src/logger_node.cpp)
+add_executable(jointlogger_node src/jointlogger.cpp)
+
 target_include_directories(teleop_node PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include/${PROJECT_NAME}>)
-target_include_directories( logger_node PUBLIC
-$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
-$<INSTALL_INTERFACE:include/${PROJECT_NAME}>)
+target_include_directories(logger_node PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include/${PROJECT_NAME}>)
+target_include_directories(jointlogger_node PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include/${PROJECT_NAME}>)
+
 target_compile_features(teleop_node PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
+target_compile_features(logger_node PUBLIC c_std_99 cxx_std_17)
+target_compile_features(jointlogger_node PUBLIC c_std_99 cxx_std_17)
+
 ament_target_dependencies(
   teleop_node
-  surani_interface
+  "surani_interface"
   "rclcpp"
   "rrm_msgs"
+  "geometry_msgs"
+  "sensor_msgs"
+  "tf2_ros"
+  "Eigen3"
+)
+ament_target_dependencies(
+  logger_node
+  "rclcpp"
+  "tf2_ros"
+  "sensor_msgs"
+  "geometry_msgs"
+  "rrm_msgs"
+  "surani_interface"
+  "Eigen3"
+)
+ament_target_dependencies(
+  jointlogger_node
+  "rclcpp"
+  "tf2_ros"
+  "sensor_msgs"
+  "geometry_msgs"
+  "rrm_msgs"
+  "surani_interface"
+  "Eigen3"
 )
 
-install(TARGETS teleop_node
-  DESTINATION lib/${PROJECT_NAME})
-
-install(TARGETS teleop_node logger_node
+install(TARGETS teleop_node logger_node jointlogger_node
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)

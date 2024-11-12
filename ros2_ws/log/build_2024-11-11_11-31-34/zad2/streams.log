@@ -1,0 +1,8 @@
+[0.039s] Invoking command in '/home/dominik/RRM/ros2_ws/build/zad2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dominik/RRM/ros2_ws/install/rrm_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/zad2 -- -j16 -l16
+[0.111s] [ 50%] [32mBuilding CXX object CMakeFiles/zad2_node.dir/src/zad2_node.cpp.o[0m
+[2.314s] [01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:[m[K In member function ‘[01m[Kvoid TrajectoryNode::[01;32m[Kstart_trajectory[m[K(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)[m[K’:
+[2.315s] [01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:26:82:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.315s]    26 |     void start_trajectory([01;35m[Kconst std::shared_ptr<std_srvs::srv::Trigger::Request> request[m[K,
+[2.315s]       |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[4.986s] [100%] [32m[1mLinking CXX executable zad2_node[0m
+[5.142s] [100%] Built target zad2_node

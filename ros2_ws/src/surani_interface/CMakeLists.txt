@@ -7,13 +7,12 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-# uncomment the following section in order to fill in
-# further dependencies manually.
-# find_package(<dependency> REQUIRED)
-find_package (rosidl_default_generators REQUIRED)
-rosidl_generate_interfaces( ${PROJECT_NAME}
+find_package(rosidl_default_generators REQUIRED)
+find_package(block1_surani REQUIRED)  # Add this line to find block1_surani package
+
+rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/TeachPoint.srv"
-  #DEPENDENCIES geometry_msgs # Ak chcete aby vase interfaces pouzivali aj ine zavislosti
+  #DEPENDENCIES geometry_msgs # Uncomment and add dependencies if needed
 )
 
 if(BUILD_TESTING)

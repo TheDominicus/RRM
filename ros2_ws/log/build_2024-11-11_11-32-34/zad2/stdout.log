@@ -1,0 +1,23 @@
+[100%] Built target zad2_node
+-- Install configuration: ""
+-- Installing: /home/dominik/RRM/ros2_ws/install/zad2/lib/zad2/zad2_node
+-- Set non-toolchain portion of runtime path of "/home/dominik/RRM/ros2_ws/install/zad2/lib/zad2/zad2_node" to ""
+-- Installing: /home/dominik/RRM/ros2_ws/install/zad2/share/ament_index/resource_index/package_run_dependencies/zad2
+-- Installing: /home/dominik/RRM/ros2_ws/install/zad2/share/ament_index/resource_index/parent_prefix_path/zad2
+-- Installing: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/environment/ament_prefix_path.sh
+-- Installing: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/environment/ament_prefix_path.dsv
+-- Installing: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/environment/path.sh
+-- Installing: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/environment/path.dsv
+-- Installing: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/local_setup.bash
+-- Installing: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/local_setup.sh
+-- Installing: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/local_setup.zsh
+-- Installing: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/local_setup.dsv
+-- Installing: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/package.dsv
+-- Installing: /home/dominik/RRM/ros2_ws/install/zad2/share/ament_index/resource_index/packages/zad2
+-- Installing: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/cmake/zad2Config.cmake
+-- Installing: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/cmake/zad2Config-version.cmake
+-- Installing: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/package.xml
+-- Installing: /home/dominik/RRM/ros2_ws/install/zad2/include/zad2
+-- Installing: /home/dominik/RRM/ros2_ws/install/zad2/include/zad2/zad2

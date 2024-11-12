@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/jointlogger_node.dir/src/jointlogger.cpp.o -o jointlogger_node 

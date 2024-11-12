@@ -943,4 +943,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/block1_surani_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/teleop_node.dir/DependInfo.cmake"
   "CMakeFiles/logger_node.dir/DependInfo.cmake"
+  "CMakeFiles/jointlogger_node.dir/DependInfo.cmake"
   )

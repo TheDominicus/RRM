@@ -223,6 +223,43 @@ logger_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/logger_node.dir/build.make CMakeFiles/logger_node.dir/build
 .PHONY : logger_node/fast
 
+#=============================================================================
+# Target rules for targets named jointlogger_node
+
+# Build rule for target.
+jointlogger_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 jointlogger_node
+.PHONY : jointlogger_node
+
+# fast build rule for target.
+jointlogger_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jointlogger_node.dir/build.make CMakeFiles/jointlogger_node.dir/build
+.PHONY : jointlogger_node/fast
+
+src/jointlogger.o: src/jointlogger.cpp.o
+.PHONY : src/jointlogger.o
+
+# target to build an object file
+src/jointlogger.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jointlogger_node.dir/build.make CMakeFiles/jointlogger_node.dir/src/jointlogger.cpp.o
+.PHONY : src/jointlogger.cpp.o
+
+src/jointlogger.i: src/jointlogger.cpp.i
+.PHONY : src/jointlogger.i
+
+# target to preprocess a source file
+src/jointlogger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jointlogger_node.dir/build.make CMakeFiles/jointlogger_node.dir/src/jointlogger.cpp.i
+.PHONY : src/jointlogger.cpp.i
+
+src/jointlogger.s: src/jointlogger.cpp.s
+.PHONY : src/jointlogger.s
+
+# target to generate assembly for a file
+src/jointlogger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jointlogger_node.dir/build.make CMakeFiles/jointlogger_node.dir/src/jointlogger.cpp.s
+.PHONY : src/jointlogger.cpp.s
+
 src/logger_node.o: src/logger_node.cpp.o
 .PHONY : src/logger_node.o
 
@@ -286,8 +323,12 @@ help:
 	@echo "... test"
 	@echo "... block1_surani_uninstall"
 	@echo "... uninstall"
+	@echo "... jointlogger_node"
 	@echo "... logger_node"
 	@echo "... teleop_node"
+	@echo "... src/jointlogger.o"
+	@echo "... src/jointlogger.i"
+	@echo "... src/jointlogger.s"
 	@echo "... src/logger_node.o"
 	@echo "... src/logger_node.i"
 	@echo "... src/logger_node.s"
