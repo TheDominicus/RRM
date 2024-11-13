@@ -1,0 +1,27 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/jointlogger_node.dir/src/jointlogger.cpp.o[0m
+[ 83%] Built target teleop_node
+[ 83%] Built target logger_node
+[100%] [32m[1mLinking CXX executable jointlogger_node[0m
+[100%] Built target jointlogger_node
+-- Install configuration: ""
+-- Installing: /home/dominik/RRM/ros2_ws/install/block1_surani/lib/block1_surani/teleop_node
+-- Set non-toolchain portion of runtime path of "/home/dominik/RRM/ros2_ws/install/block1_surani/lib/block1_surani/teleop_node" to ""
+-- Installing: /home/dominik/RRM/ros2_ws/install/block1_surani/lib/block1_surani/logger_node
+-- Set non-toolchain portion of runtime path of "/home/dominik/RRM/ros2_ws/install/block1_surani/lib/block1_surani/logger_node" to ""
+-- Installing: /home/dominik/RRM/ros2_ws/install/block1_surani/lib/block1_surani/jointlogger_node
+-- Set non-toolchain portion of runtime path of "/home/dominik/RRM/ros2_ws/install/block1_surani/lib/block1_surani/jointlogger_node" to ""
+-- Installing: /home/dominik/RRM/ros2_ws/install/block1_surani/share/ament_index/resource_index/package_run_dependencies/block1_surani
+-- Installing: /home/dominik/RRM/ros2_ws/install/block1_surani/share/ament_index/resource_index/parent_prefix_path/block1_surani
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/environment/ament_prefix_path.sh
+-- Installing: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/environment/path.sh
+-- Installing: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/environment/path.dsv
+-- Installing: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/local_setup.bash
+-- Installing: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/local_setup.sh
+-- Installing: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/local_setup.zsh
+-- Installing: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/local_setup.dsv
+-- Installing: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/package.dsv
+-- Installing: /home/dominik/RRM/ros2_ws/install/block1_surani/share/ament_index/resource_index/packages/block1_surani
+-- Installing: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/cmake/block1_suraniConfig.cmake
+-- Installing: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/cmake/block1_suraniConfig-version.cmake
+-- Installing: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/package.xml

@@ -124,7 +124,7 @@
   <link name="link_6">
     <visual>
       <geometry>
-        <cylinder length="0.0" radius = "0.01"/>
+        <cylinder length="0" radius = "0.01"/>
       </geometry>
       <material name="white">
         <color rgba="1 1 1 1"/>

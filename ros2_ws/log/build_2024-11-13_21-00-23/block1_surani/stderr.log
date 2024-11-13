@@ -1,0 +1,14 @@
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/jointlogger.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Ksurani_interface/srv/TeachPoint.hpp: Adresár alebo súbor neexistuje
+    1 | #include [01;31m[K"surani_interface/srv/TeachPoint.hpp"[m[K //header file pre srv interface
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/jointlogger_node.dir/build.make:76: CMakeFiles/jointlogger_node.dir/src/jointlogger.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/jointlogger_node.dir/all] Error 2
+gmake[1]: *** Čaká sa na nedokončené úlohy....
+[01m[K/home/dominik/RRM/ros2_ws/src/block1_surani/src/logger_node.cpp:9:10:[m[K [01;31m[Kfatal error: [m[KEigen/Geometry: Adresár alebo súbor neexistuje
+    9 | #include [01;31m[K<Eigen/Geometry>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/logger_node.dir/build.make:76: CMakeFiles/logger_node.dir/src/logger_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/logger_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

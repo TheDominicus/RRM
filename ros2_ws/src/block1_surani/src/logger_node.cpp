@@ -5,7 +5,7 @@
 #include <fstream>
 #include "rclcpp/rclcpp.hpp"
 #include "sensor_msgs/msg/joint_state.hpp"
-#include "surani_interface/srv/TeachPoint.hpp"
+#include "surani_interface/srv/teach_point.hpp"
 #include <Eigen/Geometry>
 #include <cmath>
 #include <array>
@@ -55,10 +55,10 @@ void JointLogger::joint_states_callback(const sensor_msgs::msg::JointState::Shar
 	geometry_msgs::msg::TransformStamped transform;
 	transform.header.stamp = this->get_clock()->now();
 	transform.header.frame_id = "base_link";
-	transform.child_frame_id = "tool0";
+	transform.child_frame_id = "tool0_calculated";
 
-	std::array<double, 6> a = {0, 0.203, 0.203, 0.05, 0.15, 0};
-	std::array<double, 6> d = {0, 0, 0, 0.25, 0, 0.1805 + msg->position[5]};
+	std::array<double, 6> a = {0, 0.203, 0, 0, 0, 0};
+	std::array<double, 6> d = {0, 0, 0, 0.253, 0, 0.15 + msg->position[5]};
 	std::array<double, 6> Alpha = {M_PI / 2, 0, M_PI / 2, M_PI / 2, M_PI / 2, 0};
 	std::array<double, 6> Theta = {msg->position[0] + M_PI, msg->position[1] + M_PI / 2, msg->position[2] + M_PI / 2,
 	 msg->position[3] + M_PI, msg->position[4] + M_PI, 0};
@@ -66,8 +66,8 @@ void JointLogger::joint_states_callback(const sensor_msgs::msg::JointState::Shar
 	Eigen::Matrix4d T = Eigen::Matrix4d::Identity();
 	for (int i = 0; i < 6; ++i) {
 		Eigen::Matrix4d Ai;
-		Ai << cos(Theta[i]), -sin(Theta[i]) * cos(Alpha[i]), sin(Theta[i]) * sin(Alpha[i]), a[i] * cos(Theta[i]),
-			  sin(Theta[i]), cos(Theta[i]) * cos(Alpha[i]), -cos(Theta[i]) * sin(Alpha[i]), a[i] * sin(Theta[i]),
+		Ai << cos(Theta[i]), -1*sin(Theta[i]) * cos(Alpha[i]), sin(Theta[i]) * sin(Alpha[i]), a[i] * cos(Theta[i]),
+			  sin(Theta[i]), cos(Theta[i]) * cos(Alpha[i]), -1*cos(Theta[i]) * sin(Alpha[i]), a[i] * sin(Theta[i]),
 			  0, sin(Alpha[i]), cos(Alpha[i]), d[i],
 			  0, 0, 0, 1;
 		T *= Ai;

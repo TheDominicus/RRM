@@ -15,6 +15,8 @@ find_package(sensor_msgs REQUIRED)
 find_package(surani_interface REQUIRED)
 find_package(Eigen3 REQUIRED)
 
+include_directories( ${EIGEN3_INCLUDE_DIRS} )
+
 add_executable(teleop_node src/teleop_node.cpp)
 add_executable(logger_node src/logger_node.cpp)
 add_executable(jointlogger_node src/jointlogger.cpp)
@@ -66,6 +68,10 @@ ament_target_dependencies(
 
 install(TARGETS teleop_node logger_node jointlogger_node
   DESTINATION lib/${PROJECT_NAME})
+
+install(DIRECTORY launch
+  DESTINATION share/${PROJECT_NAME}/
+)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

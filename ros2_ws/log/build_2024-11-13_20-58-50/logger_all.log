@@ -1,0 +1,749 @@
+[0.207s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.207s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7a4c8988ad80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7a4c8988abd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7a4c8988abd0>>, mixin_verb=('build',))
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.273s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dominik/RRM/ros2_ws'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/abb_model) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/abb_model) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/abb_model) by extension 'ignore_ament_install'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/abb_model) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/abb_model) by extension 'colcon_pkg'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/abb_model) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/abb_model) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/abb_model) by extensions ['ros']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/abb_model) by extension 'ros'
+[0.318s] DEBUG:colcon.colcon_core.package_identification:Package 'src/abb_model' with type 'ros.ament_cmake' and name 'abb_model'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/block1_surani) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/block1_surani) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/block1_surani) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/block1_surani) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/block1_surani) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/block1_surani) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/block1_surani) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/block1_surani) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/block1_surani) by extension 'ros'
+[0.321s] DEBUG:colcon.colcon_core.package_identification:Package 'src/block1_surani' with type 'ros.ament_cmake' and name 'block1_surani'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv1) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv1) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv1) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv1) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv1) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv1) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv1) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv1) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/cv1) by extension 'ros'
+[0.322s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cv1' with type 'ros.ament_cmake' and name 'cv1'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/eigen_example) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/eigen_example) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/eigen_example) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/eigen_example) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/eigen_example) by extension 'colcon_pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/eigen_example) by extensions ['colcon_meta']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/eigen_example) by extension 'colcon_meta'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/eigen_example) by extensions ['ros']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/eigen_example) by extension 'ros'
+[0.324s] DEBUG:colcon.colcon_core.package_identification:Package 'src/eigen_example' with type 'ros.ament_cmake' and name 'eigen_example'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm) by extension 'ros'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm) by extensions ['cmake', 'python']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm) by extension 'cmake'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm) by extension 'python'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm) by extensions ['python_setup_py']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm) by extension 'python_setup_py'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_msgs) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_msgs) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_msgs) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_msgs) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_msgs) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_msgs) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_msgs) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_msgs) by extension 'ros'
+[0.327s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rrm/rrm_msgs' with type 'ros.ament_cmake' and name 'rrm_msgs'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_sim) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_sim) by extension 'ignore_ament_install'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_sim) by extensions ['colcon_pkg']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_sim) by extension 'colcon_pkg'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_sim) by extensions ['colcon_meta']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_sim) by extension 'colcon_meta'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_sim) by extensions ['ros']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_sim) by extension 'ros'
+[0.328s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rrm/rrm_sim' with type 'ros.ament_cmake' and name 'rrm_sim'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_simple_robot_model) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_simple_robot_model) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_simple_robot_model) by extension 'ignore_ament_install'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_simple_robot_model) by extensions ['colcon_pkg']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_simple_robot_model) by extension 'colcon_pkg'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_simple_robot_model) by extensions ['colcon_meta']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_simple_robot_model) by extension 'colcon_meta'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_simple_robot_model) by extensions ['ros']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrm/rrm_simple_robot_model) by extension 'ros'
+[0.330s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rrm/rrm_simple_robot_model' with type 'ros.ament_cmake' and name 'rrm_simple_robot_model'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/surani_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/surani_interface) by extension 'ignore'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/surani_interface) by extension 'ignore_ament_install'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/surani_interface) by extensions ['colcon_pkg']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/surani_interface) by extension 'colcon_pkg'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/surani_interface) by extensions ['colcon_meta']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/surani_interface) by extension 'colcon_meta'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/surani_interface) by extensions ['ros']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/surani_interface) by extension 'ros'
+[0.331s] DEBUG:colcon.colcon_core.package_identification:Package 'src/surani_interface' with type 'ros.ament_cmake' and name 'surani_interface'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_visualization) by extensions ['ignore', 'ignore_ament_install']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_visualization) by extension 'ignore'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_visualization) by extension 'ignore_ament_install'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_visualization) by extensions ['colcon_pkg']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_visualization) by extension 'colcon_pkg'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_visualization) by extensions ['colcon_meta']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_visualization) by extension 'colcon_meta'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_visualization) by extensions ['ros']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_visualization) by extension 'ros'
+[0.333s] DEBUG:colcon.colcon_core.package_identification:Package 'src/trajectory_visualization' with type 'ros.ament_cmake' and name 'trajectory_visualization'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/zad2) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/zad2) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/zad2) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/zad2) by extensions ['colcon_pkg']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/zad2) by extension 'colcon_pkg'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/zad2) by extensions ['colcon_meta']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/zad2) by extension 'colcon_meta'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/zad2) by extensions ['ros']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/zad2) by extension 'ros'
+[0.335s] DEBUG:colcon.colcon_core.package_identification:Package 'src/zad2' with type 'ros.ament_cmake' and name 'zad2'
+[0.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.389s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/dominik/RRM/zad1/install
+[0.390s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 12 installed packages in /home/dominik/RRM/ros2_ws/install
+[0.393s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 290 installed packages in /opt/ros/jazzy
+[0.395s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.466s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'rrm_msgs' is in: /home/dominik/RRM/ros2_ws/install/rrm_msgs
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding rrm_msgs
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'abb_model' build argument 'cmake_args' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'abb_model' build argument 'cmake_target' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'abb_model' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'abb_model' build argument 'cmake_clean_cache' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'abb_model' build argument 'cmake_clean_first' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'abb_model' build argument 'cmake_force_configure' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'abb_model' build argument 'ament_cmake_args' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'abb_model' build argument 'catkin_cmake_args' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'abb_model' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.467s] DEBUG:colcon.colcon_core.verb:Building package 'abb_model' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dominik/RRM/ros2_ws/build/abb_model', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dominik/RRM/ros2_ws/install/abb_model', 'merge_install': False, 'path': '/home/dominik/RRM/ros2_ws/src/abb_model', 'symlink_install': False, 'test_result_base': None}
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'cv1' build argument 'cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'cv1' build argument 'cmake_target' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'cv1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'cv1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'cv1' build argument 'cmake_clean_first' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'cv1' build argument 'cmake_force_configure' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'cv1' build argument 'ament_cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'cv1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'cv1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.468s] DEBUG:colcon.colcon_core.verb:Building package 'cv1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dominik/RRM/ros2_ws/build/cv1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dominik/RRM/ros2_ws/install/cv1', 'merge_install': False, 'path': '/home/dominik/RRM/ros2_ws/src/cv1', 'symlink_install': False, 'test_result_base': None}
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'eigen_example' build argument 'cmake_args' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'eigen_example' build argument 'cmake_target' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'eigen_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'eigen_example' build argument 'cmake_clean_cache' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'eigen_example' build argument 'cmake_clean_first' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'eigen_example' build argument 'cmake_force_configure' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'eigen_example' build argument 'ament_cmake_args' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'eigen_example' build argument 'catkin_cmake_args' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'eigen_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.469s] DEBUG:colcon.colcon_core.verb:Building package 'eigen_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dominik/RRM/ros2_ws/build/eigen_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dominik/RRM/ros2_ws/install/eigen_example', 'merge_install': False, 'path': '/home/dominik/RRM/ros2_ws/src/eigen_example', 'symlink_install': False, 'test_result_base': None}
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'rrm_msgs' build argument 'cmake_args' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'rrm_msgs' build argument 'cmake_target' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'rrm_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'rrm_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'rrm_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'rrm_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'rrm_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'rrm_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'rrm_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.470s] DEBUG:colcon.colcon_core.verb:Building package 'rrm_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dominik/RRM/ros2_ws/build/rrm_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dominik/RRM/ros2_ws/install/rrm_msgs', 'merge_install': False, 'path': '/home/dominik/RRM/ros2_ws/src/rrm/rrm_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'rrm_simple_robot_model' build argument 'cmake_args' from command line to 'None'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'rrm_simple_robot_model' build argument 'cmake_target' from command line to 'None'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'rrm_simple_robot_model' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'rrm_simple_robot_model' build argument 'cmake_clean_cache' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'rrm_simple_robot_model' build argument 'cmake_clean_first' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'rrm_simple_robot_model' build argument 'cmake_force_configure' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'rrm_simple_robot_model' build argument 'ament_cmake_args' from command line to 'None'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'rrm_simple_robot_model' build argument 'catkin_cmake_args' from command line to 'None'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'rrm_simple_robot_model' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.470s] DEBUG:colcon.colcon_core.verb:Building package 'rrm_simple_robot_model' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dominik/RRM/ros2_ws/build/rrm_simple_robot_model', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model', 'merge_install': False, 'path': '/home/dominik/RRM/ros2_ws/src/rrm/rrm_simple_robot_model', 'symlink_install': False, 'test_result_base': None}
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'surani_interface' build argument 'cmake_args' from command line to 'None'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'surani_interface' build argument 'cmake_target' from command line to 'None'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'surani_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'surani_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'surani_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'surani_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'surani_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'surani_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'surani_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.471s] DEBUG:colcon.colcon_core.verb:Building package 'surani_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dominik/RRM/ros2_ws/build/surani_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dominik/RRM/ros2_ws/install/surani_interface', 'merge_install': False, 'path': '/home/dominik/RRM/ros2_ws/src/surani_interface', 'symlink_install': False, 'test_result_base': None}
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'trajectory_visualization' build argument 'cmake_args' from command line to 'None'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'trajectory_visualization' build argument 'cmake_target' from command line to 'None'
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'trajectory_visualization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'trajectory_visualization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'trajectory_visualization' build argument 'cmake_clean_first' from command line to 'False'
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'trajectory_visualization' build argument 'cmake_force_configure' from command line to 'False'
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'trajectory_visualization' build argument 'ament_cmake_args' from command line to 'None'
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'trajectory_visualization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'trajectory_visualization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.472s] DEBUG:colcon.colcon_core.verb:Building package 'trajectory_visualization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dominik/RRM/ros2_ws/build/trajectory_visualization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dominik/RRM/ros2_ws/install/trajectory_visualization', 'merge_install': False, 'path': '/home/dominik/RRM/ros2_ws/src/trajectory_visualization', 'symlink_install': False, 'test_result_base': None}
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'zad2' build argument 'cmake_args' from command line to 'None'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'zad2' build argument 'cmake_target' from command line to 'None'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'zad2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'zad2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'zad2' build argument 'cmake_clean_first' from command line to 'False'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'zad2' build argument 'cmake_force_configure' from command line to 'False'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'zad2' build argument 'ament_cmake_args' from command line to 'None'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'zad2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'zad2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.473s] DEBUG:colcon.colcon_core.verb:Building package 'zad2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dominik/RRM/ros2_ws/build/zad2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dominik/RRM/ros2_ws/install/zad2', 'merge_install': False, 'path': '/home/dominik/RRM/ros2_ws/src/zad2', 'symlink_install': False, 'test_result_base': None}
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'block1_surani' build argument 'cmake_args' from command line to 'None'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'block1_surani' build argument 'cmake_target' from command line to 'None'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'block1_surani' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'block1_surani' build argument 'cmake_clean_cache' from command line to 'False'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'block1_surani' build argument 'cmake_clean_first' from command line to 'False'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'block1_surani' build argument 'cmake_force_configure' from command line to 'False'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'block1_surani' build argument 'ament_cmake_args' from command line to 'None'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'block1_surani' build argument 'catkin_cmake_args' from command line to 'None'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'block1_surani' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.474s] DEBUG:colcon.colcon_core.verb:Building package 'block1_surani' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dominik/RRM/ros2_ws/build/block1_surani', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dominik/RRM/ros2_ws/install/block1_surani', 'merge_install': False, 'path': '/home/dominik/RRM/ros2_ws/src/block1_surani', 'symlink_install': False, 'test_result_base': None}
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'rrm_sim' build argument 'cmake_args' from command line to 'None'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'rrm_sim' build argument 'cmake_target' from command line to 'None'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'rrm_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'rrm_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'rrm_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'rrm_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'rrm_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'rrm_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'rrm_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.474s] DEBUG:colcon.colcon_core.verb:Building package 'rrm_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dominik/RRM/ros2_ws/build/rrm_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dominik/RRM/ros2_ws/install/rrm_sim', 'merge_install': False, 'path': '/home/dominik/RRM/ros2_ws/src/rrm/rrm_sim', 'symlink_install': False, 'test_result_base': None}
+[0.474s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.476s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.476s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dominik/RRM/ros2_ws/src/rrm/rrm_msgs' with build type 'ament_cmake'
+[0.476s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dominik/RRM/ros2_ws/src/rrm/rrm_msgs'
+[0.481s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.482s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.482s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.489s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dominik/RRM/ros2_ws/src/rrm/rrm_simple_robot_model' with build type 'ament_cmake'
+[0.490s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dominik/RRM/ros2_ws/src/rrm/rrm_simple_robot_model'
+[0.490s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.490s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.498s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dominik/RRM/ros2_ws/src/abb_model' with build type 'ament_cmake'
+[0.498s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dominik/RRM/ros2_ws/src/abb_model'
+[0.498s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.499s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.506s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dominik/RRM/ros2_ws/src/cv1' with build type 'ament_cmake'
+[0.506s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dominik/RRM/ros2_ws/src/cv1'
+[0.506s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.506s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.514s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dominik/RRM/ros2_ws/src/eigen_example' with build type 'ament_cmake'
+[0.514s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dominik/RRM/ros2_ws/src/eigen_example'
+[0.514s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.514s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.521s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dominik/RRM/ros2_ws/src/surani_interface' with build type 'ament_cmake'
+[0.522s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dominik/RRM/ros2_ws/src/surani_interface'
+[0.522s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.522s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.529s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dominik/RRM/ros2_ws/src/trajectory_visualization' with build type 'ament_cmake'
+[0.529s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dominik/RRM/ros2_ws/src/trajectory_visualization'
+[0.529s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.529s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.537s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dominik/RRM/ros2_ws/src/zad2' with build type 'ament_cmake'
+[0.538s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dominik/RRM/ros2_ws/src/zad2'
+[0.538s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.538s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.553s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dominik/RRM/ros2_ws/build/rrm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/rrm_msgs -- -j16 -l16
+[0.558s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dominik/RRM/ros2_ws/build/rrm_simple_robot_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/rrm_simple_robot_model -- -j16 -l16
+[0.562s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dominik/RRM/ros2_ws/build/abb_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/abb_model -- -j16 -l16
+[0.565s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dominik/RRM/ros2_ws/build/cv1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/cv1 -- -j16 -l16
+[0.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dominik/RRM/ros2_ws/build/eigen_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/eigen_example -- -j16 -l16
+[0.573s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dominik/RRM/ros2_ws/build/surani_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/surani_interface -- -j16 -l16
+[0.579s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dominik/RRM/ros2_ws/build/trajectory_visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/trajectory_visualization -- -j16 -l16
+[0.589s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dominik/RRM/ros2_ws/build/zad2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/zad2 -- -j16 -l16
+[0.625s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dominik/RRM/ros2_ws/build/rrm_simple_robot_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/rrm_simple_robot_model -- -j16 -l16
+[0.628s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dominik/RRM/ros2_ws/build/abb_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/abb_model -- -j16 -l16
+[0.678s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dominik/RRM/ros2_ws/build/rrm_simple_robot_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/rrm_simple_robot_model
+[0.680s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dominik/RRM/ros2_ws/build/abb_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/abb_model
+[0.682s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dominik/RRM/ros2_ws/build/eigen_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/eigen_example -- -j16 -l16
+[0.684s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dominik/RRM/ros2_ws/build/cv1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/cv1 -- -j16 -l16
+[0.709s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrm_simple_robot_model)
+[0.722s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dominik/RRM/ros2_ws/build/rrm_simple_robot_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/rrm_simple_robot_model
+[0.725s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model' for CMake module files
+[0.727s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model' for CMake config files
+[0.727s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrm_simple_robot_model', 'cmake_prefix_path')
+[0.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/hook/cmake_prefix_path.ps1'
+[0.729s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/hook/cmake_prefix_path.dsv'
+[0.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/hook/cmake_prefix_path.sh'
+[0.732s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/bin'
+[0.733s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/lib/pkgconfig/rrm_simple_robot_model.pc'
+[0.733s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/lib/python3.12/site-packages'
+[0.734s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/bin'
+[0.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/package.ps1'
+[0.736s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/package.dsv'
+[0.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/package.sh'
+[0.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/package.bash'
+[0.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/package.zsh'
+[0.743s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/share/colcon-core/packages/rrm_simple_robot_model)
+[0.744s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(abb_model)
+[0.745s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/abb_model' for CMake module files
+[0.746s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dominik/RRM/ros2_ws/build/abb_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/abb_model
+[0.746s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/abb_model' for CMake config files
+[0.747s] Level 1:colcon.colcon_core.shell:create_environment_hook('abb_model', 'cmake_prefix_path')
+[0.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/hook/cmake_prefix_path.ps1'
+[0.748s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/hook/cmake_prefix_path.dsv'
+[0.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/hook/cmake_prefix_path.sh'
+[0.749s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/abb_model/bin'
+[0.750s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/abb_model/lib/pkgconfig/abb_model.pc'
+[0.750s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/abb_model/lib/python3.12/site-packages'
+[0.750s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/abb_model/bin'
+[0.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/package.ps1'
+[0.751s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/package.dsv'
+[0.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/package.sh'
+[0.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/package.bash'
+[0.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/package.zsh'
+[0.754s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dominik/RRM/ros2_ws/install/abb_model/share/colcon-core/packages/abb_model)
+[0.758s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dominik/RRM/ros2_ws/build/cv1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/cv1
+[0.760s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dominik/RRM/ros2_ws/build/eigen_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/eigen_example
+[0.763s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dominik/RRM/ros2_ws/build/zad2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/zad2 -- -j16 -l16
+[0.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dominik/RRM/ros2_ws/build/trajectory_visualization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/trajectory_visualization -- -j16 -l16
+[0.780s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrm_simple_robot_model)
+[0.780s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model' for CMake module files
+[0.784s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model' for CMake config files
+[0.784s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrm_simple_robot_model', 'cmake_prefix_path')
+[0.785s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/hook/cmake_prefix_path.ps1'
+[0.786s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/hook/cmake_prefix_path.dsv'
+[0.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/hook/cmake_prefix_path.sh'
+[0.788s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/bin'
+[0.788s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/lib/pkgconfig/rrm_simple_robot_model.pc'
+[0.788s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/lib/python3.12/site-packages'
+[0.789s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/bin'
+[0.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/package.ps1'
+[0.791s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/package.dsv'
+[0.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/package.sh'
+[0.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/package.bash'
+[0.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/package.zsh'
+[0.794s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model/share/colcon-core/packages/rrm_simple_robot_model)
+[0.794s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cv1)
+[0.795s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/cv1' for CMake module files
+[0.796s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dominik/RRM/ros2_ws/build/cv1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/cv1
+[0.797s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/cv1' for CMake config files
+[0.798s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv1', 'cmake_prefix_path')
+[0.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/cv1/share/cv1/hook/cmake_prefix_path.ps1'
+[0.799s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dominik/RRM/ros2_ws/install/cv1/share/cv1/hook/cmake_prefix_path.dsv'
+[0.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/cv1/share/cv1/hook/cmake_prefix_path.sh'
+[0.801s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/cv1/lib'
+[0.801s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/cv1/bin'
+[0.801s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/cv1/lib/pkgconfig/cv1.pc'
+[0.802s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/cv1/lib/python3.12/site-packages'
+[0.802s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/cv1/bin'
+[0.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/cv1/share/cv1/package.ps1'
+[0.803s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dominik/RRM/ros2_ws/install/cv1/share/cv1/package.dsv'
+[0.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/cv1/share/cv1/package.sh'
+[0.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/cv1/share/cv1/package.bash'
+[0.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/cv1/share/cv1/package.zsh'
+[0.807s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dominik/RRM/ros2_ws/install/cv1/share/colcon-core/packages/cv1)
+[0.810s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(abb_model)
+[0.810s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/abb_model' for CMake module files
+[0.812s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/abb_model' for CMake config files
+[0.813s] Level 1:colcon.colcon_core.shell:create_environment_hook('abb_model', 'cmake_prefix_path')
+[0.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/hook/cmake_prefix_path.ps1'
+[0.814s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/hook/cmake_prefix_path.dsv'
+[0.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/hook/cmake_prefix_path.sh'
+[0.815s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/abb_model/bin'
+[0.816s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/abb_model/lib/pkgconfig/abb_model.pc'
+[0.816s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/abb_model/lib/python3.12/site-packages'
+[0.816s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/abb_model/bin'
+[0.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/package.ps1'
+[0.818s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/package.dsv'
+[0.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/package.sh'
+[0.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/package.bash'
+[0.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/package.zsh'
+[0.821s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dominik/RRM/ros2_ws/install/abb_model/share/colcon-core/packages/abb_model)
+[0.825s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eigen_example)
+[0.826s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/eigen_example' for CMake module files
+[0.826s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dominik/RRM/ros2_ws/build/zad2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/zad2
+[0.827s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dominik/RRM/ros2_ws/build/eigen_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/eigen_example
+[0.828s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/eigen_example' for CMake config files
+[0.828s] Level 1:colcon.colcon_core.shell:create_environment_hook('eigen_example', 'cmake_prefix_path')
+[0.829s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/hook/cmake_prefix_path.ps1'
+[0.830s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/hook/cmake_prefix_path.dsv'
+[0.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/hook/cmake_prefix_path.sh'
+[0.832s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/eigen_example/lib'
+[0.832s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/eigen_example/bin'
+[0.832s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/eigen_example/lib/pkgconfig/eigen_example.pc'
+[0.832s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/eigen_example/lib/python3.12/site-packages'
+[0.833s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/eigen_example/bin'
+[0.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/package.ps1'
+[0.834s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/package.dsv'
+[0.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/package.sh'
+[0.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/package.bash'
+[0.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/package.zsh'
+[0.837s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dominik/RRM/ros2_ws/install/eigen_example/share/colcon-core/packages/eigen_example)
+[0.840s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dominik/RRM/ros2_ws/build/trajectory_visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/trajectory_visualization
+[0.850s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zad2)
+[0.850s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/zad2' for CMake module files
+[0.851s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dominik/RRM/ros2_ws/build/zad2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/zad2
+[0.852s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/zad2' for CMake config files
+[0.852s] Level 1:colcon.colcon_core.shell:create_environment_hook('zad2', 'cmake_prefix_path')
+[0.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/zad2/share/zad2/hook/cmake_prefix_path.ps1'
+[0.854s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dominik/RRM/ros2_ws/install/zad2/share/zad2/hook/cmake_prefix_path.dsv'
+[0.856s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/zad2/share/zad2/hook/cmake_prefix_path.sh'
+[0.858s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/zad2/lib'
+[0.858s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/zad2/bin'
+[0.859s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/zad2/lib/pkgconfig/zad2.pc'
+[0.859s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/zad2/lib/python3.12/site-packages'
+[0.859s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/zad2/bin'
+[0.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/zad2/share/zad2/package.ps1'
+[0.860s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dominik/RRM/ros2_ws/install/zad2/share/zad2/package.dsv'
+[0.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/zad2/share/zad2/package.sh'
+[0.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/zad2/share/zad2/package.bash'
+[0.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/zad2/share/zad2/package.zsh'
+[0.862s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dominik/RRM/ros2_ws/install/zad2/share/colcon-core/packages/zad2)
+[0.864s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cv1)
+[0.864s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/cv1' for CMake module files
+[0.866s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/cv1' for CMake config files
+[0.866s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv1', 'cmake_prefix_path')
+[0.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/cv1/share/cv1/hook/cmake_prefix_path.ps1'
+[0.867s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dominik/RRM/ros2_ws/install/cv1/share/cv1/hook/cmake_prefix_path.dsv'
+[0.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/cv1/share/cv1/hook/cmake_prefix_path.sh'
+[0.868s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/cv1/lib'
+[0.868s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/cv1/bin'
+[0.868s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/cv1/lib/pkgconfig/cv1.pc'
+[0.869s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/cv1/lib/python3.12/site-packages'
+[0.869s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/cv1/bin'
+[0.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/cv1/share/cv1/package.ps1'
+[0.870s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dominik/RRM/ros2_ws/install/cv1/share/cv1/package.dsv'
+[0.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/cv1/share/cv1/package.sh'
+[0.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/cv1/share/cv1/package.bash'
+[0.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/cv1/share/cv1/package.zsh'
+[0.872s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dominik/RRM/ros2_ws/install/cv1/share/colcon-core/packages/cv1)
+[0.873s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trajectory_visualization)
+[0.873s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/trajectory_visualization' for CMake module files
+[0.875s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dominik/RRM/ros2_ws/build/trajectory_visualization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/trajectory_visualization
+[0.875s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/trajectory_visualization' for CMake config files
+[0.875s] Level 1:colcon.colcon_core.shell:create_environment_hook('trajectory_visualization', 'cmake_prefix_path')
+[0.876s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/hook/cmake_prefix_path.ps1'
+[0.876s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/hook/cmake_prefix_path.dsv'
+[0.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/hook/cmake_prefix_path.sh'
+[0.878s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/trajectory_visualization/lib'
+[0.878s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/trajectory_visualization/bin'
+[0.878s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/trajectory_visualization/lib/pkgconfig/trajectory_visualization.pc'
+[0.878s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/trajectory_visualization/lib/python3.12/site-packages'
+[0.878s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/trajectory_visualization/bin'
+[0.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/package.ps1'
+[0.879s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/package.dsv'
+[0.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/package.sh'
+[0.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/package.bash'
+[0.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/package.zsh'
+[0.882s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/colcon-core/packages/trajectory_visualization)
+[0.884s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eigen_example)
+[0.884s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/eigen_example' for CMake module files
+[0.885s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/eigen_example' for CMake config files
+[0.886s] Level 1:colcon.colcon_core.shell:create_environment_hook('eigen_example', 'cmake_prefix_path')
+[0.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/hook/cmake_prefix_path.ps1'
+[0.887s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/hook/cmake_prefix_path.dsv'
+[0.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/hook/cmake_prefix_path.sh'
+[0.889s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/eigen_example/lib'
+[0.889s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/eigen_example/bin'
+[0.889s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/eigen_example/lib/pkgconfig/eigen_example.pc'
+[0.890s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/eigen_example/lib/python3.12/site-packages'
+[0.890s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/eigen_example/bin'
+[0.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/package.ps1'
+[0.892s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/package.dsv'
+[0.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/package.sh'
+[0.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/package.bash'
+[0.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/package.zsh'
+[0.896s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dominik/RRM/ros2_ws/install/eigen_example/share/colcon-core/packages/eigen_example)
+[0.901s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zad2)
+[0.901s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/zad2' for CMake module files
+[0.902s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/zad2' for CMake config files
+[0.903s] Level 1:colcon.colcon_core.shell:create_environment_hook('zad2', 'cmake_prefix_path')
+[0.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/zad2/share/zad2/hook/cmake_prefix_path.ps1'
+[0.904s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dominik/RRM/ros2_ws/install/zad2/share/zad2/hook/cmake_prefix_path.dsv'
+[0.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/zad2/share/zad2/hook/cmake_prefix_path.sh'
+[0.906s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/zad2/lib'
+[0.906s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/zad2/bin'
+[0.906s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/zad2/lib/pkgconfig/zad2.pc'
+[0.907s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/zad2/lib/python3.12/site-packages'
+[0.907s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/zad2/bin'
+[0.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/zad2/share/zad2/package.ps1'
+[0.908s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dominik/RRM/ros2_ws/install/zad2/share/zad2/package.dsv'
+[0.909s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/zad2/share/zad2/package.sh'
+[0.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/zad2/share/zad2/package.bash'
+[0.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/zad2/share/zad2/package.zsh'
+[0.911s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dominik/RRM/ros2_ws/install/zad2/share/colcon-core/packages/zad2)
+[0.926s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trajectory_visualization)
+[0.927s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/trajectory_visualization' for CMake module files
+[0.928s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/trajectory_visualization' for CMake config files
+[0.928s] Level 1:colcon.colcon_core.shell:create_environment_hook('trajectory_visualization', 'cmake_prefix_path')
+[0.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/hook/cmake_prefix_path.ps1'
+[0.929s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/hook/cmake_prefix_path.dsv'
+[0.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/hook/cmake_prefix_path.sh'
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/trajectory_visualization/lib'
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/trajectory_visualization/bin'
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/trajectory_visualization/lib/pkgconfig/trajectory_visualization.pc'
+[0.932s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/trajectory_visualization/lib/python3.12/site-packages'
+[0.932s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/trajectory_visualization/bin'
+[0.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/package.ps1'
+[0.933s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/package.dsv'
+[0.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/package.sh'
+[0.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/package.bash'
+[0.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/package.zsh'
+[0.936s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/colcon-core/packages/trajectory_visualization)
+[1.245s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dominik/RRM/ros2_ws/build/rrm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/rrm_msgs -- -j16 -l16
+[1.401s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dominik/RRM/ros2_ws/build/rrm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/rrm_msgs
+[1.513s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrm_msgs)
+[1.513s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/rrm_msgs' for CMake module files
+[1.514s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dominik/RRM/ros2_ws/build/rrm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/rrm_msgs
+[1.515s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/rrm_msgs' for CMake config files
+[1.516s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrm_msgs', 'cmake_prefix_path')
+[1.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/cmake_prefix_path.ps1'
+[1.517s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/cmake_prefix_path.dsv'
+[1.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/cmake_prefix_path.sh'
+[1.518s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib'
+[1.518s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrm_msgs', 'ld_library_path_lib')
+[1.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/ld_library_path_lib.ps1'
+[1.519s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/ld_library_path_lib.dsv'
+[1.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/ld_library_path_lib.sh'
+[1.520s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/rrm_msgs/bin'
+[1.520s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/pkgconfig/rrm_msgs.pc'
+[1.521s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages'
+[1.521s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrm_msgs', 'pythonpath')
+[1.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/pythonpath.ps1'
+[1.522s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/pythonpath.dsv'
+[1.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/pythonpath.sh'
+[1.523s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/rrm_msgs/bin'
+[1.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/package.ps1'
+[1.524s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/package.dsv'
+[1.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/package.sh'
+[1.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/package.bash'
+[1.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/package.zsh'
+[1.527s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dominik/RRM/ros2_ws/install/rrm_msgs/share/colcon-core/packages/rrm_msgs)
+[1.676s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrm_msgs)
+[1.676s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/rrm_msgs' for CMake module files
+[1.677s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/rrm_msgs' for CMake config files
+[1.678s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrm_msgs', 'cmake_prefix_path')
+[1.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/cmake_prefix_path.ps1'
+[1.679s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/cmake_prefix_path.dsv'
+[1.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/cmake_prefix_path.sh'
+[1.680s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib'
+[1.680s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrm_msgs', 'ld_library_path_lib')
+[1.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/ld_library_path_lib.ps1'
+[1.681s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/ld_library_path_lib.dsv'
+[1.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/ld_library_path_lib.sh'
+[1.683s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/rrm_msgs/bin'
+[1.683s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/pkgconfig/rrm_msgs.pc'
+[1.683s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages'
+[1.683s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrm_msgs', 'pythonpath')
+[1.683s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/pythonpath.ps1'
+[1.684s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/pythonpath.dsv'
+[1.685s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/pythonpath.sh'
+[1.685s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/rrm_msgs/bin'
+[1.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/package.ps1'
+[1.687s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/package.dsv'
+[1.688s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/package.sh'
+[1.688s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/package.bash'
+[1.689s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/package.zsh'
+[1.690s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dominik/RRM/ros2_ws/install/rrm_msgs/share/colcon-core/packages/rrm_msgs)
+[1.690s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dominik/RRM/ros2_ws/src/block1_surani' with build type 'ament_cmake'
+[1.690s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dominik/RRM/ros2_ws/src/block1_surani'
+[1.691s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.691s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.700s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dominik/RRM/ros2_ws/src/rrm/rrm_sim' with build type 'ament_cmake'
+[1.700s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dominik/RRM/ros2_ws/src/rrm/rrm_sim'
+[1.700s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.700s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dominik/RRM/ros2_ws/build/block1_surani': CMAKE_PREFIX_PATH=/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model:/home/dominik/RRM/ros2_ws/install/rrm_msgs:/home/dominik/RRM/ros2_ws/install/zad2:/home/dominik/RRM/ros2_ws/install/trajectory_visualization:/home/dominik/RRM/ros2_ws/install/surani_interface:/home/dominik/RRM/ros2_ws/install/block1_surani:/home/dominik/RRM/ros2_ws/install/rrm_sim:/home/dominik/RRM/ros2_ws/install/block1_suraniV2:/home/dominik/RRM/ros2_ws/install/eigen_example:/home/dominik/RRM/ros2_ws/install/cv1:/home/dominik/RRM/ros2_ws/install/abb_model:/home/dominik/RRM/ros2_ws/install/Surani_interface:/home/dominik/RRM/zad1/install/zad1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib:/home/dominik/RRM/ros2_ws/install/surani_interface/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages:/home/dominik/RRM/ros2_ws/install/surani_interface/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/block1_surani -- -j16 -l16
+[1.721s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dominik/RRM/ros2_ws/build/rrm_sim': CMAKE_PREFIX_PATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs:/home/dominik/RRM/ros2_ws/install/zad2:/home/dominik/RRM/ros2_ws/install/trajectory_visualization:/home/dominik/RRM/ros2_ws/install/surani_interface:/home/dominik/RRM/ros2_ws/install/block1_surani:/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model:/home/dominik/RRM/ros2_ws/install/rrm_sim:/home/dominik/RRM/ros2_ws/install/block1_suraniV2:/home/dominik/RRM/ros2_ws/install/eigen_example:/home/dominik/RRM/ros2_ws/install/cv1:/home/dominik/RRM/ros2_ws/install/abb_model:/home/dominik/RRM/ros2_ws/install/Surani_interface:/home/dominik/RRM/zad1/install/zad1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib:/home/dominik/RRM/ros2_ws/install/surani_interface/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages:/home/dominik/RRM/ros2_ws/install/surani_interface/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/rrm_sim -- -j16 -l16
+[1.839s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dominik/RRM/ros2_ws/build/rrm_sim' returned '0': CMAKE_PREFIX_PATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs:/home/dominik/RRM/ros2_ws/install/zad2:/home/dominik/RRM/ros2_ws/install/trajectory_visualization:/home/dominik/RRM/ros2_ws/install/surani_interface:/home/dominik/RRM/ros2_ws/install/block1_surani:/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model:/home/dominik/RRM/ros2_ws/install/rrm_sim:/home/dominik/RRM/ros2_ws/install/block1_suraniV2:/home/dominik/RRM/ros2_ws/install/eigen_example:/home/dominik/RRM/ros2_ws/install/cv1:/home/dominik/RRM/ros2_ws/install/abb_model:/home/dominik/RRM/ros2_ws/install/Surani_interface:/home/dominik/RRM/zad1/install/zad1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib:/home/dominik/RRM/ros2_ws/install/surani_interface/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages:/home/dominik/RRM/ros2_ws/install/surani_interface/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/rrm_sim -- -j16 -l16
+[1.879s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dominik/RRM/ros2_ws/build/rrm_sim': CMAKE_PREFIX_PATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs:/home/dominik/RRM/ros2_ws/install/zad2:/home/dominik/RRM/ros2_ws/install/trajectory_visualization:/home/dominik/RRM/ros2_ws/install/surani_interface:/home/dominik/RRM/ros2_ws/install/block1_surani:/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model:/home/dominik/RRM/ros2_ws/install/rrm_sim:/home/dominik/RRM/ros2_ws/install/block1_suraniV2:/home/dominik/RRM/ros2_ws/install/eigen_example:/home/dominik/RRM/ros2_ws/install/cv1:/home/dominik/RRM/ros2_ws/install/abb_model:/home/dominik/RRM/ros2_ws/install/Surani_interface:/home/dominik/RRM/zad1/install/zad1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib:/home/dominik/RRM/ros2_ws/install/surani_interface/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages:/home/dominik/RRM/ros2_ws/install/surani_interface/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/rrm_sim
+[1.892s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrm_sim)
+[1.892s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/rrm_sim' for CMake module files
+[1.892s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dominik/RRM/ros2_ws/build/rrm_sim' returned '0': CMAKE_PREFIX_PATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs:/home/dominik/RRM/ros2_ws/install/zad2:/home/dominik/RRM/ros2_ws/install/trajectory_visualization:/home/dominik/RRM/ros2_ws/install/surani_interface:/home/dominik/RRM/ros2_ws/install/block1_surani:/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model:/home/dominik/RRM/ros2_ws/install/rrm_sim:/home/dominik/RRM/ros2_ws/install/block1_suraniV2:/home/dominik/RRM/ros2_ws/install/eigen_example:/home/dominik/RRM/ros2_ws/install/cv1:/home/dominik/RRM/ros2_ws/install/abb_model:/home/dominik/RRM/ros2_ws/install/Surani_interface:/home/dominik/RRM/zad1/install/zad1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib:/home/dominik/RRM/ros2_ws/install/surani_interface/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages:/home/dominik/RRM/ros2_ws/install/surani_interface/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/rrm_sim
+[1.893s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/rrm_sim' for CMake config files
+[1.893s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrm_sim', 'cmake_prefix_path')
+[1.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/rrm_sim/share/rrm_sim/hook/cmake_prefix_path.ps1'
+[1.894s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dominik/RRM/ros2_ws/install/rrm_sim/share/rrm_sim/hook/cmake_prefix_path.dsv'
+[1.894s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/rrm_sim/share/rrm_sim/hook/cmake_prefix_path.sh'
+[1.895s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/rrm_sim/lib'
+[1.895s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/rrm_sim/bin'
+[1.895s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/rrm_sim/lib/pkgconfig/rrm_sim.pc'
+[1.895s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/rrm_sim/lib/python3.12/site-packages'
+[1.895s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/rrm_sim/bin'
+[1.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/rrm_sim/share/rrm_sim/package.ps1'
+[1.896s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dominik/RRM/ros2_ws/install/rrm_sim/share/rrm_sim/package.dsv'
+[1.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/rrm_sim/share/rrm_sim/package.sh'
+[1.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/rrm_sim/share/rrm_sim/package.bash'
+[1.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/rrm_sim/share/rrm_sim/package.zsh'
+[1.897s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dominik/RRM/ros2_ws/install/rrm_sim/share/colcon-core/packages/rrm_sim)
+[1.925s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrm_sim)
+[1.925s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/rrm_sim' for CMake module files
+[1.926s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/rrm_sim' for CMake config files
+[1.926s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrm_sim', 'cmake_prefix_path')
+[1.926s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/rrm_sim/share/rrm_sim/hook/cmake_prefix_path.ps1'
+[1.927s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dominik/RRM/ros2_ws/install/rrm_sim/share/rrm_sim/hook/cmake_prefix_path.dsv'
+[1.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/rrm_sim/share/rrm_sim/hook/cmake_prefix_path.sh'
+[1.927s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/rrm_sim/lib'
+[1.927s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/rrm_sim/bin'
+[1.928s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/rrm_sim/lib/pkgconfig/rrm_sim.pc'
+[1.928s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/rrm_sim/lib/python3.12/site-packages'
+[1.928s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/rrm_sim/bin'
+[1.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/rrm_sim/share/rrm_sim/package.ps1'
+[1.928s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dominik/RRM/ros2_ws/install/rrm_sim/share/rrm_sim/package.dsv'
+[1.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/rrm_sim/share/rrm_sim/package.sh'
+[1.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/rrm_sim/share/rrm_sim/package.bash'
+[1.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/rrm_sim/share/rrm_sim/package.zsh'
+[1.929s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dominik/RRM/ros2_ws/install/rrm_sim/share/colcon-core/packages/rrm_sim)
+[2.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dominik/RRM/ros2_ws/build/surani_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/surani_interface -- -j16 -l16
+[2.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dominik/RRM/ros2_ws/build/surani_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/surani_interface
+[2.584s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(surani_interface)
+[2.584s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/surani_interface' for CMake module files
+[2.585s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dominik/RRM/ros2_ws/build/surani_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/surani_interface
+[2.585s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/surani_interface' for CMake config files
+[2.586s] Level 1:colcon.colcon_core.shell:create_environment_hook('surani_interface', 'cmake_prefix_path')
+[2.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/hook/cmake_prefix_path.ps1'
+[2.587s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/hook/cmake_prefix_path.dsv'
+[2.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/hook/cmake_prefix_path.sh'
+[2.587s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/surani_interface/lib'
+[2.587s] Level 1:colcon.colcon_core.shell:create_environment_hook('surani_interface', 'ld_library_path_lib')
+[2.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/hook/ld_library_path_lib.ps1'
+[2.588s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/hook/ld_library_path_lib.dsv'
+[2.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/hook/ld_library_path_lib.sh'
+[2.588s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/surani_interface/bin'
+[2.588s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/surani_interface/lib/pkgconfig/surani_interface.pc'
+[2.589s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/surani_interface/lib/python3.12/site-packages'
+[2.589s] Level 1:colcon.colcon_core.shell:create_environment_hook('surani_interface', 'pythonpath')
+[2.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/hook/pythonpath.ps1'
+[2.589s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/hook/pythonpath.dsv'
+[2.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/hook/pythonpath.sh'
+[2.590s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/surani_interface/bin'
+[2.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/package.ps1'
+[2.590s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/package.dsv'
+[2.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/package.sh'
+[2.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/package.bash'
+[2.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/package.zsh'
+[2.591s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dominik/RRM/ros2_ws/install/surani_interface/share/colcon-core/packages/surani_interface)
+[2.663s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(surani_interface)
+[2.663s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/surani_interface' for CMake module files
+[2.664s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/surani_interface' for CMake config files
+[2.664s] Level 1:colcon.colcon_core.shell:create_environment_hook('surani_interface', 'cmake_prefix_path')
+[2.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/hook/cmake_prefix_path.ps1'
+[2.665s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/hook/cmake_prefix_path.dsv'
+[2.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/hook/cmake_prefix_path.sh'
+[2.666s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/surani_interface/lib'
+[2.666s] Level 1:colcon.colcon_core.shell:create_environment_hook('surani_interface', 'ld_library_path_lib')
+[2.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/hook/ld_library_path_lib.ps1'
+[2.667s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/hook/ld_library_path_lib.dsv'
+[2.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/hook/ld_library_path_lib.sh'
+[2.667s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/surani_interface/bin'
+[2.667s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/surani_interface/lib/pkgconfig/surani_interface.pc'
+[2.668s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/surani_interface/lib/python3.12/site-packages'
+[2.668s] Level 1:colcon.colcon_core.shell:create_environment_hook('surani_interface', 'pythonpath')
+[2.668s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/hook/pythonpath.ps1'
+[2.668s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/hook/pythonpath.dsv'
+[2.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/hook/pythonpath.sh'
+[2.669s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/surani_interface/bin'
+[2.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/package.ps1'
+[2.670s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/package.dsv'
+[2.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/package.sh'
+[2.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/package.bash'
+[2.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/package.zsh'
+[2.672s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dominik/RRM/ros2_ws/install/surani_interface/share/colcon-core/packages/surani_interface)
+[6.083s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dominik/RRM/ros2_ws/build/block1_surani' returned '2': CMAKE_PREFIX_PATH=/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model:/home/dominik/RRM/ros2_ws/install/rrm_msgs:/home/dominik/RRM/ros2_ws/install/zad2:/home/dominik/RRM/ros2_ws/install/trajectory_visualization:/home/dominik/RRM/ros2_ws/install/surani_interface:/home/dominik/RRM/ros2_ws/install/block1_surani:/home/dominik/RRM/ros2_ws/install/rrm_sim:/home/dominik/RRM/ros2_ws/install/block1_suraniV2:/home/dominik/RRM/ros2_ws/install/eigen_example:/home/dominik/RRM/ros2_ws/install/cv1:/home/dominik/RRM/ros2_ws/install/abb_model:/home/dominik/RRM/ros2_ws/install/Surani_interface:/home/dominik/RRM/zad1/install/zad1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib:/home/dominik/RRM/ros2_ws/install/surani_interface/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages:/home/dominik/RRM/ros2_ws/install/surani_interface/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/block1_surani -- -j16 -l16
+[6.120s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(block1_surani)
+[6.120s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/block1_surani' for CMake module files
+[6.120s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/block1_surani' for CMake config files
+[6.120s] Level 1:colcon.colcon_core.shell:create_environment_hook('block1_surani', 'cmake_prefix_path')
+[6.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/hook/cmake_prefix_path.ps1'
+[6.121s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/hook/cmake_prefix_path.dsv'
+[6.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/hook/cmake_prefix_path.sh'
+[6.122s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/block1_surani/lib'
+[6.122s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/block1_surani/bin'
+[6.122s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/block1_surani/lib/pkgconfig/block1_surani.pc'
+[6.122s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/block1_surani/lib/python3.12/site-packages'
+[6.122s] Level 1:colcon.colcon_core.environment:checking '/home/dominik/RRM/ros2_ws/install/block1_surani/bin'
+[6.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/package.ps1'
+[6.122s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/package.dsv'
+[6.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/package.sh'
+[6.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/package.bash'
+[6.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/package.zsh'
+[6.124s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dominik/RRM/ros2_ws/install/block1_surani/share/colcon-core/packages/block1_surani)
+[6.134s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.134s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.135s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[6.135s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.141s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.141s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.141s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.156s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.156s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dominik/RRM/ros2_ws/install/local_setup.ps1'
+[6.157s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dominik/RRM/ros2_ws/install/_local_setup_util_ps1.py'
+[6.158s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dominik/RRM/ros2_ws/install/setup.ps1'
+[6.159s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dominik/RRM/ros2_ws/install/local_setup.sh'
+[6.160s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dominik/RRM/ros2_ws/install/_local_setup_util_sh.py'
+[6.160s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dominik/RRM/ros2_ws/install/setup.sh'
+[6.161s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dominik/RRM/ros2_ws/install/local_setup.bash'
+[6.162s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dominik/RRM/ros2_ws/install/setup.bash'
+[6.163s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dominik/RRM/ros2_ws/install/local_setup.zsh'
+[6.163s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dominik/RRM/ros2_ws/install/setup.zsh'

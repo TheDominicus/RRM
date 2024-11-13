@@ -1,0 +1,52 @@
+[0.020s] Invoking command in '/home/dominik/RRM/ros2_ws/build/block1_surani': CMAKE_PREFIX_PATH=/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model:/home/dominik/RRM/ros2_ws/install/rrm_msgs:/home/dominik/RRM/ros2_ws/install/zad2:/home/dominik/RRM/ros2_ws/install/trajectory_visualization:/home/dominik/RRM/ros2_ws/install/surani_interface:/home/dominik/RRM/ros2_ws/install/block1_surani:/home/dominik/RRM/ros2_ws/install/rrm_sim:/home/dominik/RRM/ros2_ws/install/block1_suraniV2:/home/dominik/RRM/ros2_ws/install/eigen_example:/home/dominik/RRM/ros2_ws/install/cv1:/home/dominik/RRM/ros2_ws/install/abb_model:/home/dominik/RRM/ros2_ws/install/Surani_interface:/home/dominik/RRM/zad1/install/zad1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib:/home/dominik/RRM/ros2_ws/install/surani_interface/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages:/home/dominik/RRM/ros2_ws/install/surani_interface/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/block1_surani -- -j16 -l16
+[0.055s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.246s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.265s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.271s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.280s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.289s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.338s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.339s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.391s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.440s] -- Found tf2_ros: 0.36.4 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[0.549s] -- Found rrm_msgs: 0.0.0 (/home/dominik/RRM/ros2_ws/install/rrm_msgs/share/rrm_msgs/cmake)
+[0.560s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.578s] -- Found surani_interface: 0.0.0 (/home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/cmake)
+[0.597s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.686s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.686s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/dominik/RRM/ros2_ws/src/block1_surani/include>
+[0.686s] -- Configured cppcheck exclude dirs and/or files: 
+[0.689s] -- Added test 'lint_cmake' to check CMake code style
+[0.698s] -- Added test 'uncrustify' to check C / C++ code style
+[0.698s] -- Configured uncrustify additional arguments: 
+[0.699s] -- Added test 'xmllint' to check XML markup files
+[0.700s] -- Configuring done (0.6s)
+[0.724s] -- Generating done (0.0s)
+[0.726s] -- Build files have been written to: /home/dominik/RRM/ros2_ws/build/block1_surani
+[0.784s] [100%] Built target teleop_node
+[0.784s] [100%] Built target jointlogger_node
+[0.784s] [100%] Built target logger_node
+[0.796s] Invoked command in '/home/dominik/RRM/ros2_ws/build/block1_surani' returned '0': CMAKE_PREFIX_PATH=/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model:/home/dominik/RRM/ros2_ws/install/rrm_msgs:/home/dominik/RRM/ros2_ws/install/zad2:/home/dominik/RRM/ros2_ws/install/trajectory_visualization:/home/dominik/RRM/ros2_ws/install/surani_interface:/home/dominik/RRM/ros2_ws/install/block1_surani:/home/dominik/RRM/ros2_ws/install/rrm_sim:/home/dominik/RRM/ros2_ws/install/block1_suraniV2:/home/dominik/RRM/ros2_ws/install/eigen_example:/home/dominik/RRM/ros2_ws/install/cv1:/home/dominik/RRM/ros2_ws/install/abb_model:/home/dominik/RRM/ros2_ws/install/Surani_interface:/home/dominik/RRM/zad1/install/zad1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib:/home/dominik/RRM/ros2_ws/install/surani_interface/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages:/home/dominik/RRM/ros2_ws/install/surani_interface/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/block1_surani -- -j16 -l16
+[0.836s] Invoking command in '/home/dominik/RRM/ros2_ws/build/block1_surani': CMAKE_PREFIX_PATH=/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model:/home/dominik/RRM/ros2_ws/install/rrm_msgs:/home/dominik/RRM/ros2_ws/install/zad2:/home/dominik/RRM/ros2_ws/install/trajectory_visualization:/home/dominik/RRM/ros2_ws/install/surani_interface:/home/dominik/RRM/ros2_ws/install/block1_surani:/home/dominik/RRM/ros2_ws/install/rrm_sim:/home/dominik/RRM/ros2_ws/install/block1_suraniV2:/home/dominik/RRM/ros2_ws/install/eigen_example:/home/dominik/RRM/ros2_ws/install/cv1:/home/dominik/RRM/ros2_ws/install/abb_model:/home/dominik/RRM/ros2_ws/install/Surani_interface:/home/dominik/RRM/zad1/install/zad1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib:/home/dominik/RRM/ros2_ws/install/surani_interface/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages:/home/dominik/RRM/ros2_ws/install/surani_interface/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/block1_surani
+[0.843s] -- Install configuration: ""
+[0.843s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/lib/block1_surani/teleop_node
+[0.843s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/lib/block1_surani/logger_node
+[0.844s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/lib/block1_surani/jointlogger_node
+[0.844s] -- Installing: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani//launch
+[0.844s] -- Installing: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani//launch/logger_node.launch.xml
+[0.844s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/ament_index/resource_index/package_run_dependencies/block1_surani
+[0.844s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/ament_index/resource_index/parent_prefix_path/block1_surani
+[0.844s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/environment/ament_prefix_path.sh
+[0.844s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/environment/ament_prefix_path.dsv
+[0.844s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/environment/path.sh
+[0.845s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/environment/path.dsv
+[0.845s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/local_setup.bash
+[0.845s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/local_setup.sh
+[0.845s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/local_setup.zsh
+[0.845s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/local_setup.dsv
+[0.845s] -- Installing: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/package.dsv
+[0.845s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/ament_index/resource_index/packages/block1_surani
+[0.845s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/cmake/block1_suraniConfig.cmake
+[0.845s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/cmake/block1_suraniConfig-version.cmake
+[0.845s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/package.xml
+[0.846s] Invoked command in '/home/dominik/RRM/ros2_ws/build/block1_surani' returned '0': CMAKE_PREFIX_PATH=/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model:/home/dominik/RRM/ros2_ws/install/rrm_msgs:/home/dominik/RRM/ros2_ws/install/zad2:/home/dominik/RRM/ros2_ws/install/trajectory_visualization:/home/dominik/RRM/ros2_ws/install/surani_interface:/home/dominik/RRM/ros2_ws/install/block1_surani:/home/dominik/RRM/ros2_ws/install/rrm_sim:/home/dominik/RRM/ros2_ws/install/block1_suraniV2:/home/dominik/RRM/ros2_ws/install/eigen_example:/home/dominik/RRM/ros2_ws/install/cv1:/home/dominik/RRM/ros2_ws/install/abb_model:/home/dominik/RRM/ros2_ws/install/Surani_interface:/home/dominik/RRM/zad1/install/zad1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib:/home/dominik/RRM/ros2_ws/install/surani_interface/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/dominik/RRM/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages:/home/dominik/RRM/ros2_ws/install/surani_interface/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/block1_surani
