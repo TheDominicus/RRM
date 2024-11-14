@@ -1,0 +1,10 @@
+/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/uninstall.dir
+/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/zad2_uninstall.dir
+/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/zad2_node.dir
+/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/test.dir
+/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/edit_cache.dir
+/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/rebuild_cache.dir
+/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/list_install_components.dir
+/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/install.dir
+/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/install/local.dir
+/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/install/strip.dir
