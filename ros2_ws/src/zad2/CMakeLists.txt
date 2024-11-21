@@ -17,6 +17,12 @@ ament_target_dependencies(zad2_node rclcpp sensor_msgs std_srvs Eigen3)
 install(TARGETS zad2_node
   DESTINATION lib/${PROJECT_NAME})
 
+install(
+    DIRECTORY launch/
+    DESTINATION share/${PROJECT_NAME}/launch
+)
+
+
 # add_executable(zad2_node src/zad2_node.cpp)
 target_include_directories(zad2_node PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>

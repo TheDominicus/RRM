@@ -35,7 +35,7 @@ private:
         // Publish trajectory
         for (const auto &joint_state : trajectory) {
             joint_state_pub_->publish(joint_state);
-            rclcpp::sleep_for(std::chrono::milliseconds(100)); // Simulate 10Hz
+            rclcpp::sleep_for(std::chrono::milliseconds(10)); // Simulate 10Hz
         }
 
         response->success = true;
