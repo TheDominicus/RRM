@@ -1,0 +1,35 @@
+[0.080s] Invoking command in '/home/dominik/RRM/ros2_ws/build/zad2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/zad2 -- -j16 -l16
+[0.222s] [ 50%] [32mBuilding CXX object CMakeFiles/zad2_node.dir/src/zad2_node.cpp.o[0m
+[3.372s] [01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:[m[K In member function ‘[01m[KEigen::MatrixXd TrajectoryNode::[01;32m[Kcompute_cubic_coefficients[m[K(const std::vector<double, std::allocator<double> >&, const std::vector<double, std::allocator<double> >&, const std::vector<double, std::allocator<double> >&)[m[K’:
+[3.372s] [01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:68:131:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.372s]    68 | [01;35m[Kor<double>& dq[m[K) {
+[3.372s]       | [01;35m[K~~~~~~~~~~~~^~[m[K
+[3.372s] 
+[7.471s] [100%] [32m[1mLinking CXX executable zad2_node[0m
+[7.655s] [100%] Built target zad2_node
+[7.670s] Invoked command in '/home/dominik/RRM/ros2_ws/build/zad2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/zad2 -- -j16 -l16
+[7.699s] Invoking command in '/home/dominik/RRM/ros2_ws/build/zad2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/zad2
+[7.707s] -- Install configuration: ""
+[7.707s] -- Installing: /home/dominik/RRM/ros2_ws/install/zad2/lib/zad2/zad2_node
+[7.710s] -- Set non-toolchain portion of runtime path of "/home/dominik/RRM/ros2_ws/install/zad2/lib/zad2/zad2_node" to ""
+[7.710s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/lib/zad2/zad2_node
+[7.710s] -- Installing: /home/dominik/RRM/ros2_ws/install/zad2/share/ament_index/resource_index/package_run_dependencies/zad2
+[7.710s] -- Installing: /home/dominik/RRM/ros2_ws/install/zad2/share/ament_index/resource_index/parent_prefix_path/zad2
+[7.710s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/environment/ament_prefix_path.sh
+[7.711s] -- Installing: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/environment/ament_prefix_path.dsv
+[7.711s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/environment/path.sh
+[7.711s] -- Installing: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/environment/path.dsv
+[7.711s] -- Installing: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/local_setup.bash
+[7.711s] -- Installing: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/local_setup.sh
+[7.711s] -- Installing: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/local_setup.zsh
+[7.711s] -- Installing: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/local_setup.dsv
+[7.711s] -- Installing: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/package.dsv
+[7.712s] -- Installing: /home/dominik/RRM/ros2_ws/install/zad2/share/ament_index/resource_index/packages/zad2
+[7.712s] -- Installing: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.712s] -- Installing: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.712s] -- Installing: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/cmake/zad2Config.cmake
+[7.712s] -- Installing: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/cmake/zad2Config-version.cmake
+[7.712s] -- Installing: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/package.xml
+[7.713s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/include/zad2
+[7.713s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/include/zad2/zad2
+[7.715s] Invoked command in '/home/dominik/RRM/ros2_ws/build/zad2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/zad2

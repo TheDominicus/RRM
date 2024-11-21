@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/ik_solver_example.dir/src/ik_solver_example.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ik_solver_example[0m
+[100%] Built target ik_solver_example
+-- Install configuration: ""
+-- Installing: /home/dominik/RRM/ros2_ws/install/ik_solver_example/lib/ik_solver_example/ik_solver_example
+-- Set non-toolchain portion of runtime path of "/home/dominik/RRM/ros2_ws/install/ik_solver_example/lib/ik_solver_example/ik_solver_example" to ""
+-- Installing: /home/dominik/RRM/ros2_ws/install/ik_solver_example/share/ament_index/resource_index/package_run_dependencies/ik_solver_example
+-- Installing: /home/dominik/RRM/ros2_ws/install/ik_solver_example/share/ament_index/resource_index/parent_prefix_path/ik_solver_example
+-- Installing: /home/dominik/RRM/ros2_ws/install/ik_solver_example/share/ik_solver_example/environment/ament_prefix_path.sh
+-- Installing: /home/dominik/RRM/ros2_ws/install/ik_solver_example/share/ik_solver_example/environment/ament_prefix_path.dsv
+-- Installing: /home/dominik/RRM/ros2_ws/install/ik_solver_example/share/ik_solver_example/environment/path.sh
+-- Installing: /home/dominik/RRM/ros2_ws/install/ik_solver_example/share/ik_solver_example/environment/path.dsv
+-- Installing: /home/dominik/RRM/ros2_ws/install/ik_solver_example/share/ik_solver_example/local_setup.bash
+-- Installing: /home/dominik/RRM/ros2_ws/install/ik_solver_example/share/ik_solver_example/local_setup.sh
+-- Installing: /home/dominik/RRM/ros2_ws/install/ik_solver_example/share/ik_solver_example/local_setup.zsh
+-- Installing: /home/dominik/RRM/ros2_ws/install/ik_solver_example/share/ik_solver_example/local_setup.dsv
+-- Installing: /home/dominik/RRM/ros2_ws/install/ik_solver_example/share/ik_solver_example/package.dsv
+-- Installing: /home/dominik/RRM/ros2_ws/install/ik_solver_example/share/ament_index/resource_index/packages/ik_solver_example
+-- Installing: /home/dominik/RRM/ros2_ws/install/ik_solver_example/share/ik_solver_example/cmake/ik_solver_exampleConfig.cmake
+-- Installing: /home/dominik/RRM/ros2_ws/install/ik_solver_example/share/ik_solver_example/cmake/ik_solver_exampleConfig-version.cmake
+-- Installing: /home/dominik/RRM/ros2_ws/install/ik_solver_example/share/ik_solver_example/package.xml

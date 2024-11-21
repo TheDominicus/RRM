@@ -1,4 +1,5 @@
 /home/dominik/RRM/ros2_ws/install/zad2/lib/zad2/zad2_node
+/home/dominik/RRM/ros2_ws/install/zad2/lib/zad2/zad2_node
 /home/dominik/RRM/ros2_ws/install/zad2/share/ament_index/resource_index/package_run_dependencies/zad2
 /home/dominik/RRM/ros2_ws/install/zad2/share/ament_index/resource_index/parent_prefix_path/zad2
 /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/environment/ament_prefix_path.sh

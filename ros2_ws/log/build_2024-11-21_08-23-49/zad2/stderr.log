@@ -1,0 +1,5 @@
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:[m[K In member function ‘[01m[KEigen::MatrixXd TrajectoryNode::[01;32m[Kcompute_cubic_coefficients[m[K(const std::vector<double, std::allocator<double> >&, const std::vector<double, std::allocator<double> >&, const std::vector<double, std::allocator<double> >&)[m[K’:
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:68:131:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   68 | [01;35m[Kor<double>& dq[m[K) {
+      | [01;35m[K~~~~~~~~~~~~^~[m[K
+
