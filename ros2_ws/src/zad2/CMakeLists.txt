@@ -55,6 +55,3 @@ if(BUILD_TESTING)
 endif()
 
 ament_package()
-install(DIRECTORY include/
-  DESTINATION include/${PROJECT_NAME}
-)

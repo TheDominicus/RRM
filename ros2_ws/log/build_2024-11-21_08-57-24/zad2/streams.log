@@ -1,0 +1,50 @@
+[0.072s] Invoking command in '/home/dominik/RRM/ros2_ws/build/zad2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/zad2 -- -j16 -l16
+[0.125s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.645s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.698s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.712s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.730s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.755s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.872s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.875s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.995s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.118s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.212s] -- Found std_srvs: 5.3.5 (/opt/ros/jazzy/share/std_srvs/cmake)
+[1.239s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.351s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.351s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/dominik/RRM/ros2_ws/src/zad2/include>
+[1.351s] -- Configured cppcheck exclude dirs and/or files: 
+[1.353s] -- Added test 'lint_cmake' to check CMake code style
+[1.362s] -- Added test 'uncrustify' to check C / C++ code style
+[1.363s] -- Configured uncrustify additional arguments: 
+[1.363s] -- Added test 'xmllint' to check XML markup files
+[1.364s] -- Configuring done (1.2s)
+[1.378s] -- Generating done (0.0s)
+[1.382s] -- Build files have been written to: /home/dominik/RRM/ros2_ws/build/zad2
+[1.448s] [ 50%] [32mBuilding CXX object CMakeFiles/zad2_node.dir/src/zad2_node.cpp.o[0m
+[6.142s] [100%] [32m[1mLinking CXX executable zad2_node[0m
+[6.301s] [100%] Built target zad2_node
+[6.312s] Invoked command in '/home/dominik/RRM/ros2_ws/build/zad2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/zad2 -- -j16 -l16
+[6.343s] Invoking command in '/home/dominik/RRM/ros2_ws/build/zad2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/zad2
+[6.350s] -- Install configuration: ""
+[6.350s] -- Installing: /home/dominik/RRM/ros2_ws/install/zad2/lib/zad2/zad2_node
+[6.353s] -- Set non-toolchain portion of runtime path of "/home/dominik/RRM/ros2_ws/install/zad2/lib/zad2/zad2_node" to ""
+[6.353s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/lib/zad2/zad2_node
+[6.353s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/ament_index/resource_index/package_run_dependencies/zad2
+[6.353s] -- Installing: /home/dominik/RRM/ros2_ws/install/zad2/share/ament_index/resource_index/parent_prefix_path/zad2
+[6.353s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/environment/ament_prefix_path.sh
+[6.354s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/environment/ament_prefix_path.dsv
+[6.354s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/environment/path.sh
+[6.354s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/environment/path.dsv
+[6.354s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/local_setup.bash
+[6.354s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/local_setup.sh
+[6.354s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/local_setup.zsh
+[6.354s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/local_setup.dsv
+[6.354s] -- Installing: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/package.dsv
+[6.354s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/ament_index/resource_index/packages/zad2
+[6.354s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.354s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.354s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/cmake/zad2Config.cmake
+[6.354s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/cmake/zad2Config-version.cmake
+[6.354s] -- Installing: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/package.xml
+[6.357s] Invoked command in '/home/dominik/RRM/ros2_ws/build/zad2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/zad2

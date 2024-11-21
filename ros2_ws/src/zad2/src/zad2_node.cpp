@@ -1,97 +1,90 @@
 #include <rclcpp/rclcpp.hpp>
 #include <sensor_msgs/msg/joint_state.hpp>
 #include <std_srvs/srv/trigger.hpp>
-#include <eigen3/Eigen/Dense>
-#include <cmath>
 #include <vector>
-
-using namespace std::chrono_literals;
-using Eigen::MatrixXd;
 
 class TrajectoryNode : public rclcpp::Node {
 public:
     TrajectoryNode() : Node("zad2_node") {
-        // Publisher for JointState messages
-        joint_state_pub_ = this->create_publisher<sensor_msgs::msg::JointState>("/joint_states", 10);
+        // Publisher
+        joint_state_pub_ = this->create_publisher<sensor_msgs::msg::JointState>("joint_states", 10);
 
-        // Service to trigger trajectory generation
-        service_ = this->create_service<std_srvs::srv::Trigger>(
-            "/generate_trajectory",
-            std::bind(&TrajectoryNode::generate_trajectory, this, std::placeholders::_1, std::placeholders::_2)
+        // Service
+        traj_service_ = this->create_service<std_srvs::srv::Trigger>(
+            "start_trajectory",
+            std::bind(&TrajectoryNode::handle_trajectory_service, this, std::placeholders::_1, std::placeholders::_2)
         );
 
-        RCLCPP_INFO(this->get_logger(), "Node initialized.");
+        RCLCPP_INFO(this->get_logger(), "Node initialized and waiting for service calls.");
     }
 
 private:
     rclcpp::Publisher<sensor_msgs::msg::JointState>::SharedPtr joint_state_pub_;
-    rclcpp::Service<std_srvs::srv::Trigger>::SharedPtr service_;
+    rclcpp::Service<std_srvs::srv::Trigger>::SharedPtr traj_service_;
 
-    void generate_trajectory(
-        const std::shared_ptr<std_srvs::srv::Trigger::Request>,
+    void handle_trajectory_service(
+        const std::shared_ptr<std_srvs::srv::Trigger::Request> request,
         std::shared_ptr<std_srvs::srv::Trigger::Response> response) {
-        
-        RCLCPP_INFO(this->get_logger(), "Generating trajectory...");
-        
-        // Time vector
-        std::vector<double> time_points = {0.0, 1.0, 4.0};
-        std::vector<double> q1 = {0.0, 30.0, 90.0};
-        std::vector<double> dq1 = {0.0, 0.0, 0.0};
-        std::vector<double> q3 = {0.0, 0.0, 0.0};
-        std::vector<double> dq3 = {0.0, 0.0, 0.0};
+        (void)request;
 
-        // Interpolation for each joint
-        MatrixXd coeff_q1 = compute_cubic_coefficients(time_points, q1, dq1);
-        MatrixXd coeff_q3 = compute_cubic_coefficients(time_points, q3, dq3);
+        RCLCPP_INFO(this->get_logger(), "Service called. Generating and publishing trajectory...");
 
-        double t = 0.0;
-        double dt = 0.1;
-        sensor_msgs::msg::JointState joint_state_msg;
+        // Generate trajectory
+        std::vector<sensor_msgs::msg::JointState> trajectory = generate_trajectory();
 
-        while (t <= time_points.back()) {
-            double pos1 = evaluate_polynomial(coeff_q1, t);
-            double pos3 = evaluate_polynomial(coeff_q3, t);
-
-            joint_state_msg.header.stamp = this->get_clock()->now();
-            joint_state_msg.name = {"joint1", "joint3"};
-            joint_state_msg.position = {pos1, pos3};
-
-            joint_state_pub_->publish(joint_state_msg);
-            rclcpp::sleep_for(std::chrono::milliseconds(static_cast<int>(dt * 1000)));
-            t += dt;
+        // Publish trajectory
+        for (const auto &joint_state : trajectory) {
+            joint_state_pub_->publish(joint_state);
+            rclcpp::sleep_for(std::chrono::milliseconds(100)); // Simulate 10Hz
         }
 
         response->success = true;
-        response->message = "Trajectory generation complete.";
+        response->message = "Trajectory executed successfully.";
     }
 
-    MatrixXd compute_cubic_coefficients(const std::vector<double>& time, const std::vector<double>& q, const std::vector<double>& dq) {
-        size_t n = time.size() - 1;
-        MatrixXd A(4 * n, 4 * n);
-        A.setZero();
-        MatrixXd b(4 * n, 1);
-        b.setZero();
+    std::vector<sensor_msgs::msg::JointState> generate_trajectory() {
+        std::vector<sensor_msgs::msg::JointState> trajectory;
 
-        // Boundary conditions and continuity
-        for (size_t i = 0; i < n; ++i) {
-            double t0 = time[i], t1 = time[i + 1];
-            A.block<2, 4>(2 * i, 4 * i) << 1, t0, t0 * t0, t0 * t0 * t0,
-                                          1, t1, t1 * t1, t1 * t1 * t1;
-            b(2 * i, 0) = q[i];
-            b(2 * i + 1, 0) = q[i + 1];
+        // Define waypoints (tabuľka 1)
+        std::vector<std::vector<double>> waypoints = {
+            {0.0, 0.0, 0.0},      // t = 0s
+            {30.0, 0.0, 0.0},     // t = 1s
+            {90.0, 0.0, 0.0},     // t = 4s
+        };
+
+        // Time and interpolation step
+        double total_time = 4.0;
+        double dt = 0.1;
+
+        for (double t = 0; t <= total_time; t += dt) {
+            sensor_msgs::msg::JointState joint_state;
+            joint_state.header.stamp = this->now();
+            joint_state.name = {"joint_1", "joint_2", "joint_3"};
+
+            // Interpolate using simple linear interpolation (adjust for smooth trajectory)
+            double q1 = interpolate(t, {0.0, 1.0, 4.0}, {0.0, 30.0, 90.0});
+            double q3 = interpolate(t, {0.0, 1.0, 4.0}, {0.0, 0.0, 0.0});
+
+            joint_state.position = {q1, 0.0, q3};
+            trajectory.push_back(joint_state);
         }
 
-        // Solve for coefficients
-        MatrixXd coeff = A.fullPivLu().solve(b);
-        return coeff;
+        return trajectory;
     }
 
-    double evaluate_polynomial(const MatrixXd& coeff, double t) {
-        return coeff(0, 0) + coeff(1, 0) * t + coeff(2, 0) * t * t + coeff(3, 0) * t * t * t;
+    double interpolate(double t, const std::vector<double>& times, const std::vector<double>& values) {
+        // Linear interpolation
+        for (size_t i = 1; i < times.size(); ++i) {
+            if (t <= times[i]) {
+                double ratio = (t - times[i - 1]) / (times[i] - times[i - 1]);
+                return values[i - 1] + ratio * (values[i] - values[i - 1]);
+            }
+        }
+        return values.back();
     }
 };
 
-int main(int argc, char** argv) {
+int main(int argc, char **argv) {
     rclcpp::init(argc, argv);
     rclcpp::spin(std::make_shared<TrajectoryNode>());
     rclcpp::shutdown();
