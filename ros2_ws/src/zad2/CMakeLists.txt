@@ -5,15 +5,19 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
-# find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
-find_package(std_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
-find_package(geometry_msgs REQUIRED)
-find_package(std_srvs REQUIRED)  # Add this line
+find_package(std_srvs REQUIRED)
+find_package(Eigen3 REQUIRED)
 
 add_executable(zad2_node src/zad2_node.cpp)
+ament_target_dependencies(zad2_node rclcpp sensor_msgs std_srvs Eigen3)
+
+install(TARGETS zad2_node
+  DESTINATION lib/${PROJECT_NAME})
+
+# add_executable(zad2_node src/zad2_node.cpp)
 target_include_directories(zad2_node PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include/${PROJECT_NAME}>)

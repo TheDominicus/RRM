@@ -1,0 +1,24 @@
+[0.072s] Invoking command in '/home/dominik/RRM/ros2_ws/build/surani_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/surani_interface -- -j16 -l16
+[0.172s] [  2%] Built target surani_interface__rosidl_generator_type_description
+[0.199s] [  2%] Built target ament_cmake_python_copy_surani_interface
+[0.214s] [  5%] Built target surani_interface__cpp
+[0.242s] [ 20%] Built target surani_interface__rosidl_generator_c
+[0.285s] [ 29%] Built target surani_interface__rosidl_typesupport_introspection_c
+[0.289s] [ 38%] Built target surani_interface__rosidl_typesupport_fastrtps_c
+[0.292s] [ 47%] Built target surani_interface__rosidl_typesupport_fastrtps_cpp
+[0.293s] [ 55%] Built target surani_interface__rosidl_typesupport_c
+[0.307s] [ 64%] Built target surani_interface__rosidl_typesupport_cpp
+[0.308s] [ 73%] Built target surani_interface__rosidl_typesupport_introspection_cpp
+[0.329s] [ 73%] Built target surani_interface
+[0.350s] [ 76%] Built target surani_interface__py
+[0.385s] [ 82%] Built target surani_interface__rosidl_generator_py
+[0.415s] [ 97%] Built target surani_interface_s__rosidl_typesupport_introspection_c
+[0.416s] [ 97%] Built target surani_interface_s__rosidl_typesupport_fastrtps_c
+[0.416s] [100%] Built target surani_interface_s__rosidl_typesupport_c
+[0.504s] running egg_info
+[0.523s] writing surani_interface.egg-info/PKG-INFO
+[0.523s] writing dependency_links to surani_interface.egg-info/dependency_links.txt
+[0.523s] writing top-level names to surani_interface.egg-info/top_level.txt
+[0.579s] reading manifest file 'surani_interface.egg-info/SOURCES.txt'
+[0.580s] writing manifest file 'surani_interface.egg-info/SOURCES.txt'
+[0.622s] [100%] Built target ament_cmake_python_build_surani_interface_egg

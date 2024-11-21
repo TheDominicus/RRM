@@ -1,0 +1,22 @@
+[100%] Built target trajectory_visualization
+-- Install configuration: ""
+-- Installing: /home/dominik/RRM/ros2_ws/install/trajectory_visualization/lib/trajectory_visualization/trajectory_visualization
+-- Set non-toolchain portion of runtime path of "/home/dominik/RRM/ros2_ws/install/trajectory_visualization/lib/trajectory_visualization/trajectory_visualization" to ""
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/launch
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/launch/trajectory_visualization.launch.xml
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/launch/trajectory_visualization.launch.py
+-- Installing: /home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/ament_index/resource_index/package_run_dependencies/trajectory_visualization
+-- Installing: /home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/ament_index/resource_index/parent_prefix_path/trajectory_visualization
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/environment/ament_prefix_path.sh
+-- Installing: /home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/environment/path.sh
+-- Installing: /home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/environment/path.dsv
+-- Installing: /home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/local_setup.bash
+-- Installing: /home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/local_setup.sh
+-- Installing: /home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/local_setup.zsh
+-- Installing: /home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/local_setup.dsv
+-- Installing: /home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/package.dsv
+-- Installing: /home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/ament_index/resource_index/packages/trajectory_visualization
+-- Installing: /home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/cmake/trajectory_visualizationConfig.cmake
+-- Installing: /home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/cmake/trajectory_visualizationConfig-version.cmake
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/package.xml

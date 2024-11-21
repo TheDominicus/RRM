@@ -176,7 +176,6 @@ CMakeFiles/surani_interface_uninstall.dir/clean:
 # Target rules for target CMakeFiles/surani_interface.dir
 
 # All Build rule for target.
-CMakeFiles/surani_interface.dir/all: CMakeFiles/surani_interface__rosidl_generator_type_description.dir/all
 CMakeFiles/surani_interface.dir/all: CMakeFiles/surani_interface__rosidl_generator_c.dir/all
 CMakeFiles/surani_interface.dir/all: CMakeFiles/surani_interface__rosidl_typesupport_fastrtps_c.dir/all
 CMakeFiles/surani_interface.dir/all: CMakeFiles/surani_interface__rosidl_typesupport_introspection_c.dir/all
@@ -185,6 +184,7 @@ CMakeFiles/surani_interface.dir/all: CMakeFiles/surani_interface__cpp.dir/all
 CMakeFiles/surani_interface.dir/all: CMakeFiles/surani_interface__rosidl_typesupport_fastrtps_cpp.dir/all
 CMakeFiles/surani_interface.dir/all: CMakeFiles/surani_interface__rosidl_typesupport_introspection_cpp.dir/all
 CMakeFiles/surani_interface.dir/all: CMakeFiles/surani_interface__rosidl_typesupport_cpp.dir/all
+CMakeFiles/surani_interface.dir/all: CMakeFiles/surani_interface__rosidl_generator_type_description.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/surani_interface.dir/build.make CMakeFiles/surani_interface.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/surani_interface.dir/build.make CMakeFiles/surani_interface.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dominik/RRM/ros2_ws/build/surani_interface/CMakeFiles --progress-num= "Built target surani_interface"
