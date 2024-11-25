@@ -1,0 +1,22 @@
+[0.084s] Invoking command in '/home/dominik/RRM/ros2_ws/build/eigen_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/eigen_example -- -j16 -l16
+[0.450s] [100%] Built target eigen_example
+[0.812s] Invoked command in '/home/dominik/RRM/ros2_ws/build/eigen_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/eigen_example -- -j16 -l16
+[1.147s] Invoking command in '/home/dominik/RRM/ros2_ws/build/eigen_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/eigen_example
+[1.250s] -- Install configuration: ""
+[1.253s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/eigen_example/lib/eigen_example/eigen_example
+[1.258s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/eigen_example/share/ament_index/resource_index/package_run_dependencies/eigen_example
+[1.274s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/eigen_example/share/ament_index/resource_index/parent_prefix_path/eigen_example
+[1.276s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/environment/ament_prefix_path.sh
+[1.277s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/environment/ament_prefix_path.dsv
+[1.283s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/environment/path.sh
+[1.284s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/environment/path.dsv
+[1.285s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/local_setup.bash
+[1.287s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/local_setup.sh
+[1.294s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/local_setup.zsh
+[1.296s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/local_setup.dsv
+[1.297s] -- Installing: /home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/package.dsv
+[1.298s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/eigen_example/share/ament_index/resource_index/packages/eigen_example
+[1.300s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/cmake/eigen_exampleConfig.cmake
+[1.301s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/cmake/eigen_exampleConfig-version.cmake
+[1.302s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/eigen_example/share/eigen_example/package.xml
+[1.321s] Invoked command in '/home/dominik/RRM/ros2_ws/build/eigen_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/eigen_example

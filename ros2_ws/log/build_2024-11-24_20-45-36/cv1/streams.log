@@ -1,0 +1,22 @@
+[0.118s] Invoking command in '/home/dominik/RRM/ros2_ws/build/cv1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/cv1 -- -j16 -l16
+[0.694s] [100%] Built target cv1_node
+[1.244s] Invoked command in '/home/dominik/RRM/ros2_ws/build/cv1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/cv1 -- -j16 -l16
+[1.604s] Invoking command in '/home/dominik/RRM/ros2_ws/build/cv1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/cv1
+[1.712s] -- Install configuration: ""
+[1.713s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/cv1/lib/cv1/cv1_node
+[1.714s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/cv1/share/ament_index/resource_index/package_run_dependencies/cv1
+[1.715s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/cv1/share/ament_index/resource_index/parent_prefix_path/cv1
+[1.715s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/cv1/share/cv1/environment/ament_prefix_path.sh
+[1.717s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/cv1/share/cv1/environment/ament_prefix_path.dsv
+[1.718s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/cv1/share/cv1/environment/path.sh
+[1.718s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/cv1/share/cv1/environment/path.dsv
+[1.719s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/cv1/share/cv1/local_setup.bash
+[1.720s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/cv1/share/cv1/local_setup.sh
+[1.721s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/cv1/share/cv1/local_setup.zsh
+[1.722s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/cv1/share/cv1/local_setup.dsv
+[1.723s] -- Installing: /home/dominik/RRM/ros2_ws/install/cv1/share/cv1/package.dsv
+[1.723s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/cv1/share/ament_index/resource_index/packages/cv1
+[1.724s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/cv1/share/cv1/cmake/cv1Config.cmake
+[1.725s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/cv1/share/cv1/cmake/cv1Config-version.cmake
+[1.725s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/cv1/share/cv1/package.xml
+[1.953s] Invoked command in '/home/dominik/RRM/ros2_ws/build/cv1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/cv1

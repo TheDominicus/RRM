@@ -7,13 +7,13 @@
         output="screen">
     </node>
 
-    <!-- Vizualizácia modelu ABB IRB 4600 -->
-    <include file="$(find-pkg-share abb_model)/launch/test_irb4600.launch.xml">
-        <!-- Ďalšie voliteľné argumenty pre ABB IRB 4600 model -->
-    </include>
+    <node pkg="robot_state_publisher" exec="robot_state_publisher" name="robot_state_publisher" output="screen">
+        <param name="robot_description" value="$(command 'xacro $(find-pkg-share abb_model)/urdf/abb_irb4600_60_205.xacro')" />
+    </node>
 
-    <!-- Vizualizácia trajektórie pomocou joint_states -->
-    <include file="$(find-pkg-share trajectory_visualization)/launch/trajectory_visualization.launch.xml">
-        <!-- Argumenty na prispôsobenie trajektórie -->
-    </include>
+    <!-- Trajectory Visualization Node -->
+    <node pkg="zad2" exec="zad2_node" name="zad2_node" output="screen" />
+    
+    <!-- RViz Node -->
+    <node pkg="rviz2" exec="rviz2" name="rviz2" output="screen" />
 </launch>
