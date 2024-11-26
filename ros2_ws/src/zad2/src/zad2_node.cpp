@@ -8,6 +8,7 @@
 #include <fstream>
 #include <sstream>
 #include <string>
+#include <chrono>
 
 using namespace std;
 
@@ -83,6 +84,12 @@ CartesianTrajectoryPlanner::CartesianTrajectoryPlanner() : Node("cartesian_traje
 void CartesianTrajectoryPlanner::handle_service_request(const std::shared_ptr<surani_interface::srv::TeachPoint::Request> req,
                                                std::shared_ptr<surani_interface::srv::TeachPoint::Response> res) {
     ofstream output_file("zad2_2.csv");
+    if (!output_file.is_open()) {
+        RCLCPP_ERROR(this->get_logger(), "Failed to open file for writing.");
+        //res->success = false;
+        return;
+    }
+
     int sample_rate = 100;  // in Hz
     double delta_t = 1.0 / static_cast<double>(sample_rate);  // in seconds
     double current_time = 0.0;
@@ -114,11 +121,20 @@ void CartesianTrajectoryPlanner::handle_service_request(const std::shared_ptr<su
         Eigen::Vector3d position = phase.start_pos;
         Eigen::Quaterniond rotation = phase.start_rot;
 
-        double t = 0.0;
-        while (t <= phase.duration) {
+        auto start_time = std::chrono::steady_clock::now();
+        while (true) {
+            auto current_time_point = std::chrono::steady_clock::now();
+            std::chrono::duration<double> elapsed_time = current_time_point - start_time;
+            double t = elapsed_time.count();
+
+            if (t > phase.duration) {
+                break;
+            }
+
             double alpha = t / phase.duration;
             position = (1 - alpha) * phase.start_pos + alpha * phase.end_pos;
             rotation = phase.start_rot.slerp(alpha, phase.end_rot);
+            rotation.normalize();
 
             tool_pose_msg.pose.position.x = position.x();
             tool_pose_msg.pose.position.y = position.y();
@@ -134,11 +150,11 @@ void CartesianTrajectoryPlanner::handle_service_request(const std::shared_ptr<su
                         << rotation.x() << "," << rotation.y() << "," << rotation.z() << "," << rotation.w() << endl;
 
             current_time += delta_t;
-            t += delta_t;
             loop_frequency.sleep();
         }
     }
 
+    output_file.close();
     //res->success = true;
 }
 

@@ -2366,6 +2366,18 @@
 			"value" : "/opt/ros/jazzy/share/builtin_interfaces/cmake"
 		},
 		{
+			"name" : "chrono_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for chrono."
+				}
+			],
+			"type" : "PATH",
+			"value" : "chrono_DIR-NOTFOUND"
+		},
+		{
 			"name" : "fastcdr_DIR",
 			"properties" : 
 			[

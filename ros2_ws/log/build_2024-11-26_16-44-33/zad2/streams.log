@@ -1,0 +1,54 @@
+[0.029s] Invoking command in '/home/dominik/RRM/ros2_ws/build/zad2': CMAKE_PREFIX_PATH=/home/dominik/RRM/ros2_ws/install/surani_interface:/home/dominik/RRM/ros2_ws/install/zad2:/home/dominik/RRM/ros2_ws/install/trajectory_visualization:/home/dominik/RRM/ros2_ws/install/block1_surani:/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model:/home/dominik/RRM/ros2_ws/install/rrm_sim:/home/dominik/RRM/ros2_ws/install/block1_suraniV2:/home/dominik/RRM/ros2_ws/install/rrm_msgs:/home/dominik/RRM/ros2_ws/install/ik_solver_example:/home/dominik/RRM/ros2_ws/install/eigen_example:/home/dominik/RRM/ros2_ws/install/cv1:/home/dominik/RRM/ros2_ws/install/abb_model:/home/dominik/RRM/ros2_ws/install/abb_irb4600_ikfast:/home/dominik/RRM/ros2_ws/install/Surani_interface:/home/dominik/RRM/zad1/install/zad1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/zad2 -- -j16 -l16
+[0.102s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.712s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.784s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.805s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.833s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.866s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.014s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.017s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.104s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.177s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.241s] -- Found surani_interface: 0.0.0 (/home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/cmake)
+[1.261s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.358s] -- Configuring done (1.3s)
+[1.374s] -- Generating done (0.0s)
+[1.376s] -- Build files have been written to: /home/dominik/RRM/ros2_ws/build/zad2
+[1.448s] [ 50%] [32mBuilding CXX object CMakeFiles/zad2_node.dir/src/zad2_node.cpp.o[0m
+[4.910s] [01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:[m[K In member function ‘[01m[Kvoid CartesianTrajectoryPlanner::[01;32m[Khandle_service_request[m[K(std::shared_ptr<surani_interface::srv::TeachPoint_Request_<std::allocator<void> > >, std::shared_ptr<surani_interface::srv::TeachPoint_Response_<std::allocator<void> > >)[m[K’:
+[4.911s] [01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:89:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktotal_duration[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.911s]    89 |     double [01;35m[Ktotal_duration[m[K = 9.0;  // total duration in seconds
+[4.911s]       |            [01;35m[K^~~~~~~~~~~~~~[m[K
+[4.911s] [01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:83:123:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.911s]    83 | [01;35m[Kt std::shared_ptr<surani_interface::srv::TeachPoint::Request> req[m[K,
+[4.911s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[4.912s] 
+[4.912s] [01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:84:109:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kres[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.912s]    84 | [01;35m[Ktd::shared_ptr<surani_interface::srv::TeachPoint::Response> res[m[K) {
+[4.912s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[4.912s] 
+[13.111s] [100%] [32m[1mLinking CXX executable zad2_node[0m
+[13.390s] [100%] Built target zad2_node
+[13.407s] Invoked command in '/home/dominik/RRM/ros2_ws/build/zad2' returned '0': CMAKE_PREFIX_PATH=/home/dominik/RRM/ros2_ws/install/surani_interface:/home/dominik/RRM/ros2_ws/install/zad2:/home/dominik/RRM/ros2_ws/install/trajectory_visualization:/home/dominik/RRM/ros2_ws/install/block1_surani:/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model:/home/dominik/RRM/ros2_ws/install/rrm_sim:/home/dominik/RRM/ros2_ws/install/block1_suraniV2:/home/dominik/RRM/ros2_ws/install/rrm_msgs:/home/dominik/RRM/ros2_ws/install/ik_solver_example:/home/dominik/RRM/ros2_ws/install/eigen_example:/home/dominik/RRM/ros2_ws/install/cv1:/home/dominik/RRM/ros2_ws/install/abb_model:/home/dominik/RRM/ros2_ws/install/abb_irb4600_ikfast:/home/dominik/RRM/ros2_ws/install/Surani_interface:/home/dominik/RRM/zad1/install/zad1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/zad2 -- -j16 -l16
+[13.447s] Invoking command in '/home/dominik/RRM/ros2_ws/build/zad2': CMAKE_PREFIX_PATH=/home/dominik/RRM/ros2_ws/install/surani_interface:/home/dominik/RRM/ros2_ws/install/zad2:/home/dominik/RRM/ros2_ws/install/trajectory_visualization:/home/dominik/RRM/ros2_ws/install/block1_surani:/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model:/home/dominik/RRM/ros2_ws/install/rrm_sim:/home/dominik/RRM/ros2_ws/install/block1_suraniV2:/home/dominik/RRM/ros2_ws/install/rrm_msgs:/home/dominik/RRM/ros2_ws/install/ik_solver_example:/home/dominik/RRM/ros2_ws/install/eigen_example:/home/dominik/RRM/ros2_ws/install/cv1:/home/dominik/RRM/ros2_ws/install/abb_model:/home/dominik/RRM/ros2_ws/install/abb_irb4600_ikfast:/home/dominik/RRM/ros2_ws/install/Surani_interface:/home/dominik/RRM/zad1/install/zad1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/zad2
+[13.455s] -- Install configuration: ""
+[13.456s] -- Installing: /home/dominik/RRM/ros2_ws/install/zad2/lib/zad2/zad2_node
+[13.461s] -- Set non-toolchain portion of runtime path of "/home/dominik/RRM/ros2_ws/install/zad2/lib/zad2/zad2_node" to ""
+[13.462s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2//launch
+[13.462s] -- Installing: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2//launch/zad2.launch.xml
+[13.462s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/ament_index/resource_index/package_run_dependencies/zad2
+[13.462s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/ament_index/resource_index/parent_prefix_path/zad2
+[13.462s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/environment/ament_prefix_path.sh
+[13.462s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/environment/ament_prefix_path.dsv
+[13.463s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/environment/path.sh
+[13.463s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/environment/path.dsv
+[13.463s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/local_setup.bash
+[13.463s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/local_setup.sh
+[13.463s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/local_setup.zsh
+[13.463s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/local_setup.dsv
+[13.463s] -- Installing: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/package.dsv
+[13.463s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/ament_index/resource_index/packages/zad2
+[13.463s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/cmake/zad2Config.cmake
+[13.463s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/cmake/zad2Config-version.cmake
+[13.463s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/package.xml
+[13.466s] Invoked command in '/home/dominik/RRM/ros2_ws/build/zad2' returned '0': CMAKE_PREFIX_PATH=/home/dominik/RRM/ros2_ws/install/surani_interface:/home/dominik/RRM/ros2_ws/install/zad2:/home/dominik/RRM/ros2_ws/install/trajectory_visualization:/home/dominik/RRM/ros2_ws/install/block1_surani:/home/dominik/RRM/ros2_ws/install/rrm_simple_robot_model:/home/dominik/RRM/ros2_ws/install/rrm_sim:/home/dominik/RRM/ros2_ws/install/block1_suraniV2:/home/dominik/RRM/ros2_ws/install/rrm_msgs:/home/dominik/RRM/ros2_ws/install/ik_solver_example:/home/dominik/RRM/ros2_ws/install/eigen_example:/home/dominik/RRM/ros2_ws/install/cv1:/home/dominik/RRM/ros2_ws/install/abb_model:/home/dominik/RRM/ros2_ws/install/abb_irb4600_ikfast:/home/dominik/RRM/ros2_ws/install/Surani_interface:/home/dominik/RRM/zad1/install/zad1:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/zad2
