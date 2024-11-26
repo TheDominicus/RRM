@@ -36,212 +36,194 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 17,
+				"line" : 35,
 				"parent" : 0
 			},
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 20,
-				"parent" : 0
-			},
-			{
-				"command" : 0,
-				"file" : 0,
-				"line" : 47,
+				"line" : 41,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 63,
+				"line" : 59,
 				"parent" : 0
 			},
 			{
 				"command" : 4,
 				"file" : 4,
 				"line" : 66,
-				"parent" : 4
+				"parent" : 3
 			},
 			{
 				"command" : 3,
 				"file" : 3,
 				"line" : 48,
-				"parent" : 5
+				"parent" : 4
 			},
 			{
 				"file" : 2,
-				"parent" : 6
+				"parent" : 5
 			},
 			{
 				"command" : 2,
 				"file" : 2,
 				"line" : 47,
-				"parent" : 7
+				"parent" : 6
 			},
 			{
 				"command" : 1,
 				"file" : 2,
 				"line" : 29,
-				"parent" : 8
+				"parent" : 7
 			},
 			{
 				"command" : 0,
 				"file" : 1,
 				"line" : 105,
-				"parent" : 9
+				"parent" : 8
 			},
 			{
 				"command" : 6,
 				"file" : 2,
 				"line" : 48,
-				"parent" : 7
+				"parent" : 6
 			},
 			{
 				"command" : 1,
 				"file" : 2,
 				"line" : 43,
-				"parent" : 11
+				"parent" : 10
 			},
 			{
 				"command" : 0,
 				"file" : 1,
 				"line" : 105,
-				"parent" : 12
+				"parent" : 11
 			},
 			{
 				"command" : 3,
 				"file" : 3,
 				"line" : 48,
-				"parent" : 5
+				"parent" : 4
 			},
 			{
 				"file" : 6,
-				"parent" : 14
+				"parent" : 13
 			},
 			{
 				"command" : 7,
 				"file" : 6,
 				"line" : 20,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 70,
+				"parent" : 15
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 87,
 				"parent" : 15
 			},
 			{
 				"command" : 0,
 				"file" : 5,
 				"line" : 70,
-				"parent" : 16
+				"parent" : 15
 			},
 			{
 				"command" : 0,
 				"file" : 5,
 				"line" : 87,
-				"parent" : 16
-			},
-			{
-				"command" : 0,
-				"file" : 5,
-				"line" : 70,
-				"parent" : 16
-			},
-			{
-				"command" : 0,
-				"file" : 5,
-				"line" : 87,
-				"parent" : 16
+				"parent" : 15
 			},
 			{
 				"command" : 8,
 				"file" : 6,
 				"line" : 26,
-				"parent" : 15
+				"parent" : 14
 			},
 			{
 				"command" : 0,
 				"file" : 7,
 				"line" : 91,
-				"parent" : 21
+				"parent" : 20
 			},
 			{
 				"command" : 0,
 				"file" : 7,
 				"line" : 91,
-				"parent" : 21
+				"parent" : 20
 			},
 			{
 				"command" : 0,
 				"file" : 7,
 				"line" : 91,
-				"parent" : 21
+				"parent" : 20
 			},
 			{
 				"command" : 0,
 				"file" : 7,
 				"line" : 107,
-				"parent" : 21
+				"parent" : 20
 			},
 			{
 				"command" : 0,
 				"file" : 7,
 				"line" : 120,
-				"parent" : 21
+				"parent" : 20
 			},
 			{
 				"command" : 3,
 				"file" : 3,
 				"line" : 48,
-				"parent" : 5
+				"parent" : 4
 			},
 			{
 				"file" : 9,
-				"parent" : 27
+				"parent" : 26
 			},
 			{
 				"command" : 9,
 				"file" : 9,
 				"line" : 16,
-				"parent" : 28
+				"parent" : 27
 			},
 			{
 				"command" : 1,
 				"file" : 8,
 				"line" : 29,
-				"parent" : 29
+				"parent" : 28
 			},
 			{
 				"command" : 0,
 				"file" : 1,
 				"line" : 105,
-				"parent" : 30
+				"parent" : 29
 			},
 			{
 				"command" : 10,
 				"file" : 4,
 				"line" : 68,
-				"parent" : 4
-			},
-			{
-				"command" : 0,
-				"file" : 4,
-				"line" : 122,
-				"parent" : 32
-			},
-			{
-				"command" : 0,
-				"file" : 4,
-				"line" : 122,
-				"parent" : 32
+				"parent" : 3
 			},
 			{
 				"command" : 0,
 				"file" : 4,
 				"line" : 150,
-				"parent" : 32
+				"parent" : 31
 			},
 			{
 				"command" : 0,
 				"file" : 4,
 				"line" : 157,
-				"parent" : 32
+				"parent" : 31
 			}
 		]
 	},
@@ -273,41 +255,15 @@
 		{
 			"backtrace" : 2,
 			"component" : "Unspecified",
-			"destination" : "share/zad2/launch",
+			"destination" : "share/zad2/",
 			"paths" : 
 			[
-				{
-					"from" : "launch",
-					"to" : "."
-				}
+				"launch"
 			],
 			"type" : "directory"
 		},
 		{
-			"backtrace" : 3,
-			"component" : "Unspecified",
-			"destination" : "lib/zad2",
-			"paths" : 
-			[
-				"zad2_node"
-			],
-			"targetId" : "zad2_node::@6890427a1f51a3e7e1df",
-			"targetIndex" : 1,
-			"type" : "target"
-		},
-		{
-			"backtrace" : 3,
-			"component" : "Unspecified",
-			"cxxModuleBmiTarget" : 
-			{
-				"id" : "zad2_node::@6890427a1f51a3e7e1df",
-				"index" : 1
-			},
-			"destination" : "lib/zad2",
-			"type" : "cxxModuleBmi"
-		},
-		{
-			"backtrace" : 10,
+			"backtrace" : 9,
 			"component" : "Unspecified",
 			"destination" : "share/ament_index/resource_index/package_run_dependencies",
 			"paths" : 
@@ -317,7 +273,7 @@
 			"type" : "file"
 		},
 		{
-			"backtrace" : 13,
+			"backtrace" : 12,
 			"component" : "Unspecified",
 			"destination" : "share/ament_index/resource_index/parent_prefix_path",
 			"paths" : 
@@ -327,7 +283,7 @@
 			"type" : "file"
 		},
 		{
-			"backtrace" : 17,
+			"backtrace" : 16,
 			"component" : "Unspecified",
 			"destination" : "share/zad2/environment",
 			"paths" : 
@@ -337,7 +293,7 @@
 			"type" : "file"
 		},
 		{
-			"backtrace" : 18,
+			"backtrace" : 17,
 			"component" : "Unspecified",
 			"destination" : "share/zad2/environment",
 			"paths" : 
@@ -347,7 +303,7 @@
 			"type" : "file"
 		},
 		{
-			"backtrace" : 19,
+			"backtrace" : 18,
 			"component" : "Unspecified",
 			"destination" : "share/zad2/environment",
 			"paths" : 
@@ -357,7 +313,7 @@
 			"type" : "file"
 		},
 		{
-			"backtrace" : 20,
+			"backtrace" : 19,
 			"component" : "Unspecified",
 			"destination" : "share/zad2/environment",
 			"paths" : 
@@ -367,7 +323,7 @@
 			"type" : "file"
 		},
 		{
-			"backtrace" : 22,
+			"backtrace" : 21,
 			"component" : "Unspecified",
 			"destination" : "share/zad2",
 			"paths" : 
@@ -377,7 +333,7 @@
 			"type" : "file"
 		},
 		{
-			"backtrace" : 23,
+			"backtrace" : 22,
 			"component" : "Unspecified",
 			"destination" : "share/zad2",
 			"paths" : 
@@ -387,7 +343,7 @@
 			"type" : "file"
 		},
 		{
-			"backtrace" : 24,
+			"backtrace" : 23,
 			"component" : "Unspecified",
 			"destination" : "share/zad2",
 			"paths" : 
@@ -397,7 +353,7 @@
 			"type" : "file"
 		},
 		{
-			"backtrace" : 25,
+			"backtrace" : 24,
 			"component" : "Unspecified",
 			"destination" : "share/zad2",
 			"paths" : 
@@ -407,7 +363,7 @@
 			"type" : "file"
 		},
 		{
-			"backtrace" : 26,
+			"backtrace" : 25,
 			"component" : "Unspecified",
 			"destination" : "share/zad2",
 			"paths" : 
@@ -417,7 +373,7 @@
 			"type" : "file"
 		},
 		{
-			"backtrace" : 31,
+			"backtrace" : 30,
 			"component" : "Unspecified",
 			"destination" : "share/ament_index/resource_index/packages",
 			"paths" : 
@@ -427,27 +383,7 @@
 			"type" : "file"
 		},
 		{
-			"backtrace" : 33,
-			"component" : "Unspecified",
-			"destination" : "share/zad2/cmake",
-			"paths" : 
-			[
-				"build/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake"
-			],
-			"type" : "file"
-		},
-		{
-			"backtrace" : 34,
-			"component" : "Unspecified",
-			"destination" : "share/zad2/cmake",
-			"paths" : 
-			[
-				"build/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake"
-			],
-			"type" : "file"
-		},
-		{
-			"backtrace" : 35,
+			"backtrace" : 32,
 			"component" : "Unspecified",
 			"destination" : "share/zad2/cmake",
 			"paths" : 
@@ -458,7 +394,7 @@
 			"type" : "file"
 		},
 		{
-			"backtrace" : 36,
+			"backtrace" : 33,
 			"component" : "Unspecified",
 			"destination" : "share/zad2",
 			"paths" : 

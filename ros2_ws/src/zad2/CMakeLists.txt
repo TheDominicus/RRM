@@ -5,48 +5,44 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
+# Find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(sensor_msgs REQUIRED)
-find_package(std_srvs REQUIRED)
+find_package(surani_interface REQUIRED)
 find_package(Eigen3 REQUIRED)
+find_package(geometry_msgs REQUIRED)
 
-add_executable(zad2_node src/zad2_node.cpp)
-ament_target_dependencies(zad2_node rclcpp sensor_msgs std_srvs Eigen3)
-
-install(TARGETS zad2_node
-  DESTINATION lib/${PROJECT_NAME})
-
-install(
-    DIRECTORY launch/
-    DESTINATION share/${PROJECT_NAME}/launch
+# Include directories
+include_directories(
+  include
+  ${EIGEN3_INCLUDE_DIRS}
 )
 
+# Create executable
+add_executable(zad2_node src/zad2_node.cpp)
 
-# add_executable(zad2_node src/zad2_node.cpp)
-target_include_directories(zad2_node PUBLIC
-  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
-  $<INSTALL_INTERFACE:include/${PROJECT_NAME}>)
-target_compile_features(zad2_node PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
-ament_target_dependencies(
-  zad2_node
+# Link libraries
+ament_target_dependencies(zad2_node
   rclcpp
-  std_msgs
   sensor_msgs
   geometry_msgs
-  std_srvs  # Add this line
+  surani_interface
+  Eigen3
 )
 
-ament_export_include_directories(include)
-ament_export_dependencies(rclcpp)
-ament_export_dependencies(std_msgs)
-ament_export_dependencies(sensor_msgs)
-ament_export_dependencies(geometry_msgs)
-ament_export_dependencies(std_srvs)  # Add this line
-
-install(TARGETS zad2_node
+# Install target
+install(TARGETS
+  zad2_node
   DESTINATION lib/${PROJECT_NAME}
 )
+
+# Install launch files
+install(DIRECTORY launch
+  DESTINATION share/${PROJECT_NAME}/
+)
+
+# Ament package macro
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

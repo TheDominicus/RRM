@@ -1979,7 +1979,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/opt/ros/jazzy/lib/libstd_srvs__rosidl_typesupport_fastrtps_cpp.so"
+			"value" : "/home/dominik/RRM/ros2_ws/install/surani_interface/lib/libsurani_interface__rosidl_typesupport_fastrtps_cpp.so"
 		},
 		{
 			"name" : "ament_cmake_DIR",
@@ -2888,6 +2888,18 @@
 			],
 			"type" : "PATH",
 			"value" : "/opt/ros/jazzy/share/std_srvs/cmake"
+		},
+		{
+			"name" : "surani_interface_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for surani_interface."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/cmake"
 		},
 		{
 			"name" : "tracetools_DIR",
