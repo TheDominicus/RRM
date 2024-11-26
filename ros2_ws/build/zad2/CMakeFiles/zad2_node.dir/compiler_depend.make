@@ -449,7 +449,6 @@ CMakeFiles/zad2_node.dir/src/zad2_node.cpp.o: /home/dominik/RRM/ros2_ws/src/zad2
   /usr/include/c++/13/bits/exception.h \
   /usr/include/c++/13/bits/exception_defines.h \
   /usr/include/c++/13/bits/exception_ptr.h \
-  /usr/include/c++/13/bits/fstream.tcc \
   /usr/include/c++/13/bits/functexcept.h \
   /usr/include/c++/13/bits/functional_hash.h \
   /usr/include/c++/13/bits/hash_bytes.h \
@@ -563,7 +562,6 @@ CMakeFiles/zad2_node.dir/src/zad2_node.cpp.o: /home/dominik/RRM/ros2_ws/src/zad2
   /usr/include/c++/13/ext/numeric_traits.h \
   /usr/include/c++/13/ext/string_conversions.h \
   /usr/include/c++/13/ext/type_traits.h \
-  /usr/include/c++/13/fstream \
   /usr/include/c++/13/functional \
   /usr/include/c++/13/future \
   /usr/include/c++/13/initializer_list \
@@ -919,10 +917,8 @@ CMakeFiles/zad2_node.dir/src/zad2_node.cpp.o: /home/dominik/RRM/ros2_ws/src/zad2
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
-  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h \
@@ -977,8 +973,6 @@ CMakeFiles/zad2_node.dir/src/zad2_node.cpp.o: /home/dominik/RRM/ros2_ws/src/zad2
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h:
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
@@ -1662,8 +1656,6 @@ CMakeFiles/zad2_node.dir/src/zad2_node.cpp.o: /home/dominik/RRM/ros2_ws/src/zad2
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/event.hpp:
 
-/usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/expand_topic_or_service_name.hpp:
 
 /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/moving_average.hpp:
@@ -2015,8 +2007,6 @@ CMakeFiles/zad2_node.dir/src/zad2_node.cpp.o: /home/dominik/RRM/ros2_ws/src/zad2
 /opt/ros/jazzy/include/rcl/rcl/domain_id.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/executors/static_single_threaded_executor.hpp:
-
-/usr/include/c++/13/fstream:
 
 /opt/ros/jazzy/include/rcl/rcl/arguments.h:
 
@@ -2719,8 +2709,6 @@ CMakeFiles/zad2_node.dir/src/zad2_node.cpp.o: /home/dominik/RRM/ros2_ws/src/zad2
 /usr/include/c++/13/bits/this_thread_sleep.h:
 
 /usr/include/c++/13/bits/exception_ptr.h:
-
-/usr/include/c++/13/bits/fstream.tcc:
 
 /usr/include/eigen3/Eigen/Core:
 
