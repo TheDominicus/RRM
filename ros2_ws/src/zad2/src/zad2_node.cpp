@@ -1,10 +1,7 @@
 #include <rclcpp/rclcpp.hpp>
 #include <sensor_msgs/msg/joint_state.hpp>
 #include <Eigen/Geometry>
-#include <fstream>
-#include <iostream>
 #include <cmath>
-#include <string>
 
 using namespace std;
 
@@ -55,12 +52,27 @@ void TrajectoryPlanner::execute_trajectory() {
     double current_time = 0.0;
     double total_duration = 4.0;
 
+    // Joint 1 trajectory: 0 -> 90 degrees (1.57 radians) over 4 seconds
     Eigen::VectorXd coeffs_joint_1 = calculate_coefficients(0.0, total_duration, 0.0, 1.57, 0.0, 0.0, 0.0, 0.0);
+
+    // Joint 3 trajectory: two phases
+    Eigen::VectorXd coeffs_joint_3_phase1 = calculate_coefficients(0.0, 1.0, 0.0, 0.5236, 0.0, 0.0, 0.0, 0.0);  // Phase 1
+    Eigen::VectorXd coeffs_joint_3_phase2 = calculate_coefficients(1.0, 4.0, 0.5236, 0.0, 0.0, 0.0, 0.0, 0.0);  // Phase 2
 
     while (rclcpp::ok() && current_time <= total_duration) {
         joint_state_msg_.header.stamp = this->get_clock()->now();
+
+        // Update joint_1 position
         joint_state_msg_.position[0] = evaluate_position(coeffs_joint_1, current_time);
 
+        // Update joint_3 position based on the current phase
+        if (current_time <= 1.0) {
+            joint_state_msg_.position[2] = evaluate_position(coeffs_joint_3_phase1, current_time);
+        } else {
+            joint_state_msg_.position[2] = evaluate_position(coeffs_joint_3_phase2, current_time);
+        }
+
+        // Publish the updated joint states
         joint_publisher_->publish(joint_state_msg_);
 
         current_time += 0.01;  // Step by 10 ms

@@ -3,12 +3,6 @@
 
 CMakeFiles/zad2_node.dir/src/zad2_node.cpp.o
  /home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp
- /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/msg/rosidl_generator_cpp__visibility_control.hpp
- /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv/detail/teach_point__builder.hpp
- /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv/detail/teach_point__struct.hpp
- /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv/detail/teach_point__traits.hpp
- /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv/detail/teach_point__type_support.hpp
- /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv/teach_point.hpp
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp

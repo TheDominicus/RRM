@@ -875,8 +875,4 @@ CMakeFiles/zad2_node.dir/src/zad2_node.cpp.o: \
  /usr/include/eigen3/Eigen/src/Geometry/ParametrizedLine.h \
  /usr/include/eigen3/Eigen/src/Geometry/AlignedBox.h \
  /usr/include/eigen3/Eigen/src/Geometry/Umeyama.h \
- /usr/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h \
- /usr/include/c++/13/fstream \
- /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
- /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
- /usr/include/c++/13/bits/fstream.tcc
+ /usr/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h
