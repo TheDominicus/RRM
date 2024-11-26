@@ -12,6 +12,8 @@ find_package(sensor_msgs REQUIRED)
 find_package(surani_interface REQUIRED)
 find_package(Eigen3 REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(tf2_ros REQUIRED)
+find_package(tf2 REQUIRED)
 
 # Include directories
 include_directories(
@@ -26,6 +28,8 @@ add_executable(zad2_node src/zad2_node.cpp)
 ament_target_dependencies(zad2_node
   rclcpp
   sensor_msgs
+  tf2_ros
+  tf2
   geometry_msgs
   surani_interface
   Eigen3
