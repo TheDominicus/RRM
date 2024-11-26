@@ -1,0 +1,39 @@
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:73:30:[m[K [01;31m[Kerror: [m[K‘[01m[KPhase[m[K’ does not name a type
+   73 |     void execute_phase(const [01;31m[KPhase[m[K& phase) {
+      |                              [01;31m[K^~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:[m[K In member function ‘[01m[Kvoid TrajectoryPlanner::[01;32m[Khandle_service_request[m[K(std::shared_ptr<surani_interface::srv::TeachPoint_Request_<std::allocator<void> > >, std::shared_ptr<surani_interface::srv::TeachPoint_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:41:99:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   41 | [01;35m[K std::shared_ptr<surani_interface::srv::TeachPoint::Request> request[m[K,
+      |  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:[m[K In member function ‘[01m[Kvoid TrajectoryPlanner::[01;32m[Kexecute_trajectory[m[K()[m[K’:
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:69:27:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst TrajectoryPlanner::execute_trajectory()::Phase[m[K’ to ‘[01m[Kconst int&[m[K’
+   69 |             execute_phase([01;31m[Kphase[m[K);
+      |                           [01;31m[K^~~~~[m[K
+      |                           [01;31m[K|[m[K
+      |                           [01;31m[Kconst TrajectoryPlanner::execute_trajectory()::Phase[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:73:37:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid TrajectoryPlanner::[01;32m[Kexecute_phase[m[K(const int&)[m[K’
+   73 |     void execute_phase([01;36m[Kconst Phase& phase[m[K) {
+      |                        [01;36m[K~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:[m[K In member function ‘[01m[Kvoid TrajectoryPlanner::[01;32m[Kexecute_phase[m[K(const int&)[m[K’:
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:76:33:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kduration[m[K’ in ‘[01m[Kphase[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+   76 |         double duration = phase.[01;31m[Kduration[m[K;
+      |                                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:89:60:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kstart_pos[m[K’ in ‘[01m[Kphase[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+   89 |            Eigen::Vector3d position = (1 - alpha) * phase.[01;31m[Kstart_pos[m[K + alpha * phase.end_pos;
+      |                                                           [01;31m[K^~~~~~~~~[m[K
+
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:89:86:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kend_pos[m[K’ in ‘[01m[Kphase[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+   89 | r3d position = (1 - alpha) * phase.start_pos + alpha * phase.[01;31m[Kend_pos[m[K;
+      |                                                              [01;31m[K^~~~~~~[m[K
+
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:90:49:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kstart_rot[m[K’ in ‘[01m[Kphase[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+   90 |             Eigen::Quaterniond rotation = phase.[01;31m[Kstart_rot[m[K.slerp(alpha, phase.end_rot);
+      |                                                 [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:90:78:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kend_rot[m[K’ in ‘[01m[Kphase[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+   90 | ::Quaterniond rotation = phase.start_rot.slerp(alpha, phase.[01;31m[Kend_rot[m[K);
+      |                                                             [01;31m[K^~~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/zad2_node.dir/build.make:76: CMakeFiles/zad2_node.dir/src/zad2_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/zad2_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
