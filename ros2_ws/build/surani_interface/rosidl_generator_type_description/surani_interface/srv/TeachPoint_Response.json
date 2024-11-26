@@ -22,6 +22,16 @@
             "nested_type_name": ""
           },
           "default_value": ""
+        },
+        {
+          "name": "success",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
         }
       ]
     },
@@ -30,7 +40,7 @@
   "type_hashes": [
     {
       "type_name": "surani_interface/srv/TeachPoint_Response",
-      "hash_string": "RIHS01_546ffb45da71168ad9169c960773613931c43b599dfb4612983e5323e9ea9216"
+      "hash_string": "RIHS01_af72299bb087998c708f99dbabdd8a40a3e5c5fa32823fe0c2c85e19ce7aaf5a"
     }
   ]
 }

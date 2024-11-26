@@ -164,7 +164,7 @@ void TeachPoint_Response_fini_function(void * message_memory)
   typed_message->~TeachPoint_Response();
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember TeachPoint_Response_message_member_array[2] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember TeachPoint_Response_message_member_array[3] = {
   {
     "result",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_BOOLEAN,  // type
@@ -200,13 +200,31 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember TeachPoint_Re
     nullptr,  // fetch(index, &value) function pointer
     nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
+  },
+  {
+    "success",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_BOOLEAN,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is key
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(surani_interface::srv::TeachPoint_Response, success),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
   }
 };
 
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers TeachPoint_Response_message_members = {
   "surani_interface::srv",  // message namespace
   "TeachPoint_Response",  // message name
-  2,  // number of fields
+  3,  // number of fields
   sizeof(surani_interface::srv::TeachPoint_Response),
   false,  // has_any_key_member_
   TeachPoint_Response_message_member_array,  // message members

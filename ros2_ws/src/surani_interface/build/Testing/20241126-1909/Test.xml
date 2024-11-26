@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20241126-1909-Experimental"
+	Name="dominik-ntb-ubuntu"
+	Generator="ctest-3.28.3"
+	CompilerName="/usr/bin/g++"
+	CompilerVersion="13.2.0"
+	OSName="Linux"
+	Hostname="dominik-ntb-ubuntu"
+	OSRelease="6.8.0-49-generic"
+	OSVersion="#49-Ubuntu SMP PREEMPT_DYNAMIC Mon Nov  4 02:06:24 UTC 2024"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="25"
+	ModelID="68"
+	ProcessorCacheSize="512"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="4095"
+	TotalPhysicalMemory="13656"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="1396.98"
+	>
+	<Testing>
+		<StartDateTime>Nov 26 20:10 CET</StartDateTime>
+		<StartTestTime>1732648212</StartTestTime>
+		<TestList/>
+		<EndDateTime>Nov 26 20:10 CET</EndDateTime>
+		<EndTestTime>1732648212</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

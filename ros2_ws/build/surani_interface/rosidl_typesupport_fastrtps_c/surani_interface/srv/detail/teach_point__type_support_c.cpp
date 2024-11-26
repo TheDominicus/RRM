@@ -370,6 +370,11 @@ bool cdr_serialize_surani_interface__srv__TeachPoint_Response(
     cdr << str->data;
   }
 
+  // Field name: success
+  {
+    cdr << (ros_message->success ? true : false);
+  }
+
   return true;
 }
 
@@ -401,6 +406,13 @@ bool cdr_deserialize_surani_interface__srv__TeachPoint_Response(
     }
   }
 
+  // Field name: success
+  {
+    uint8_t tmp;
+    cdr >> tmp;
+    ros_message->success = tmp ? true : false;
+  }
+
   return true;
 }  // NOLINT(readability/fn_size)
 
@@ -430,6 +442,13 @@ size_t get_serialized_size_surani_interface__srv__TeachPoint_Response(
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
     (ros_message->message.size + 1);
+
+  // Field name: success
+  {
+    size_t item_size = sizeof(ros_message->success);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
 
   return current_alignment - initial_alignment;
 }
@@ -472,6 +491,13 @@ size_t max_serialized_size_surani_interface__srv__TeachPoint_Response(
     }
   }
 
+  // Field name: success
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint8_t);
+    current_alignment += array_size * sizeof(uint8_t);
+  }
+
 
   size_t ret_val = current_alignment - initial_alignment;
   if (is_plain) {
@@ -481,7 +507,7 @@ size_t max_serialized_size_surani_interface__srv__TeachPoint_Response(
     using DataType = surani_interface__srv__TeachPoint_Response;
     is_plain =
       (
-      offsetof(DataType, message) +
+      offsetof(DataType, success) +
       last_member_size
       ) == ret_val;
   }
@@ -510,6 +536,11 @@ bool cdr_serialize_key_surani_interface__srv__TeachPoint_Response(
       return false;
     }
     cdr << str->data;
+  }
+
+  // Field name: success
+  {
+    cdr << (ros_message->success ? true : false);
   }
 
   return true;
@@ -541,6 +572,13 @@ size_t get_serialized_size_key_surani_interface__srv__TeachPoint_Response(
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
     (ros_message->message.size + 1);
+
+  // Field name: success
+  {
+    size_t item_size = sizeof(ros_message->success);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
 
   return current_alignment - initial_alignment;
 }
@@ -581,6 +619,13 @@ size_t max_serialized_size_key_surani_interface__srv__TeachPoint_Response(
     }
   }
 
+  // Field name: success
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint8_t);
+    current_alignment += array_size * sizeof(uint8_t);
+  }
+
   size_t ret_val = current_alignment - initial_alignment;
   if (is_plain) {
     // All members are plain, and type is not empty.
@@ -589,7 +634,7 @@ size_t max_serialized_size_key_surani_interface__srv__TeachPoint_Response(
     using DataType = surani_interface__srv__TeachPoint_Response;
     is_plain =
       (
-      offsetof(DataType, message) +
+      offsetof(DataType, success) +
       last_member_size
       ) == ret_val;
   }

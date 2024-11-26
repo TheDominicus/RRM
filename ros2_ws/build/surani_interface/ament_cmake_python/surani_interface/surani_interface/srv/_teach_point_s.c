@@ -172,6 +172,15 @@ bool surani_interface__srv__teach_point__response__convert_from_py(PyObject * _p
     Py_DECREF(encoded_field);
     Py_DECREF(field);
   }
+  {  // success
+    PyObject * field = PyObject_GetAttrString(_pymsg, "success");
+    if (!field) {
+      return false;
+    }
+    assert(PyBool_Check(field));
+    ros_message->success = (Py_True == field);
+    Py_DECREF(field);
+  }
 
   return true;
 }
@@ -216,6 +225,17 @@ PyObject * surani_interface__srv__teach_point__response__convert_to_py(void * ra
     }
     {
       int rc = PyObject_SetAttrString(_pymessage, "message", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // success
+    PyObject * field = NULL;
+    field = PyBool_FromLong(ros_message->success ? 1 : 0);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "success", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

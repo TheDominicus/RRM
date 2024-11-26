@@ -47,6 +47,7 @@ typedef struct surani_interface__srv__TeachPoint_Response
 {
   bool result;
   rosidl_runtime_c__String message;
+  bool success;
 } surani_interface__srv__TeachPoint_Response;
 
 // Struct for a sequence of surani_interface__srv__TeachPoint_Response.

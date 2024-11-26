@@ -2,3 +2,4 @@ float64 velocity
 ---
 bool result
 string message
+bool success

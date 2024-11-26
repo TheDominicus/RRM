@@ -200,12 +200,14 @@ class TeachPoint_Response(metaclass=Metaclass_TeachPoint_Response):
     __slots__ = [
         '_result',
         '_message',
+        '_success',
         '_check_fields',
     ]
 
     _fields_and_field_types = {
         'result': 'boolean',
         'message': 'string',
+        'success': 'boolean',
     }
 
     # This attribute is used to store an rosidl_parser.definition variable
@@ -213,6 +215,7 @@ class TeachPoint_Response(metaclass=Metaclass_TeachPoint_Response):
     SLOT_TYPES = (
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
         rosidl_parser.definition.UnboundedString(),  # noqa: E501
+        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
@@ -226,6 +229,7 @@ class TeachPoint_Response(metaclass=Metaclass_TeachPoint_Response):
                 ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
         self.result = kwargs.get('result', bool())
         self.message = kwargs.get('message', str())
+        self.success = kwargs.get('success', bool())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -261,6 +265,8 @@ class TeachPoint_Response(metaclass=Metaclass_TeachPoint_Response):
             return False
         if self.message != other.message:
             return False
+        if self.success != other.success:
+            return False
         return True
 
     @classmethod
@@ -293,6 +299,19 @@ class TeachPoint_Response(metaclass=Metaclass_TeachPoint_Response):
                 isinstance(value, str), \
                 "The 'message' field must be of type 'str'"
         self._message = value
+
+    @builtins.property
+    def success(self):
+        """Message field 'success'."""
+        return self._success
+
+    @success.setter
+    def success(self, value):
+        if self._check_fields:
+            assert \
+                isinstance(value, bool), \
+                "The 'success' field must be of type 'bool'"
+        self._success = value
 
 
 # Import statements for member types

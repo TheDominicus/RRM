@@ -12,6 +12,8 @@ module surani_interface {
       boolean result;
 
       string message;
+
+      boolean success;
     };
   };
 };

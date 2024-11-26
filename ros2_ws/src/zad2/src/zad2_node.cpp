@@ -1,6 +1,5 @@
 #include <rclcpp/rclcpp.hpp>
 #include <sensor_msgs/msg/joint_state.hpp>
-#include <geometry_msgs/msg/pose_stamped.hpp>
 #include <iostream>
 #include <cmath>
 #include "surani_interface/srv/teach_point.hpp"
@@ -8,7 +7,6 @@
 #include <fstream>
 #include <sstream>
 #include <string>
-#include <chrono>
 
 using namespace std;
 
@@ -47,120 +45,104 @@ double evaluate_jerk(const Eigen::VectorXd& coeffs, double t) {
     return 6 * coeffs[3] + 24 * coeffs[4] * t + 60 * coeffs[5] * pow(t, 2);
 }
 
-class CartesianTrajectoryPlanner : public rclcpp::Node {
+class TrajectoryPlanner : public rclcpp::Node {
 private:
     void handle_service_request(const std::shared_ptr<surani_interface::srv::TeachPoint::Request> req,
                                 std::shared_ptr<surani_interface::srv::TeachPoint::Response> res);
-    void initialize_tool_position();
+    void initialize_joint_positions();
 
 public:
-    CartesianTrajectoryPlanner();
+    TrajectoryPlanner();
     rclcpp::Service<surani_interface::srv::TeachPoint>::SharedPtr service_server;
-    rclcpp::Publisher<geometry_msgs::msg::PoseStamped>::SharedPtr pose_publisher;
-    geometry_msgs::msg::PoseStamped tool_pose_msg;
+    rclcpp::Publisher<sensor_msgs::msg::JointState>::SharedPtr joint_publisher;
+    sensor_msgs::msg::JointState joint_state_msg;
 };
 
-void CartesianTrajectoryPlanner::initialize_tool_position() {
-    tool_pose_msg.pose.position.x = 1.0;
-    tool_pose_msg.pose.position.y = 0.0;
-    tool_pose_msg.pose.position.z = 1.6;
-    tool_pose_msg.pose.orientation.x = 0.0;
-    tool_pose_msg.pose.orientation.y = 1.0;
-    tool_pose_msg.pose.orientation.z = 0.0;
-    tool_pose_msg.pose.orientation.w = 1.0;
-    tool_pose_msg.header.stamp = this->get_clock()->now();
-    pose_publisher->publish(tool_pose_msg);
-}
-
-CartesianTrajectoryPlanner::CartesianTrajectoryPlanner() : Node("cartesian_trajectory_planner") {
-    rclcpp::sleep_for(std::chrono::seconds(1));
-    service_server = this->create_service<surani_interface::srv::TeachPoint>("cartesian_trajectory_planner",
-        std::bind(&CartesianTrajectoryPlanner::handle_service_request, this, std::placeholders::_1, std::placeholders::_2));
-    pose_publisher = this->create_publisher<geometry_msgs::msg::PoseStamped>("tool_pose", 10);
-
-    initialize_tool_position();
-}
-
-void CartesianTrajectoryPlanner::handle_service_request(const std::shared_ptr<surani_interface::srv::TeachPoint::Request> req,
-                                               std::shared_ptr<surani_interface::srv::TeachPoint::Response> res) {
-    ofstream output_file("zad2_2.csv");
-    if (!output_file.is_open()) {
-        RCLCPP_ERROR(this->get_logger(), "Failed to open file for writing.");
-        //res->success = false;
-        return;
+void TrajectoryPlanner::initialize_joint_positions() {
+    for (auto& pos : joint_state_msg.position) {
+        pos = 0.0;
     }
+    joint_state_msg.header.stamp = this->get_clock()->now();
+    joint_publisher->publish(joint_state_msg);
+}
 
+TrajectoryPlanner::TrajectoryPlanner() : Node("zad2") {
+    rclcpp::sleep_for(std::chrono::seconds(1));
+    service_server = this->create_service<surani_interface::srv::TeachPoint>("trajectory_planner",
+        std::bind(&TrajectoryPlanner::handle_service_request, this, std::placeholders::_1, std::placeholders::_2));
+    joint_publisher = this->create_publisher<sensor_msgs::msg::JointState>("joint_states", 10);
+
+    joint_state_msg.name = {"joint_1", "joint_2", "joint_3", "joint_4", "joint_5", "joint_6"};
+    joint_state_msg.position.resize(joint_state_msg.name.size(), 0.0);
+    joint_state_msg.velocity.resize(joint_state_msg.name.size(), 0.0);
+    joint_state_msg.effort.resize(joint_state_msg.name.size(), 0.0);
+    initialize_joint_positions();
+}
+
+void TrajectoryPlanner::handle_service_request(const std::shared_ptr<surani_interface::srv::TeachPoint::Request> req,
+                                               std::shared_ptr<surani_interface::srv::TeachPoint::Response> res) {
+    ofstream output_file("zad2.csv");
     int sample_rate = 100;  // in Hz
     double delta_t = 1.0 / static_cast<double>(sample_rate);  // in seconds
+    double total_duration = 4.0;  // in seconds
+    double switch_time = 1.0;  // in seconds
     double current_time = 0.0;
-    double total_duration = 9.0;  // total duration in seconds
 
-    // Define the trajectory phases as per Zadanie 2.2
-    struct Phase {
-        double duration;
-        Eigen::Vector3d start_pos;
-        Eigen::Vector3d end_pos;
-        Eigen::Quaterniond start_rot;
-        Eigen::Quaterniond end_rot;
-    };
+    Eigen::VectorXd coeffs_joint_1 = calculate_coefficients(0.0, 4.0, 0.0, 1.57, 0.0, 0.0, 0.0, 0.0);
+    Eigen::VectorXd coeffs_joint_3_phase1 = calculate_coefficients(0.0, 1.0, 0.0, 0.5236, 0.0, 0.0, 0.0, 0.0);
+    Eigen::VectorXd coeffs_joint_3_phase2 = calculate_coefficients(1.0, 4.0, 0.5236, 0.0, 0.0, 0.0, 0.0, 0.0);
 
-    std::vector<Phase> trajectory_phases = {
-        {1.0, Eigen::Vector3d(1.0, 0.0, 1.6), Eigen::Vector3d(1.0, 0.0, 1.0), Eigen::Quaterniond(0, 1, 0, 1), Eigen::Quaterniond(0, 1, 0, 1)}, // Move down in Z
-        {1.0, Eigen::Vector3d(1.0, 0.0, 1.0), Eigen::Vector3d(1.0, 0.0, 1.0), Eigen::Quaterniond(0, 1, 0, 1), Eigen::Quaterniond(0, 0.707, 0, 0.707)}, // Rotate 90 degrees around Z
-        {1.0, Eigen::Vector3d(1.0, 0.0, 1.0), Eigen::Vector3d(1.0, 0.0, 1.0), Eigen::Quaterniond(0, 0.707, 0, 0.707), Eigen::Quaterniond(0, 0.707, 0, 0.707)}, // Hold for 1 second
-        {1.0, Eigen::Vector3d(1.0, 0.0, 1.0), Eigen::Vector3d(1.0, 0.5, 1.0), Eigen::Quaterniond(0, 0.707, 0, 0.707), Eigen::Quaterniond(0, 0.707, 0, 0.707)}, // Move along Y-axis
-        {1.0, Eigen::Vector3d(1.0, 0.5, 1.0), Eigen::Vector3d(1.0, 0.5, 1.6), Eigen::Quaterniond(0, 0.707, 0, 0.707), Eigen::Quaterniond(0, 1, 0, 1)}, // Move up along Z and rotate back
-        {5.0, Eigen::Vector3d(1.0, 0.5, 1.6), Eigen::Vector3d(1.0, 0.0, 1.6), Eigen::Quaterniond(0, 1, 0, 1), Eigen::Quaterniond(0, 1, 0, 1)} // Return to initial position
-    };
-
-    output_file << "time,x [m],y [m],z [m],qx,qy,qz,qw" << endl;
+    output_file << "time,position_joint_1 [rad],velocity_joint_1 [rad/s],acceleration_joint_1 [rad/s^2],jerk_joint_1 [rad/s^3],"
+                << "position_joint_3 [rad],velocity_joint_3 [rad/s],acceleration_joint_3 [rad/s^2],jerk_joint_3 [rad/s^3]"
+                << endl;
 
     rclcpp::Rate loop_frequency(sample_rate);
-
-    for (const auto& phase : trajectory_phases) {
-        Eigen::Vector3d position = phase.start_pos;
-        Eigen::Quaterniond rotation = phase.start_rot;
-
-        auto start_time = std::chrono::steady_clock::now();
-        while (true) {
-            auto current_time_point = std::chrono::steady_clock::now();
-            std::chrono::duration<double> elapsed_time = current_time_point - start_time;
-            double t = elapsed_time.count();
-
-            if (t > phase.duration) {
-                break;
+    while (rclcpp::ok()) {
+        for (size_t i = 0; i < joint_state_msg.position.size(); ++i) {
+            if (i == 0) { 
+                joint_state_msg.position[i] = evaluate_position(coeffs_joint_1, current_time);
+                joint_state_msg.velocity[i] = evaluate_velocity(coeffs_joint_1, current_time);
+                double joint_1_acc = evaluate_acceleration(coeffs_joint_1, current_time);
+                double joint_1_jerk = evaluate_jerk(coeffs_joint_1, current_time);
+                output_file << current_time << "," << joint_state_msg.position[i] << "," << joint_state_msg.velocity[i] << "," <<
+                 joint_1_acc << "," << joint_1_jerk;
+            } else if (i == 2) { 
+                if (current_time <= switch_time) {
+                    joint_state_msg.position[i] = evaluate_position(coeffs_joint_3_phase1, current_time);
+                    joint_state_msg.velocity[i] = evaluate_velocity(coeffs_joint_3_phase1, current_time);
+                    double joint_3_acc = evaluate_acceleration(coeffs_joint_3_phase1, current_time);
+                    double joint_3_jerk = evaluate_jerk(coeffs_joint_3_phase1, current_time);
+                    output_file << "," << joint_state_msg.position[i] << "," << joint_state_msg.velocity[i] << "," << joint_3_acc <<
+                     "," << joint_3_jerk;
+                } else {
+                    joint_state_msg.position[i] = evaluate_position(coeffs_joint_3_phase2, current_time);
+                    joint_state_msg.velocity[i] = evaluate_velocity(coeffs_joint_3_phase2, current_time);
+                    double joint_3_acc = evaluate_acceleration(coeffs_joint_3_phase2, current_time);
+                    double joint_3_jerk = evaluate_jerk(coeffs_joint_3_phase2, current_time);
+                    output_file << "," << joint_state_msg.position[i] << "," << joint_state_msg.velocity[i] << "," << joint_3_acc << 
+                     "," << joint_3_jerk;
+                }
+            } else {
+                joint_state_msg.position[i] = evaluate_position(coeffs_joint_1, current_time);
+                joint_state_msg.velocity[i] = evaluate_velocity(coeffs_joint_1, current_time);
             }
-
-            double alpha = t / phase.duration;
-            position = (1 - alpha) * phase.start_pos + alpha * phase.end_pos;
-            rotation = phase.start_rot.slerp(alpha, phase.end_rot);
-            rotation.normalize();
-
-            tool_pose_msg.pose.position.x = position.x();
-            tool_pose_msg.pose.position.y = position.y();
-            tool_pose_msg.pose.position.z = position.z();
-            tool_pose_msg.pose.orientation.x = rotation.x();
-            tool_pose_msg.pose.orientation.y = rotation.y();
-            tool_pose_msg.pose.orientation.z = rotation.z();
-            tool_pose_msg.pose.orientation.w = rotation.w();
-            tool_pose_msg.header.stamp = this->get_clock()->now();
-            pose_publisher->publish(tool_pose_msg);
-
-            output_file << current_time << "," << position.x() << "," << position.y() << "," << position.z() << ","
-                        << rotation.x() << "," << rotation.y() << "," << rotation.z() << "," << rotation.w() << endl;
-
-            current_time += delta_t;
-            loop_frequency.sleep();
         }
+
+        output_file << endl;
+        joint_state_msg.header.stamp = this->get_clock()->now();
+        joint_publisher->publish(joint_state_msg);
+        current_time += delta_t;
+        if (current_time > total_duration) break;
+
+        loop_frequency.sleep();
     }
 
-    output_file.close();
     //res->success = true;
 }
 
 int main(int argc, char** argv) {
     rclcpp::init(argc, argv);
-    auto node = std::make_shared<CartesianTrajectoryPlanner>();
+    auto node = std::make_shared<TrajectoryPlanner>();
     rclcpp::spin(node);
     rclcpp::shutdown();
     return 0;

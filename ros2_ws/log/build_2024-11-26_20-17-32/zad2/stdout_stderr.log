@@ -1,0 +1,178 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/zad2_node.dir/src/zad2_node.cpp.o[0m
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:32:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ was not declared in this scope
+   32 |     void handle_service_request(const std::shared_ptr<[01;31m[Kstd_srvs[m[K::srv::Trigger::Request> request,
+      |                                                       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:32:86:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   32 | quest(const std::shared_ptr<std_srvs::srv::Trigger::Request[01;31m[K>[m[K request,
+      |                                                            [01;31m[K^[m[K
+
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:32:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ was not declared in this scope
+   32 |     void handle_service_request(const std::shared_ptr<[01;31m[Kstd_srvs[m[K::srv::Trigger::Request> request,
+      |                                                       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:32:86:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   32 | quest(const std::shared_ptr<std_srvs::srv::Trigger::Request[01;31m[K>[m[K request,
+      |                                                            [01;31m[K^[m[K
+
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:32:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ was not declared in this scope
+   32 |     void handle_service_request(const std::shared_ptr<[01;31m[Kstd_srvs[m[K::srv::Trigger::Request> request,
+      |                                                       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:32:86:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   32 | quest(const std::shared_ptr<std_srvs::srv::Trigger::Request[01;31m[K>[m[K request,
+      |                                                            [01;31m[K^[m[K
+
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:32:39:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+   32 |     void handle_service_request(const [01;31m[Kstd[m[K::shared_ptr<std_srvs::srv::Trigger::Request> request,
+      |                                       [01;31m[K^~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:32:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ has not been declared
+   32 |     void handle_service_request(const std::shared_ptr<[01;31m[Kstd_srvs[m[K::srv::Trigger::Request> request,
+      |                                                       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:32:33:[m[K [01;31m[Kerror: [m[Kmissing template argument list after ‘[01m[Kstd::shared_ptr[m[K’; template placeholder not permitted in parameter
+   32 |     void handle_service_request([01;31m[Kconst[m[K std::shared_ptr<std_srvs::srv::Trigger::Request> request,
+      |                                 [01;31m[K^~~~~[m[K
+      |                                      [32m[K<>[m[K
+In file included from [01m[K/usr/include/c++/13/bits/shared_ptr.h:53[m[K,
+                 from [01m[K/usr/include/c++/13/memory:80[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169[m[K,
+                 from [01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:1[m[K:
+[01m[K/usr/include/c++/13/bits/shared_ptr_base.h:395:11:[m[K [01;36m[Knote: [m[K‘[01m[Ktemplate<class _Tp> class std::shared_ptr[m[K’ declared here
+  395 |     class [01;36m[Kshared_ptr[m[K;
+      |           [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:33:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ was not declared in this scope
+   33 |                                 std::shared_ptr<[01;31m[Kstd_srvs[m[K::srv::Trigger::Response> response) {
+      |                                                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:33:81:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   33 |           std::shared_ptr<std_srvs::srv::Trigger::Response[01;31m[K>[m[K response) {
+      |                                                           [01;31m[K^[m[K
+
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:33:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ was not declared in this scope
+   33 |                                 std::shared_ptr<[01;31m[Kstd_srvs[m[K::srv::Trigger::Response> response) {
+      |                                                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:33:81:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   33 |           std::shared_ptr<std_srvs::srv::Trigger::Response[01;31m[K>[m[K response) {
+      |                                                           [01;31m[K^[m[K
+
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:33:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ was not declared in this scope
+   33 |                                 std::shared_ptr<[01;31m[Kstd_srvs[m[K::srv::Trigger::Response> response) {
+      |                                                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:33:81:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   33 |           std::shared_ptr<std_srvs::srv::Trigger::Response[01;31m[K>[m[K response) {
+      |                                                           [01;31m[K^[m[K
+
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:33:33:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+   33 |                                 [01;31m[Kstd[m[K::shared_ptr<std_srvs::srv::Trigger::Response> response) {
+      |                                 [01;31m[K^~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:33:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ has not been declared
+   33 |                                 std::shared_ptr<[01;31m[Kstd_srvs[m[K::srv::Trigger::Response> response) {
+      |                                                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:33:33:[m[K [01;31m[Kerror: [m[Kmissing template argument list after ‘[01m[Kstd::shared_ptr[m[K’; template placeholder not permitted in parameter
+   33 |                                 [01;31m[Kstd[m[K::shared_ptr<std_srvs::srv::Trigger::Response> response) {
+      |                                 [01;31m[K^~~[m[K
+      |                                    [32m[K<>[m[K
+[01m[K/usr/include/c++/13/bits/shared_ptr_base.h:395:11:[m[K [01;36m[Knote: [m[K‘[01m[Ktemplate<class _Tp> class std::shared_ptr[m[K’ declared here
+  395 |     class [01;36m[Kshared_ptr[m[K;
+      |           [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:64:30:[m[K [01;31m[Kerror: [m[K‘[01m[KPhase[m[K’ does not name a type
+   64 |     void execute_phase(const [01;31m[KPhase[m[K& phase) {
+      |                              [01;31m[K^~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:105:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ was not declared in this scope
+  105 |     rclcpp::Service<[01;31m[Kstd_srvs[m[K::srv::Trigger>::SharedPtr service_;
+      |                     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:105:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  105 |     rclcpp::Service<std_srvs::srv::Trigger[01;31m[K>[m[K::SharedPtr service_;
+      |                                           [01;31m[K^[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:105:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  105 |     rclcpp::Service<std_srvs::srv::Trigger>::[01;31m[KSharedPtr[m[K service_;
+      |                                              [01;31m[K^~~~~~~~~[m[K
+      |                                                       [32m[K;[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:105:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kservice_[m[K’ does not name a type
+  105 |     rclcpp::Service<std_srvs::srv::Trigger>::SharedPtr [01;31m[Kservice_[m[K;
+      |                                                        [01;31m[K^~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:[m[K In constructor ‘[01m[KCartesianTrajectoryPlanner::[01;32m[KCartesianTrajectoryPlanner[m[K()[m[K’:
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:13:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kservice_[m[K’ was not declared in this scope; did you mean ‘[01m[Kservice_msgs[m[K’?
+   13 |         [01;31m[Kservice_[m[K = this->create_service<std_srvs::srv::Trigger>(
+      |         [01;31m[K^~~~~~~~[m[K
+      |         [32m[Kservice_msgs[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:13:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ was not declared in this scope
+   13 |         service_ = this->create_service<[01;31m[Kstd_srvs[m[K::srv::Trigger>(
+      |                                         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:13:26:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   13 |         service_ = this->[01;31m[Kcreate_service<std_srvs::srv::Trigger>[m[K(
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:13:64:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KCartesianTrajectoryPlanner::create_service<<expression error> >(const char [17], std::_Bind_helper<false, void (CartesianTrajectoryPlanner::*)(...), CartesianTrajectoryPlanner*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type)[m[K’
+   13 |         service_ = [01;31m[Kthis->create_service<std_srvs::srv::Trigger>([m[K
+      |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   14 | [01;31m[K            "start_trajectory",[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~[m[K                                 
+   15 | [01;31m[K            std::bind(&CartesianTrajectoryPlanner::handle_service_request, this, std::placeholders::_1, std::placeholders::_2)[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   16 | [01;31m[K        )[m[K;
+      |         [01;31m[K~[m[K                                                       
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:302:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_service[m[K(const std::string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  302 |   [01;36m[Kcreate_service[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:302:3:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:318:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_service[m[K(const std::string&, CallbackT&&, const rclcpp::QoS&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  318 |   [01;36m[Kcreate_service[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:318:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:13:64:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   13 |         service_ = [01;31m[Kthis->create_service<std_srvs::srv::Trigger>([m[K
+      |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   14 | [01;31m[K            "start_trajectory",[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~[m[K                                 
+   15 | [01;31m[K            std::bind(&CartesianTrajectoryPlanner::handle_service_request, this, std::placeholders::_1, std::placeholders::_2)[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   16 | [01;31m[K        )[m[K;
+      |         [01;31m[K~[m[K                                                       
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:[m[K In member function ‘[01m[Kvoid CartesianTrajectoryPlanner::[01;32m[Kinitialize_tool_position[m[K()[m[K’:
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:27:67:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >::_orientation_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >[m[K’} and ‘[01m[KEigen::Quaterniond[m[K’ {aka ‘[01m[KEigen::Quaternion<double>[m[K’})
+   27 |         tool_pose_.pose.orientation = create_quaternion(0, 1, 0, 1[01;31m[K)[m[K;
+      |                                                                   [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:7[m[K,
+                 from [01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:2[m[K:
+[01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:35:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Quaternion_<std::allocator<void> >& geometry_msgs::msg::Quaternion_<std::allocator<void> >::[01;32m[Koperator=[m[K(const geometry_msgs::msg::Quaternion_<std::allocator<void> >&)[m[K’
+   35 | struct [01;36m[KQuaternion_[m[K
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:35:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KEigen::Quaterniond[m[K’ {aka ‘[01m[KEigen::Quaternion<double>[m[K’} to ‘[01m[Kconst geometry_msgs::msg::Quaternion_<std::allocator<void> >&[m[K’
+[01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:35:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Quaternion_<std::allocator<void> >& geometry_msgs::msg::Quaternion_<std::allocator<void> >::[01;32m[Koperator=[m[K(geometry_msgs::msg::Quaternion_<std::allocator<void> >&&)[m[K’
+[01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:35:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KEigen::Quaterniond[m[K’ {aka ‘[01m[KEigen::Quaternion<double>[m[K’} to ‘[01m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >&&[m[K’
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:[m[K In member function ‘[01m[Kvoid CartesianTrajectoryPlanner::[01;32m[Khandle_service_request[m[K(...)[m[K’:
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:35:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kresponse[m[K’ was not declared in this scope
+   35 |         [01;31m[Kresponse[m[K->success = true;
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:[m[K In member function ‘[01m[Kvoid CartesianTrajectoryPlanner::[01;32m[Kexecute_trajectory[m[K()[m[K’:
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:60:27:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst CartesianTrajectoryPlanner::execute_trajectory()::Phase[m[K’ to ‘[01m[Kconst int&[m[K’
+   60 |             execute_phase([01;31m[Kphase[m[K);
+      |                           [01;31m[K^~~~~[m[K
+      |                           [01;31m[K|[m[K
+      |                           [01;31m[Kconst CartesianTrajectoryPlanner::execute_trajectory()::Phase[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:64:37:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid CartesianTrajectoryPlanner::[01;32m[Kexecute_phase[m[K(const int&)[m[K’
+   64 |     void execute_phase([01;36m[Kconst Phase& phase[m[K) {
+      |                        [01;36m[K~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:[m[K In member function ‘[01m[Kvoid CartesianTrajectoryPlanner::[01;32m[Kexecute_phase[m[K(const int&)[m[K’:
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:67:33:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kduration[m[K’ in ‘[01m[Kphase[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+   67 |         double duration = phase.[01;31m[Kduration[m[K;
+      |                                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:80:60:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kstart_pos[m[K’ in ‘[01m[Kphase[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+   80 |            Eigen::Vector3d position = (1 - alpha) * phase.[01;31m[Kstart_pos[m[K + alpha * phase.end_pos;
+      |                                                           [01;31m[K^~~~~~~~~[m[K
+
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:80:86:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kend_pos[m[K’ in ‘[01m[Kphase[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+   80 | r3d position = (1 - alpha) * phase.start_pos + alpha * phase.[01;31m[Kend_pos[m[K;
+      |                                                              [01;31m[K^~~~~~~[m[K
+
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:81:49:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kstart_rot[m[K’ in ‘[01m[Kphase[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+   81 |             Eigen::Quaterniond rotation = phase.[01;31m[Kstart_rot[m[K.slerp(alpha, phase.end_rot);
+      |                                                 [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:81:78:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kend_rot[m[K’ in ‘[01m[Kphase[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+   81 | ::Quaterniond rotation = phase.start_rot.slerp(alpha, phase.[01;31m[Kend_rot[m[K);
+      |                                                             [01;31m[K^~~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/zad2_node.dir/build.make:76: CMakeFiles/zad2_node.dir/src/zad2_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/zad2_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
