@@ -6,8 +6,8 @@
 
 #include "surani_interface/srv/detail/teach_point__struct.h"
 #include "surani_interface/srv/detail/teach_point__type_support.h"
-#include "surani_interface/srv/detail/teach_point__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "surani_interface/srv/detail/teach_point__functions.h"
 
 #ifdef __cplusplus
 extern "C"
