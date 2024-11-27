@@ -37,6 +37,7 @@ private:
     void execute_phase(const Phase& phase);
     void publish_all_transforms(const Eigen::Vector3d& position, const Eigen::Quaterniond& rotation);
     void publish_transform(const std::string& parent_frame, const std::string& child_frame, const geometry_msgs::msg::Pose& pose);
+    void update_joint_state(const Eigen::Vector3d& position);
     rclcpp::Service<surani_interface::srv::TeachPoint>::SharedPtr service_server;
     rclcpp::Publisher<sensor_msgs::msg::JointState>::SharedPtr joint_publisher;
     rclcpp::Publisher<geometry_msgs::msg::PoseStamped>::SharedPtr pose_publisher;
@@ -113,6 +114,7 @@ void CartesianTrajectoryPlanner::execute_phase(const Phase& phase) {
 
         Eigen::Vector3d position = (1 - alpha) * phase.start_pos + alpha * phase.end_pos;
         Eigen::Quaterniond rotation = phase.start_rot.slerp(alpha, phase.end_rot);
+        rotation.normalize(); // Ensure quaternion is normalized
 
         tool_pose.pose.position.x = position.x();
         tool_pose.pose.position.y = position.y();
@@ -126,7 +128,8 @@ void CartesianTrajectoryPlanner::execute_phase(const Phase& phase) {
         pose_publisher->publish(tool_pose);
 
         // Update and publish joint states
-        joint_state_msg.header.stamp = this->get_clock()->now();
+        update_joint_state(position);
+        joint_state_msg.header.stamp = tool_pose.header.stamp; // Use the same timestamp for synchronization
         joint_publisher->publish(joint_state_msg);
 
         // Broadcast the transform for each link
@@ -134,6 +137,14 @@ void CartesianTrajectoryPlanner::execute_phase(const Phase& phase) {
 
         rclcpp::sleep_for(10ms);
     }
+}
+
+void CartesianTrajectoryPlanner::update_joint_state(const Eigen::Vector3d& position) {
+    // Update joint states to reflect the new Cartesian position
+    // Note: this is a placeholder logic. Replace it with the actual kinematic mapping if necessary.
+    joint_state_msg.position[0] = position.x();  // Assuming joint_1 controls x position
+    joint_state_msg.position[1] = position.y();  // Assuming joint_2 controls y position
+    joint_state_msg.position[2] = position.z();  // Assuming joint_3 controls z position
 }
 
 void CartesianTrajectoryPlanner::publish_all_transforms(const Eigen::Vector3d& position, const Eigen::Quaterniond& rotation) {
