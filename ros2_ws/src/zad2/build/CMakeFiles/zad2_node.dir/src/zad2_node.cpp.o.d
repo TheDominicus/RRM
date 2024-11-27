@@ -706,12 +706,6 @@ CMakeFiles/zad2_node.dir/src/zad2_node.cpp.o: \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv/teach_point.hpp \
- /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv/detail/teach_point__struct.hpp \
- /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv/detail/teach_point__builder.hpp \
- /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv/detail/teach_point__traits.hpp \
- /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv/detail/teach_point__type_support.hpp \
- /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/msg/rosidl_generator_cpp__visibility_control.hpp \
  /usr/include/eigen3/Eigen/Geometry /usr/include/eigen3/Eigen/Core \
  /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
  /usr/include/eigen3/Eigen/src/Core/util/Macros.h \
@@ -894,6 +888,36 @@ CMakeFiles/zad2_node.dir/src/zad2_node.cpp.o: \
  /usr/include/eigen3/Eigen/src/Geometry/AlignedBox.h \
  /usr/include/eigen3/Eigen/src/Geometry/Umeyama.h \
  /usr/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h \
+ /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv/teach_point.hpp \
+ /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv/detail/teach_point__struct.hpp \
+ /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv/detail/teach_point__builder.hpp \
+ /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv/detail/teach_point__traits.hpp \
+ /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv/detail/teach_point__type_support.hpp \
+ /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/float64.hpp \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/float64__struct.hpp \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/float64__builder.hpp \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/float64__traits.hpp \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/float64__type_support.hpp \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/jazzy/include/tf2_ros/tf2_ros/transform_broadcaster.h \
+ /opt/ros/jazzy/include/tf2_ros/tf2_ros/visibility_control.h \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__builder.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__type_support.hpp \
+ /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/tf_message.hpp \
+ /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__struct.hpp \
+ /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__builder.hpp \
+ /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__traits.hpp \
+ /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__type_support.hpp \
+ /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/jazzy/include/tf2_ros/tf2_ros/qos.hpp \
  /usr/include/c++/13/fstream \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \

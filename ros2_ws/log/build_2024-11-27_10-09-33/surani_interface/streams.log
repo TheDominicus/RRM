@@ -1,0 +1,224 @@
+[0.089s] Invoking command in '/home/dominik/RRM/ros2_ws/build/surani_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/surani_interface -- -j16 -l16
+[0.163s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.362s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.005s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.043s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.420s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.710s] -- Found rosidl_adapter: 4.6.4 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.724s] -- Found block1_surani: 0.0.0 (/home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/cmake)
+[2.838s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.085s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.429s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.433s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[4.448s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[4.475s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.561s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.562s] -- Configured cppcheck include dirs: 
+[4.562s] -- Configured cppcheck exclude dirs and/or files: 
+[4.571s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.571s] -- Configured 'flake8' exclude dirs and/or files: 
+[4.588s] -- Added test 'lint_cmake' to check CMake code style
+[4.598s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.664s] -- Added test 'uncrustify' to check C / C++ code style
+[4.664s] -- Configured uncrustify additional arguments: 
+[4.673s] -- Added test 'xmllint' to check XML markup files
+[4.678s] -- Configuring done (4.5s)
+[4.774s] -- Generating done (0.1s)
+[4.784s] -- Build files have been written to: /home/dominik/RRM/ros2_ws/build/surani_interface
+[4.891s] [  2%] Built target surani_interface__rosidl_generator_type_description
+[4.920s] [  5%] Built target ament_cmake_python_copy_surani_interface
+[4.921s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.947s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.566s] running egg_info
+[5.661s] writing surani_interface.egg-info/PKG-INFO
+[5.662s] writing dependency_links to surani_interface.egg-info/dependency_links.txt
+[5.663s] writing top-level names to surani_interface.egg-info/top_level.txt
+[5.744s] [  8%] Built target surani_interface__cpp
+[5.882s] [ 11%] [32mBuilding C object CMakeFiles/surani_interface__rosidl_generator_c.dir/rosidl_generator_c/surani_interface/srv/detail/teach_point__functions.c.o[0m
+[5.883s] [ 14%] [32mBuilding C object CMakeFiles/surani_interface__rosidl_generator_c.dir/rosidl_generator_c/surani_interface/srv/detail/teach_point__type_support.c.o[0m
+[5.884s] [ 17%] [32mBuilding C object CMakeFiles/surani_interface__rosidl_generator_c.dir/rosidl_generator_c/surani_interface/srv/detail/teach_point__description.c.o[0m
+[5.929s] reading manifest file 'surani_interface.egg-info/SOURCES.txt'
+[5.931s] writing manifest file 'surani_interface.egg-info/SOURCES.txt'
+[6.058s] [ 17%] Built target ament_cmake_python_build_surani_interface_egg
+[6.151s] [ 20%] [32m[1mLinking C shared library libsurani_interface__rosidl_generator_c.so[0m
+[6.250s] [ 20%] Built target surani_interface__rosidl_generator_c
+[6.277s] [ 26%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.278s] [ 26%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.278s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.279s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.282s] [ 35%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.355s] [ 38%] [32mBuilding CXX object CMakeFiles/surani_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/surani_interface/srv/detail/dds_fastrtps/teach_point__type_support.cpp.o[0m
+[7.769s] [ 41%] [32mBuilding CXX object CMakeFiles/surani_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/surani_interface/srv/teach_point__type_support.cpp.o[0m
+[7.804s] [ 44%] [32mBuilding CXX object CMakeFiles/surani_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/surani_interface/srv/teach_point__type_support.cpp.o[0m
+[8.082s] [ 47%] [32mBuilding C object CMakeFiles/surani_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/surani_interface/srv/detail/teach_point__type_support.c.o[0m
+[8.091s] [ 50%] [32mBuilding CXX object CMakeFiles/surani_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/surani_interface/srv/detail/teach_point__type_support.cpp.o[0m
+[8.348s] [ 52%] [32m[1mLinking CXX shared library libsurani_interface__rosidl_typesupport_c.so[0m
+[8.476s] [ 55%] [32mBuilding CXX object CMakeFiles/surani_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/surani_interface/srv/detail/teach_point__type_support_c.cpp.o[0m
+[8.537s] [ 58%] [32m[1mLinking C shared library libsurani_interface__rosidl_typesupport_introspection_c.so[0m
+[8.609s] [ 58%] Built target surani_interface__rosidl_typesupport_c
+[8.715s] [ 58%] Built target surani_interface__rosidl_typesupport_introspection_c
+[9.938s] [ 61%] [32m[1mLinking CXX shared library libsurani_interface__rosidl_typesupport_cpp.so[0m
+[10.105s] [ 64%] [32m[1mLinking CXX shared library libsurani_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[10.190s] [ 67%] [32m[1mLinking CXX shared library libsurani_interface__rosidl_typesupport_introspection_cpp.so[0m
+[10.238s] [ 67%] Built target surani_interface__rosidl_typesupport_cpp
+[10.408s] [ 70%] Built target surani_interface__rosidl_typesupport_fastrtps_cpp
+[10.468s] [ 70%] Built target surani_interface__rosidl_typesupport_introspection_cpp
+[10.645s] [ 73%] [32m[1mLinking CXX shared library libsurani_interface__rosidl_typesupport_fastrtps_c.so[0m
+[10.840s] [ 73%] Built target surani_interface__rosidl_typesupport_fastrtps_c
+[10.893s] [ 73%] Built target surani_interface
+[10.945s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[11.758s] [ 76%] Built target surani_interface__py
+[11.820s] [ 79%] [32mBuilding C object CMakeFiles/surani_interface__rosidl_generator_py.dir/rosidl_generator_py/surani_interface/srv/_teach_point_s.c.o[0m
+[12.234s] [ 82%] [32m[1mLinking C shared library libsurani_interface__rosidl_generator_py.so[0m
+[12.342s] [ 82%] Built target surani_interface__rosidl_generator_py
+[12.409s] [ 91%] [32mBuilding C object CMakeFiles/surani_interface_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/surani_interface/_surani_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[12.409s] [ 91%] [32mBuilding C object CMakeFiles/surani_interface_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/surani_interface/_surani_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[12.409s] [ 91%] [32mBuilding C object CMakeFiles/surani_interface_s__rosidl_typesupport_c.dir/rosidl_generator_py/surani_interface/_surani_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[12.863s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/surani_interface/surani_interface_s__rosidl_typesupport_c.so[0m
+[12.873s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/surani_interface/surani_interface_s__rosidl_typesupport_introspection_c.so[0m
+[12.889s] [100%] [32m[1mLinking C shared module rosidl_generator_py/surani_interface/surani_interface_s__rosidl_typesupport_fastrtps_c.so[0m
+[13.021s] [100%] Built target surani_interface_s__rosidl_typesupport_c
+[13.025s] [100%] Built target surani_interface_s__rosidl_typesupport_introspection_c
+[13.038s] [100%] Built target surani_interface_s__rosidl_typesupport_fastrtps_c
+[13.086s] Invoked command in '/home/dominik/RRM/ros2_ws/build/surani_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/surani_interface -- -j16 -l16
+[13.264s] Invoking command in '/home/dominik/RRM/ros2_ws/build/surani_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/surani_interface
+[13.291s] -- Install configuration: ""
+[13.291s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/ament_index/resource_index/rosidl_interfaces/surani_interface
+[13.292s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/srv/TeachPoint.json
+[13.292s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface
+[13.292s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/msg
+[13.292s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/msg/rosidl_generator_c__visibility_control.h
+[13.293s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv
+[13.293s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv/teach_point.h
+[13.293s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv/detail
+[13.293s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv/detail/teach_point__type_support.c
+[13.293s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv/detail/teach_point__description.c
+[13.293s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv/detail/teach_point__functions.h
+[13.294s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv/detail/teach_point__type_support.h
+[13.295s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv/detail/teach_point__functions.c
+[13.295s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv/detail/teach_point__struct.h
+[13.296s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/environment/library_path.sh
+[13.296s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/environment/library_path.dsv
+[13.297s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/lib/libsurani_interface__rosidl_generator_c.so
+[13.298s] -- Set non-toolchain portion of runtime path of "/home/dominik/RRM/ros2_ws/install/surani_interface/lib/libsurani_interface__rosidl_generator_c.so" to ""
+[13.299s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface
+[13.299s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/msg
+[13.299s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[13.299s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv
+[13.300s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv/detail
+[13.300s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv/detail/teach_point__rosidl_typesupport_fastrtps_c.h
+[13.300s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/lib/libsurani_interface__rosidl_typesupport_fastrtps_c.so
+[13.301s] -- Set non-toolchain portion of runtime path of "/home/dominik/RRM/ros2_ws/install/surani_interface/lib/libsurani_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[13.302s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface
+[13.302s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/msg
+[13.302s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[13.302s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv
+[13.303s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv/detail
+[13.303s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv/detail/teach_point__type_support.c
+[13.303s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv/detail/teach_point__rosidl_typesupport_introspection_c.h
+[13.304s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/lib/libsurani_interface__rosidl_typesupport_introspection_c.so
+[13.305s] -- Set non-toolchain portion of runtime path of "/home/dominik/RRM/ros2_ws/install/surani_interface/lib/libsurani_interface__rosidl_typesupport_introspection_c.so" to ""
+[13.305s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/lib/libsurani_interface__rosidl_typesupport_c.so
+[13.307s] -- Set non-toolchain portion of runtime path of "/home/dominik/RRM/ros2_ws/install/surani_interface/lib/libsurani_interface__rosidl_typesupport_c.so" to ""
+[13.307s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface
+[13.307s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/msg
+[13.307s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[13.308s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv
+[13.308s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv/detail
+[13.308s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv/detail/teach_point__builder.hpp
+[13.308s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv/detail/teach_point__struct.hpp
+[13.309s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv/detail/teach_point__type_support.hpp
+[13.309s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv/detail/teach_point__traits.hpp
+[13.310s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv/teach_point.hpp
+[13.311s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface
+[13.311s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/msg
+[13.311s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[13.311s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv
+[13.311s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv/detail
+[13.312s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv/detail/teach_point__rosidl_typesupport_fastrtps_cpp.hpp
+[13.312s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv/detail/dds_fastrtps
+[13.312s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/lib/libsurani_interface__rosidl_typesupport_fastrtps_cpp.so
+[13.314s] -- Set non-toolchain portion of runtime path of "/home/dominik/RRM/ros2_ws/install/surani_interface/lib/libsurani_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[13.314s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface
+[13.315s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv
+[13.315s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv/detail
+[13.315s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv/detail/teach_point__type_support.cpp
+[13.315s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/include/surani_interface/surani_interface/srv/detail/teach_point__rosidl_typesupport_introspection_cpp.hpp
+[13.316s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/lib/libsurani_interface__rosidl_typesupport_introspection_cpp.so
+[13.318s] -- Set non-toolchain portion of runtime path of "/home/dominik/RRM/ros2_ws/install/surani_interface/lib/libsurani_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[13.319s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/lib/libsurani_interface__rosidl_typesupport_cpp.so
+[13.320s] -- Set non-toolchain portion of runtime path of "/home/dominik/RRM/ros2_ws/install/surani_interface/lib/libsurani_interface__rosidl_typesupport_cpp.so" to ""
+[13.320s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/environment/pythonpath.sh
+[13.321s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/environment/pythonpath.dsv
+[13.321s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/lib/python3.12/site-packages/surani_interface-0.0.0-py3.12.egg-info
+[13.321s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/lib/python3.12/site-packages/surani_interface-0.0.0-py3.12.egg-info/SOURCES.txt
+[13.321s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/lib/python3.12/site-packages/surani_interface-0.0.0-py3.12.egg-info/top_level.txt
+[13.322s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/lib/python3.12/site-packages/surani_interface-0.0.0-py3.12.egg-info/dependency_links.txt
+[13.322s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/lib/python3.12/site-packages/surani_interface-0.0.0-py3.12.egg-info/PKG-INFO
+[13.323s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/lib/python3.12/site-packages/surani_interface
+[13.323s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/lib/python3.12/site-packages/surani_interface/_surani_interface_s.ep.rosidl_typesupport_introspection_c.c
+[13.324s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/lib/python3.12/site-packages/surani_interface/srv
+[13.324s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/lib/python3.12/site-packages/surani_interface/srv/__init__.py
+[13.324s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/lib/python3.12/site-packages/surani_interface/srv/_teach_point.py
+[13.325s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/lib/python3.12/site-packages/surani_interface/srv/_teach_point_s.c
+[13.325s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/lib/python3.12/site-packages/surani_interface/surani_interface_s__rosidl_typesupport_fastrtps_c.so
+[13.326s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/lib/python3.12/site-packages/surani_interface/__init__.py
+[13.326s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/lib/python3.12/site-packages/surani_interface/_surani_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[13.327s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/lib/python3.12/site-packages/surani_interface/surani_interface_s__rosidl_typesupport_c.so
+[13.328s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/lib/python3.12/site-packages/surani_interface/_surani_interface_s.ep.rosidl_typesupport_c.c
+[13.328s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/lib/python3.12/site-packages/surani_interface/surani_interface_s__rosidl_typesupport_introspection_c.so
+[13.436s] Listing '/home/dominik/RRM/ros2_ws/install/surani_interface/lib/python3.12/site-packages/surani_interface'...
+[13.436s] Compiling '/home/dominik/RRM/ros2_ws/install/surani_interface/lib/python3.12/site-packages/surani_interface/__init__.py'...
+[13.436s] Listing '/home/dominik/RRM/ros2_ws/install/surani_interface/lib/python3.12/site-packages/surani_interface/srv'...
+[13.436s] Compiling '/home/dominik/RRM/ros2_ws/install/surani_interface/lib/python3.12/site-packages/surani_interface/srv/__init__.py'...
+[13.436s] Compiling '/home/dominik/RRM/ros2_ws/install/surani_interface/lib/python3.12/site-packages/surani_interface/srv/_teach_point.py'...
+[13.453s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/lib/python3.12/site-packages/surani_interface/surani_interface_s__rosidl_typesupport_fastrtps_c.so
+[13.454s] -- Set non-toolchain portion of runtime path of "/home/dominik/RRM/ros2_ws/install/surani_interface/lib/python3.12/site-packages/surani_interface/surani_interface_s__rosidl_typesupport_fastrtps_c.so" to ""
+[13.454s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/lib/python3.12/site-packages/surani_interface/surani_interface_s__rosidl_typesupport_introspection_c.so
+[13.455s] -- Set non-toolchain portion of runtime path of "/home/dominik/RRM/ros2_ws/install/surani_interface/lib/python3.12/site-packages/surani_interface/surani_interface_s__rosidl_typesupport_introspection_c.so" to ""
+[13.456s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/lib/python3.12/site-packages/surani_interface/surani_interface_s__rosidl_typesupport_c.so
+[13.457s] -- Set non-toolchain portion of runtime path of "/home/dominik/RRM/ros2_ws/install/surani_interface/lib/python3.12/site-packages/surani_interface/surani_interface_s__rosidl_typesupport_c.so" to ""
+[13.458s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/lib/libsurani_interface__rosidl_generator_py.so
+[13.459s] -- Set non-toolchain portion of runtime path of "/home/dominik/RRM/ros2_ws/install/surani_interface/lib/libsurani_interface__rosidl_generator_py.so" to ""
+[13.459s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/srv/TeachPoint.idl
+[13.460s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/srv/TeachPoint.srv
+[13.460s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/ament_index/resource_index/package_run_dependencies/surani_interface
+[13.460s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/ament_index/resource_index/parent_prefix_path/surani_interface
+[13.460s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/environment/ament_prefix_path.sh
+[13.460s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/environment/ament_prefix_path.dsv
+[13.461s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/environment/path.sh
+[13.461s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/environment/path.dsv
+[13.461s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/local_setup.bash
+[13.461s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/local_setup.sh
+[13.461s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/local_setup.zsh
+[13.462s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/local_setup.dsv
+[13.462s] -- Installing: /home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/package.dsv
+[13.462s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/ament_index/resource_index/packages/surani_interface
+[13.462s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/cmake/export_surani_interface__rosidl_generator_cExport.cmake
+[13.462s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/cmake/export_surani_interface__rosidl_generator_cExport-noconfig.cmake
+[13.463s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/cmake/export_surani_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[13.463s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/cmake/export_surani_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[13.463s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/cmake/surani_interface__rosidl_typesupport_introspection_cExport.cmake
+[13.463s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/cmake/surani_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[13.464s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/cmake/surani_interface__rosidl_typesupport_cExport.cmake
+[13.464s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/cmake/surani_interface__rosidl_typesupport_cExport-noconfig.cmake
+[13.464s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/cmake/export_surani_interface__rosidl_generator_cppExport.cmake
+[13.464s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/cmake/export_surani_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[13.464s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/cmake/export_surani_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[13.465s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/cmake/surani_interface__rosidl_typesupport_introspection_cppExport.cmake
+[13.465s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/cmake/surani_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[13.465s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/cmake/surani_interface__rosidl_typesupport_cppExport.cmake
+[13.465s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/cmake/surani_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[13.466s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/cmake/export_surani_interface__rosidl_generator_pyExport.cmake
+[13.466s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/cmake/export_surani_interface__rosidl_generator_pyExport-noconfig.cmake
+[13.466s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/cmake/rosidl_cmake-extras.cmake
+[13.466s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.466s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.467s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[13.467s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/cmake/ament_cmake_export_targets-extras.cmake
+[13.467s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[13.467s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[13.467s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/cmake/surani_interfaceConfig.cmake
+[13.467s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/cmake/surani_interfaceConfig-version.cmake
+[13.468s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/surani_interface/share/surani_interface/package.xml
+[13.474s] Invoked command in '/home/dominik/RRM/ros2_ws/build/surani_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/surani_interface
