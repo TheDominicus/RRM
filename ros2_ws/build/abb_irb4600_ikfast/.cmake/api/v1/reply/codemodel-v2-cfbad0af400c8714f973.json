@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-350ffdbf1f1ce6ed30c6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "abb_irb4600_ikfast",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "abb_irb4600_ikfast::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-abb_irb4600_ikfast-9416ce3b5ffdb274e9fc.json",
+					"name" : "abb_irb4600_ikfast",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "abb_irb4600_ikfast_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-abb_irb4600_ikfast_uninstall-66ea3a30fd4a1d791986.json",
+					"name" : "abb_irb4600_ikfast_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1a9885caaf54aaaeb57d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dominik/RRM/ros2_ws/build/abb_irb4600_ikfast",
+		"source" : "/home/dominik/RRM/ros2_ws/src/abb_irb4600_ikfast"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
