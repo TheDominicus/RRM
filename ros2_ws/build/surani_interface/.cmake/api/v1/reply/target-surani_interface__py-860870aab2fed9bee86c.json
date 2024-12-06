@@ -1,0 +1,79 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/dominik/RRM/ros2_ws/build/surani_interface/surani_interface__py/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "surani_interface::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "surani_interface__py::@9c1ef1ab55eef813a85a",
+	"name" : "surani_interface__py",
+	"paths" : 
+	{
+		"build" : "surani_interface__py",
+		"source" : "/home/dominik/RRM/ros2_ws/build/surani_interface/surani_interface__py"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/dominik/RRM/ros2_ws/build/surani_interface/surani_interface__py/CMakeFiles/surani_interface__py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/dominik/RRM/ros2_ws/build/surani_interface/surani_interface__py/CMakeFiles/surani_interface__py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/dominik/RRM/ros2_ws/build/surani_interface/rosidl_generator_py/surani_interface/_surani_interface_s.ep.rosidl_typesupport_fastrtps_c.c.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}
