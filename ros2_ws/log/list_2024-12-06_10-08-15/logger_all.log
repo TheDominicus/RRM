@@ -1,0 +1,546 @@
+[0.094s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/dominik/RRM/ros2_ws']
+[0.094s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/dominik/RRM/ros2_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x70eb7faa9520>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x70eb7fbd8890>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x70eb7fbd8890>>, mixin_verb=('list',))
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.129s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dominik/RRM/ros2_ws'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws) by extension 'ignore'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws) by extension 'ignore_ament_install'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws) by extensions ['colcon_pkg']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws) by extension 'colcon_pkg'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws) by extensions ['colcon_meta']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws) by extension 'colcon_meta'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws) by extensions ['ros']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws) by extension 'ros'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws) by extensions ['cmake', 'python']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws) by extension 'cmake'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws) by extension 'python'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws) by extensions ['python_setup_py']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws) by extension 'python_setup_py'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/build) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/build) ignored
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/install) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/install) ignored
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/log) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/log) ignored
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src) by extension 'ros'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src) by extensions ['cmake', 'python']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src) by extension 'cmake'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src) by extension 'python'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src) by extensions ['python_setup_py']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src) by extension 'python_setup_py'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/block1_surani) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/block1_surani) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/block1_surani) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/block1_surani) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/block1_surani) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/block1_surani) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/block1_surani) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/block1_surani) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/block1_surani) by extension 'ros'
+[0.168s] DEBUG:colcon.colcon_core.package_identification:Package '/home/dominik/RRM/ros2_ws/src/block1_surani' with type 'ros.ament_cmake' and name 'block1_surani'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/cv1) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/cv1) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/cv1) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/cv1) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/cv1) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/cv1) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/cv1) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/cv1) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/cv1) by extension 'ros'
+[0.169s] DEBUG:colcon.colcon_core.package_identification:Package '/home/dominik/RRM/ros2_ws/src/cv1' with type 'ros.ament_cmake' and name 'cv1'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/eigen_example) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/eigen_example) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/eigen_example) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/eigen_example) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/eigen_example) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/eigen_example) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/eigen_example) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/eigen_example) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/eigen_example) by extension 'ros'
+[0.171s] DEBUG:colcon.colcon_core.package_identification:Package '/home/dominik/RRM/ros2_ws/src/eigen_example' with type 'ros.ament_cmake' and name 'eigen_example'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/rrm) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/rrm) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/rrm) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/rrm) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/rrm) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/rrm) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/rrm) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/rrm) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/rrm) by extension 'ros'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/rrm) by extensions ['cmake', 'python']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/rrm) by extension 'cmake'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/rrm) by extension 'python'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/rrm) by extensions ['python_setup_py']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/rrm) by extension 'python_setup_py'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/rrm/rrm_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/rrm/rrm_msgs) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/rrm/rrm_msgs) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/rrm/rrm_msgs) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/rrm/rrm_msgs) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/rrm/rrm_msgs) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/rrm/rrm_msgs) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/rrm/rrm_msgs) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/rrm/rrm_msgs) by extension 'ros'
+[0.173s] DEBUG:colcon.colcon_core.package_identification:Package '/home/dominik/RRM/ros2_ws/src/rrm/rrm_msgs' with type 'ros.ament_cmake' and name 'rrm_msgs'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/rrm/rrm_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/rrm/rrm_sim) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/rrm/rrm_sim) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/rrm/rrm_sim) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/rrm/rrm_sim) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/rrm/rrm_sim) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/rrm/rrm_sim) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/rrm/rrm_sim) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/rrm/rrm_sim) by extension 'ros'
+[0.174s] DEBUG:colcon.colcon_core.package_identification:Package '/home/dominik/RRM/ros2_ws/src/rrm/rrm_sim' with type 'ros.ament_cmake' and name 'rrm_sim'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/rrm/rrm_simple_robot_model) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/rrm/rrm_simple_robot_model) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/rrm/rrm_simple_robot_model) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/rrm/rrm_simple_robot_model) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/rrm/rrm_simple_robot_model) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/rrm/rrm_simple_robot_model) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/rrm/rrm_simple_robot_model) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/rrm/rrm_simple_robot_model) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/rrm/rrm_simple_robot_model) by extension 'ros'
+[0.175s] DEBUG:colcon.colcon_core.package_identification:Package '/home/dominik/RRM/ros2_ws/src/rrm/rrm_simple_robot_model' with type 'ros.ament_cmake' and name 'rrm_simple_robot_model'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/surani_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/surani_interface) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/surani_interface) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/surani_interface) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/surani_interface) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/surani_interface) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/surani_interface) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/surani_interface) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/surani_interface) by extension 'ros'
+[0.176s] DEBUG:colcon.colcon_core.package_identification:Package '/home/dominik/RRM/ros2_ws/src/surani_interface' with type 'ros.ament_cmake' and name 'surani_interface'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2) by extension 'ros'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2) by extensions ['cmake', 'python']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2) by extension 'cmake'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2) by extension 'python'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2) by extensions ['python_setup_py']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2) by extension 'python_setup_py'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build) by extension 'ros'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build) by extensions ['cmake', 'python']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build) by extension 'cmake'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build) by extension 'python'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build) by extensions ['python_setup_py']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build) by extension 'python_setup_py'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles) by extensions ['ros']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles) by extension 'ros'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles) by extensions ['cmake', 'python']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles) by extension 'cmake'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles) by extension 'python'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles) by extensions ['python_setup_py']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles) by extension 'python_setup_py'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3) by extension 'ros'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3) by extensions ['cmake', 'python']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3) by extension 'cmake'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3) by extension 'python'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3) by extensions ['python_setup_py']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3) by extension 'python_setup_py'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdC) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdC) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdC) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdC) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdC) by extension 'colcon_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdC) by extensions ['colcon_meta']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdC) by extension 'colcon_meta'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdC) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdC) by extension 'ros'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdC) by extensions ['cmake', 'python']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdC) by extension 'cmake'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdC) by extension 'python'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdC) by extensions ['python_setup_py']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdC) by extension 'python_setup_py'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdC/tmp) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdC/tmp) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdC/tmp) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdC/tmp) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdC/tmp) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdC/tmp) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdC/tmp) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdC/tmp) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdC/tmp) by extension 'ros'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdC/tmp) by extensions ['cmake', 'python']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdC/tmp) by extension 'cmake'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdC/tmp) by extension 'python'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdC/tmp) by extensions ['python_setup_py']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdC/tmp) by extension 'python_setup_py'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdCXX) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdCXX) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdCXX) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdCXX) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdCXX) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdCXX) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdCXX) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdCXX) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdCXX) by extension 'ros'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdCXX) by extensions ['cmake', 'python']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdCXX) by extension 'cmake'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdCXX) by extension 'python'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdCXX) by extensions ['python_setup_py']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdCXX) by extension 'python_setup_py'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdCXX/tmp) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdCXX/tmp) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdCXX/tmp) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdCXX/tmp) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdCXX/tmp) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdCXX/tmp) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdCXX/tmp) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdCXX/tmp) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdCXX/tmp) by extension 'ros'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdCXX/tmp) by extensions ['cmake', 'python']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdCXX/tmp) by extension 'cmake'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdCXX/tmp) by extension 'python'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdCXX/tmp) by extensions ['python_setup_py']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/3.28.3/CompilerIdCXX/tmp) by extension 'python_setup_py'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/CMakeScratch) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/CMakeScratch) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/CMakeScratch) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/CMakeScratch) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/CMakeScratch) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/CMakeScratch) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/CMakeScratch) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/CMakeScratch) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/CMakeScratch) by extension 'ros'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/CMakeScratch) by extensions ['cmake', 'python']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/CMakeScratch) by extension 'cmake'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/CMakeScratch) by extension 'python'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/CMakeScratch) by extensions ['python_setup_py']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/CMakeScratch) by extension 'python_setup_py'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/pkgRedirects) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/pkgRedirects) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/pkgRedirects) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/pkgRedirects) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/pkgRedirects) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/pkgRedirects) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/pkgRedirects) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/pkgRedirects) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/pkgRedirects) by extension 'ros'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/pkgRedirects) by extensions ['cmake', 'python']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/pkgRedirects) by extension 'cmake'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/pkgRedirects) by extension 'python'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/pkgRedirects) by extensions ['python_setup_py']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/CMakeFiles/pkgRedirects) by extension 'python_setup_py'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing) by extension 'ros'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing) by extensions ['cmake', 'python']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing) by extension 'cmake'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing) by extension 'python'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing) by extensions ['python_setup_py']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing) by extension 'python_setup_py'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241114-0756) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241114-0756) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241114-0756) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241114-0756) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241114-0756) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241114-0756) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241114-0756) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241114-0756) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241114-0756) by extension 'ros'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241114-0756) by extensions ['cmake', 'python']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241114-0756) by extension 'cmake'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241114-0756) by extension 'python'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241114-0756) by extensions ['python_setup_py']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241114-0756) by extension 'python_setup_py'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241124-1738) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241124-1738) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241124-1738) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241124-1738) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241124-1738) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241124-1738) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241124-1738) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241124-1738) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241124-1738) by extension 'ros'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241124-1738) by extensions ['cmake', 'python']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241124-1738) by extension 'cmake'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241124-1738) by extension 'python'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241124-1738) by extensions ['python_setup_py']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241124-1738) by extension 'python_setup_py'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241127-0840) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241127-0840) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241127-0840) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241127-0840) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241127-0840) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241127-0840) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241127-0840) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241127-0840) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241127-0840) by extension 'ros'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241127-0840) by extensions ['cmake', 'python']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241127-0840) by extension 'cmake'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241127-0840) by extension 'python'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241127-0840) by extensions ['python_setup_py']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241127-0840) by extension 'python_setup_py'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241127-1518) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241127-1518) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241127-1518) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241127-1518) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241127-1518) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241127-1518) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241127-1518) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241127-1518) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241127-1518) by extension 'ros'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241127-1518) by extensions ['cmake', 'python']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241127-1518) by extension 'cmake'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241127-1518) by extension 'python'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241127-1518) by extensions ['python_setup_py']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241127-1518) by extension 'python_setup_py'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241127-1753) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241127-1753) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241127-1753) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241127-1753) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241127-1753) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241127-1753) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241127-1753) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241127-1753) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241127-1753) by extension 'ros'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241127-1753) by extensions ['cmake', 'python']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241127-1753) by extension 'cmake'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241127-1753) by extension 'python'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241127-1753) by extensions ['python_setup_py']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241127-1753) by extension 'python_setup_py'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241128-0700) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241128-0700) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241128-0700) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241128-0700) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241128-0700) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241128-0700) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241128-0700) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241128-0700) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241128-0700) by extension 'ros'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241128-0700) by extensions ['cmake', 'python']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241128-0700) by extension 'cmake'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241128-0700) by extension 'python'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241128-0700) by extensions ['python_setup_py']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241128-0700) by extension 'python_setup_py'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241205-0707) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241205-0707) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241205-0707) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241205-0707) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241205-0707) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241205-0707) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241205-0707) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241205-0707) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241205-0707) by extension 'ros'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241205-0707) by extensions ['cmake', 'python']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241205-0707) by extension 'cmake'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241205-0707) by extension 'python'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241205-0707) by extensions ['python_setup_py']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241205-0707) by extension 'python_setup_py'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241205-0712) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241205-0712) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241205-0712) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241205-0712) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241205-0712) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241205-0712) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241205-0712) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241205-0712) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241205-0712) by extension 'ros'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241205-0712) by extensions ['cmake', 'python']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241205-0712) by extension 'cmake'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241205-0712) by extension 'python'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241205-0712) by extensions ['python_setup_py']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241205-0712) by extension 'python_setup_py'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241205-0728) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241205-0728) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241205-0728) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241205-0728) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241205-0728) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241205-0728) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241205-0728) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241205-0728) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241205-0728) by extension 'ros'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241205-0728) by extensions ['cmake', 'python']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241205-0728) by extension 'cmake'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241205-0728) by extension 'python'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241205-0728) by extensions ['python_setup_py']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/Testing/20241205-0728) by extension 'python_setup_py'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_cppcheck) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_cppcheck) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_cppcheck) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_cppcheck) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_cppcheck) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_cppcheck) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_cppcheck) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_cppcheck) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_cppcheck) by extension 'ros'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_cppcheck) by extensions ['cmake', 'python']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_cppcheck) by extension 'cmake'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_cppcheck) by extension 'python'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_cppcheck) by extensions ['python_setup_py']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_cppcheck) by extension 'python_setup_py'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_flake8) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_flake8) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_flake8) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_flake8) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_flake8) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_flake8) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_flake8) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_flake8) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_flake8) by extension 'ros'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_flake8) by extensions ['cmake', 'python']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_flake8) by extension 'cmake'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_flake8) by extension 'python'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_flake8) by extensions ['python_setup_py']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_flake8) by extension 'python_setup_py'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_lint_cmake) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_lint_cmake) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_lint_cmake) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_lint_cmake) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_lint_cmake) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_lint_cmake) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_lint_cmake) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_lint_cmake) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_lint_cmake) by extension 'ros'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_lint_cmake) by extensions ['cmake', 'python']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_lint_cmake) by extension 'cmake'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_lint_cmake) by extension 'python'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_lint_cmake) by extensions ['python_setup_py']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_lint_cmake) by extension 'python_setup_py'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_pep257) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_pep257) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_pep257) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_pep257) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_pep257) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_pep257) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_pep257) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_pep257) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_pep257) by extension 'ros'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_pep257) by extensions ['cmake', 'python']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_pep257) by extension 'cmake'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_pep257) by extension 'python'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_pep257) by extensions ['python_setup_py']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_pep257) by extension 'python_setup_py'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_uncrustify) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_uncrustify) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_uncrustify) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_uncrustify) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_uncrustify) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_uncrustify) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_uncrustify) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_uncrustify) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_uncrustify) by extension 'ros'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_uncrustify) by extensions ['cmake', 'python']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_uncrustify) by extension 'cmake'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_uncrustify) by extension 'python'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_uncrustify) by extensions ['python_setup_py']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_uncrustify) by extension 'python_setup_py'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_xmllint) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_xmllint) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_xmllint) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_xmllint) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_xmllint) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_xmllint) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_xmllint) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_xmllint) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_xmllint) by extension 'ros'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_xmllint) by extensions ['cmake', 'python']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_xmllint) by extension 'cmake'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_xmllint) by extension 'python'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_xmllint) by extensions ['python_setup_py']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/build/ament_xmllint) by extension 'python_setup_py'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/include) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/include) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/include) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/include) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/include) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/include) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/include) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/include) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/include) by extension 'ros'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/include) by extensions ['cmake', 'python']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/include) by extension 'cmake'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/include) by extension 'python'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/include) by extensions ['python_setup_py']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/include) by extension 'python_setup_py'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/include/zad2) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/include/zad2) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/include/zad2) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/include/zad2) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/include/zad2) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/include/zad2) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/include/zad2) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/include/zad2) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/include/zad2) by extension 'ros'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/include/zad2) by extensions ['cmake', 'python']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/include/zad2) by extension 'cmake'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/include/zad2) by extension 'python'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/include/zad2) by extensions ['python_setup_py']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad2/include/zad2) by extension 'python_setup_py'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad3) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad3) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad3) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad3) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad3) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad3) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad3) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad3) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad3) by extension 'ros'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad3) by extensions ['cmake', 'python']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad3) by extension 'cmake'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad3) by extension 'python'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad3) by extensions ['python_setup_py']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad3) by extension 'python_setup_py'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad3/abb_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad3/abb_moveit_config) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad3/abb_moveit_config) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad3/abb_moveit_config) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad3/abb_moveit_config) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad3/abb_moveit_config) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad3/abb_moveit_config) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad3/abb_moveit_config) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dominik/RRM/ros2_ws/src/zad3/abb_moveit_config) by extension 'ros'
+[0.200s] DEBUG:colcon.colcon_core.package_identification:Package '/home/dominik/RRM/ros2_ws/src/zad3/abb_moveit_config' with type 'ros.ament_cmake' and name 'abb_moveit_config'
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
