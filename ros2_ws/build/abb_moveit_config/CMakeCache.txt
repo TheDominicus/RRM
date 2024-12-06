@@ -241,6 +241,9 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 //Name of the computer/site where compile is being run
 SITE:STRING=dominik-ntb-ubuntu
 
+//The directory containing a CMake configuration file for abb_model.
+abb_model_DIR:PATH=/home/dominik/RRM/ros2_ws/install/abb_model/share/abb_model/cmake
+
 //Value Computed by CMake
 abb_moveit_config_BINARY_DIR:STATIC=/home/dominik/RRM/ros2_ws/build/abb_moveit_config
 
