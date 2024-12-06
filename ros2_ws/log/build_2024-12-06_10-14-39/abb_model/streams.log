@@ -1,0 +1,5 @@
+[0.038s] Invoking command in '/home/dominik/RRM/ros2_ws/build/abb_model': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/abb_model -- -j16 -l16
+[0.059s] [0mCMake Error: The source directory "/home/dominik/RRM/ros2_ws/src/abb_model" does not exist.
+[0.059s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.061s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.064s] Invoked command in '/home/dominik/RRM/ros2_ws/build/abb_model' returned '2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/abb_model -- -j16 -l16
