@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
-#include "surani_interface/srv/detail/teach_point__struct.h"
 #include "surani_interface/srv/detail/teach_point__functions.h"
+#include "surani_interface/srv/detail/teach_point__struct.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "surani_interface/srv/detail/teach_point__type_support.h"
 
 #ifdef __cplusplus

@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-d135334381398663988f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "surani_interface__py",
+					"jsonFile" : "directory-surani_interface__py-b020566e4b6af6526830.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/dominik/RRM/ros2_ws/build/surani_interface/surani_interface__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "surani_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_surani_interface_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_surani_interface_egg-cb21e9bccadb50d773c9.json",
+					"name" : "ament_cmake_python_build_surani_interface_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_surani_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_surani_interface-06e09c4058d2712599c3.json",
+					"name" : "ament_cmake_python_copy_surani_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "surani_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-surani_interface-b62ec640d2f29d9b67a6.json",
+					"name" : "surani_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "surani_interface__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-surani_interface__cpp-f6d9997ebaf37e509e55.json",
+					"name" : "surani_interface__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "surani_interface__py::@9c1ef1ab55eef813a85a",
+					"jsonFile" : "target-surani_interface__py-860870aab2fed9bee86c.json",
+					"name" : "surani_interface__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "surani_interface__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-surani_interface__rosidl_generator_c-58b4b9757327b5197d6c.json",
+					"name" : "surani_interface__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "surani_interface__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-surani_interface__rosidl_generator_py-c57639e3f59bd6dd550b.json",
+					"name" : "surani_interface__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "surani_interface__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-surani_interface__rosidl_generator_type_description-b6a012f4e5a0e07eff2b.json",
+					"name" : "surani_interface__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "surani_interface__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-surani_interface__rosidl_typesupport_c-9e70befdbeb38c7e8eeb.json",
+					"name" : "surani_interface__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "surani_interface__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-surani_interface__rosidl_typesupport_cpp-6ee52a0662c6bcbd2cf8.json",
+					"name" : "surani_interface__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "surani_interface__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-surani_interface__rosidl_typesupport_fastrtps_c-4aa119dba0fdbe02babd.json",
+					"name" : "surani_interface__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "surani_interface__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-surani_interface__rosidl_typesupport_fastrtps_cpp-fb91d7a6d6d97c8583f4.json",
+					"name" : "surani_interface__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "surani_interface__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-surani_interface__rosidl_typesupport_introspection_c-466bbe76ed17425b2a11.json",
+					"name" : "surani_interface__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "surani_interface__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-surani_interface__rosidl_typesupport_introspection_cpp-36e2ea226ab05f0c97d0.json",
+					"name" : "surani_interface__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "surani_interface_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-surani_interface_s__rosidl_typesupport_c-7e38b4f4de61db68aa9b.json",
+					"name" : "surani_interface_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "surani_interface_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-surani_interface_s__rosidl_typesupport_fastrtps_c-232d9fbc5aba720f0e4a.json",
+					"name" : "surani_interface_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "surani_interface_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-surani_interface_s__rosidl_typesupport_introspection_c-4ac93709784c0b37d36d.json",
+					"name" : "surani_interface_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "surani_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-surani_interface_uninstall-51ea4aa011b36ae3f26a.json",
+					"name" : "surani_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b97ff20cc068f6f236f6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dominik/RRM/ros2_ws/build/surani_interface",
+		"source" : "/home/dominik/RRM/ros2_ws/src/surani_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

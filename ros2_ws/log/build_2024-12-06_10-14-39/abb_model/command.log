@@ -1,0 +1,2 @@
+Invoking command in '/home/dominik/RRM/ros2_ws/build/abb_model': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/abb_model -- -j16 -l16
+Invoked command in '/home/dominik/RRM/ros2_ws/build/abb_model' returned '2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/abb_model -- -j16 -l16

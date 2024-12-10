@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "surani_interface__py",
+		"source" : "/home/dominik/RRM/ros2_ws/build/surani_interface/surani_interface__py"
+	}
+}

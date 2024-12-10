@@ -1,0 +1,58 @@
+[0.035s] Invoking command in '/home/dominik/RRM/ros2_ws/build/abb_irb4600_ikfast': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dominik/RRM/ros2_ws/src/abb_irb4600_ikfast -DCMAKE_INSTALL_PREFIX=/home/dominik/RRM/ros2_ws/install/abb_irb4600_ikfast
+[0.095s] -- The C compiler identification is GNU 13.2.0
+[0.162s] -- The CXX compiler identification is GNU 13.2.0
+[0.179s] -- Detecting C compiler ABI info
+[0.291s] -- Detecting C compiler ABI info - done
+[0.303s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.303s] -- Detecting C compile features
+[0.304s] -- Detecting C compile features - done
+[0.317s] -- Detecting CXX compiler ABI info
+[0.424s] -- Detecting CXX compiler ABI info - done
+[0.431s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.431s] -- Detecting CXX compile features
+[0.432s] -- Detecting CXX compile features - done
+[0.436s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.599s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.727s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.846s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.846s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/dominik/RRM/ros2_ws/src/abb_irb4600_ikfast/include>
+[0.847s] -- Configured cppcheck exclude dirs and/or files: 
+[0.847s] -- Added test 'lint_cmake' to check CMake code style
+[0.849s] -- Added test 'uncrustify' to check C / C++ code style
+[0.849s] -- Configured uncrustify additional arguments: 
+[0.850s] -- Added test 'xmllint' to check XML markup files
+[0.852s] -- Configuring done (0.8s)
+[0.856s] -- Generating done (0.0s)
+[0.858s] -- Build files have been written to: /home/dominik/RRM/ros2_ws/build/abb_irb4600_ikfast
+[0.863s] Invoked command in '/home/dominik/RRM/ros2_ws/build/abb_irb4600_ikfast' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dominik/RRM/ros2_ws/src/abb_irb4600_ikfast -DCMAKE_INSTALL_PREFIX=/home/dominik/RRM/ros2_ws/install/abb_irb4600_ikfast
+[0.864s] Invoking command in '/home/dominik/RRM/ros2_ws/build/abb_irb4600_ikfast': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/abb_irb4600_ikfast -- -j16 -l16
+[0.915s] [ 50%] [32mBuilding CXX object CMakeFiles/abb_irb4600_ikfast.dir/src/abb_irb_4600_ikfast.cpp.o[0m
+[4.475s] [100%] [32m[1mLinking CXX static library libabb_irb4600_ikfast.a[0m
+[4.531s] [100%] Built target abb_irb4600_ikfast
+[4.545s] Invoked command in '/home/dominik/RRM/ros2_ws/build/abb_irb4600_ikfast' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/abb_irb4600_ikfast -- -j16 -l16
+[4.546s] Invoking command in '/home/dominik/RRM/ros2_ws/build/abb_irb4600_ikfast': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/abb_irb4600_ikfast
+[4.554s] -- Install configuration: ""
+[4.555s] -- Installing: /home/dominik/RRM/ros2_ws/install/abb_irb4600_ikfast/include/abb_irb4600_ikfast
+[4.555s] -- Installing: /home/dominik/RRM/ros2_ws/install/abb_irb4600_ikfast/include/abb_irb4600_ikfast/abb_irb4600_ikfast
+[4.555s] -- Installing: /home/dominik/RRM/ros2_ws/install/abb_irb4600_ikfast/include/abb_irb4600_ikfast/abb_irb4600_ikfast/abb_irb4600_ikfast.h
+[4.555s] -- Installing: /home/dominik/RRM/ros2_ws/install/abb_irb4600_ikfast/lib/libabb_irb4600_ikfast.a
+[4.557s] -- Installing: /home/dominik/RRM/ros2_ws/install/abb_irb4600_ikfast/share/abb_irb4600_ikfast/environment/library_path.sh
+[4.557s] -- Installing: /home/dominik/RRM/ros2_ws/install/abb_irb4600_ikfast/share/abb_irb4600_ikfast/environment/library_path.dsv
+[4.557s] -- Installing: /home/dominik/RRM/ros2_ws/install/abb_irb4600_ikfast/share/ament_index/resource_index/package_run_dependencies/abb_irb4600_ikfast
+[4.557s] -- Installing: /home/dominik/RRM/ros2_ws/install/abb_irb4600_ikfast/share/ament_index/resource_index/parent_prefix_path/abb_irb4600_ikfast
+[4.558s] -- Installing: /home/dominik/RRM/ros2_ws/install/abb_irb4600_ikfast/share/abb_irb4600_ikfast/environment/ament_prefix_path.sh
+[4.558s] -- Installing: /home/dominik/RRM/ros2_ws/install/abb_irb4600_ikfast/share/abb_irb4600_ikfast/environment/ament_prefix_path.dsv
+[4.558s] -- Installing: /home/dominik/RRM/ros2_ws/install/abb_irb4600_ikfast/share/abb_irb4600_ikfast/environment/path.sh
+[4.558s] -- Installing: /home/dominik/RRM/ros2_ws/install/abb_irb4600_ikfast/share/abb_irb4600_ikfast/environment/path.dsv
+[4.558s] -- Installing: /home/dominik/RRM/ros2_ws/install/abb_irb4600_ikfast/share/abb_irb4600_ikfast/local_setup.bash
+[4.558s] -- Installing: /home/dominik/RRM/ros2_ws/install/abb_irb4600_ikfast/share/abb_irb4600_ikfast/local_setup.sh
+[4.558s] -- Installing: /home/dominik/RRM/ros2_ws/install/abb_irb4600_ikfast/share/abb_irb4600_ikfast/local_setup.zsh
+[4.558s] -- Installing: /home/dominik/RRM/ros2_ws/install/abb_irb4600_ikfast/share/abb_irb4600_ikfast/local_setup.dsv
+[4.558s] -- Installing: /home/dominik/RRM/ros2_ws/install/abb_irb4600_ikfast/share/abb_irb4600_ikfast/package.dsv
+[4.559s] -- Installing: /home/dominik/RRM/ros2_ws/install/abb_irb4600_ikfast/share/ament_index/resource_index/packages/abb_irb4600_ikfast
+[4.559s] -- Installing: /home/dominik/RRM/ros2_ws/install/abb_irb4600_ikfast/share/abb_irb4600_ikfast/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.559s] -- Installing: /home/dominik/RRM/ros2_ws/install/abb_irb4600_ikfast/share/abb_irb4600_ikfast/cmake/ament_cmake_export_libraries-extras.cmake
+[4.559s] -- Installing: /home/dominik/RRM/ros2_ws/install/abb_irb4600_ikfast/share/abb_irb4600_ikfast/cmake/abb_irb4600_ikfastConfig.cmake
+[4.559s] -- Installing: /home/dominik/RRM/ros2_ws/install/abb_irb4600_ikfast/share/abb_irb4600_ikfast/cmake/abb_irb4600_ikfastConfig-version.cmake
+[4.559s] -- Installing: /home/dominik/RRM/ros2_ws/install/abb_irb4600_ikfast/share/abb_irb4600_ikfast/package.xml
+[4.562s] Invoked command in '/home/dominik/RRM/ros2_ws/build/abb_irb4600_ikfast' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/abb_irb4600_ikfast
