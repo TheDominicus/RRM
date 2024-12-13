@@ -1,0 +1,25 @@
+[0.051s] Invoking command in '/home/dominik/RRM/ros2_ws/build/ik_solver_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/ik_solver_example -- -j16 -l16
+[0.160s] [ 50%] [32mBuilding CXX object CMakeFiles/ik_solver_example.dir/src/ik_solver_example.cpp.o[0m
+[4.938s] [100%] [32m[1mLinking CXX executable ik_solver_example[0m
+[5.091s] [100%] Built target ik_solver_example
+[5.127s] Invoked command in '/home/dominik/RRM/ros2_ws/build/ik_solver_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/ik_solver_example -- -j16 -l16
+[5.160s] Invoking command in '/home/dominik/RRM/ros2_ws/build/ik_solver_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/ik_solver_example
+[5.168s] -- Install configuration: ""
+[5.168s] -- Installing: /home/dominik/RRM/ros2_ws/install/ik_solver_example/lib/ik_solver_example/ik_solver_example
+[5.170s] -- Set non-toolchain portion of runtime path of "/home/dominik/RRM/ros2_ws/install/ik_solver_example/lib/ik_solver_example/ik_solver_example" to ""
+[5.170s] -- Installing: /home/dominik/RRM/ros2_ws/install/ik_solver_example/share/ament_index/resource_index/package_run_dependencies/ik_solver_example
+[5.170s] -- Installing: /home/dominik/RRM/ros2_ws/install/ik_solver_example/share/ament_index/resource_index/parent_prefix_path/ik_solver_example
+[5.170s] -- Installing: /home/dominik/RRM/ros2_ws/install/ik_solver_example/share/ik_solver_example/environment/ament_prefix_path.sh
+[5.170s] -- Installing: /home/dominik/RRM/ros2_ws/install/ik_solver_example/share/ik_solver_example/environment/ament_prefix_path.dsv
+[5.170s] -- Installing: /home/dominik/RRM/ros2_ws/install/ik_solver_example/share/ik_solver_example/environment/path.sh
+[5.171s] -- Installing: /home/dominik/RRM/ros2_ws/install/ik_solver_example/share/ik_solver_example/environment/path.dsv
+[5.171s] -- Installing: /home/dominik/RRM/ros2_ws/install/ik_solver_example/share/ik_solver_example/local_setup.bash
+[5.171s] -- Installing: /home/dominik/RRM/ros2_ws/install/ik_solver_example/share/ik_solver_example/local_setup.sh
+[5.171s] -- Installing: /home/dominik/RRM/ros2_ws/install/ik_solver_example/share/ik_solver_example/local_setup.zsh
+[5.171s] -- Installing: /home/dominik/RRM/ros2_ws/install/ik_solver_example/share/ik_solver_example/local_setup.dsv
+[5.171s] -- Installing: /home/dominik/RRM/ros2_ws/install/ik_solver_example/share/ik_solver_example/package.dsv
+[5.171s] -- Installing: /home/dominik/RRM/ros2_ws/install/ik_solver_example/share/ament_index/resource_index/packages/ik_solver_example
+[5.172s] -- Installing: /home/dominik/RRM/ros2_ws/install/ik_solver_example/share/ik_solver_example/cmake/ik_solver_exampleConfig.cmake
+[5.172s] -- Installing: /home/dominik/RRM/ros2_ws/install/ik_solver_example/share/ik_solver_example/cmake/ik_solver_exampleConfig-version.cmake
+[5.172s] -- Installing: /home/dominik/RRM/ros2_ws/install/ik_solver_example/share/ik_solver_example/package.xml
+[5.174s] Invoked command in '/home/dominik/RRM/ros2_ws/build/ik_solver_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/ik_solver_example

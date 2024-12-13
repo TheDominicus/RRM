@@ -1,0 +1,8 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/jointlogger_node.dir/src/jointlogger.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/logger_node.dir/src/logger_node.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable teleop_node[0m
+[ 66%] Built target teleop_node
+[ 83%] [32m[1mLinking CXX executable jointlogger_node[0m
+[ 83%] Built target jointlogger_node
+[100%] [32m[1mLinking CXX executable logger_node[0m
+[100%] Built target logger_node

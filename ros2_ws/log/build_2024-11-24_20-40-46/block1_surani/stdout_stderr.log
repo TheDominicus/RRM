@@ -1,0 +1,24 @@
+[ 66%] Built target logger_node
+[ 66%] Built target teleop_node
+[100%] Built target jointlogger_node
+-- Install configuration: ""
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/lib/block1_surani/teleop_node
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/lib/block1_surani/logger_node
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/lib/block1_surani/jointlogger_node
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani//launch
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani//launch/logger_node.launch.xml
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/ament_index/resource_index/package_run_dependencies/block1_surani
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/ament_index/resource_index/parent_prefix_path/block1_surani
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/environment/ament_prefix_path.sh
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/environment/path.sh
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/environment/path.dsv
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/local_setup.bash
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/local_setup.sh
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/local_setup.zsh
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/local_setup.dsv
+-- Installing: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/package.dsv
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/ament_index/resource_index/packages/block1_surani
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/cmake/block1_suraniConfig.cmake
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/cmake/block1_suraniConfig-version.cmake
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/block1_surani/share/block1_surani/package.xml

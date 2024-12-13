@@ -1,0 +1,25 @@
+[0.088s] Invoking command in '/home/dominik/RRM/ros2_ws/build/trajectory_visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/trajectory_visualization -- -j16 -l16
+[0.485s] [100%] Built target trajectory_visualization
+[0.735s] Invoked command in '/home/dominik/RRM/ros2_ws/build/trajectory_visualization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/trajectory_visualization -- -j16 -l16
+[0.994s] Invoking command in '/home/dominik/RRM/ros2_ws/build/trajectory_visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/trajectory_visualization
+[1.046s] -- Install configuration: ""
+[1.047s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/trajectory_visualization/lib/trajectory_visualization/trajectory_visualization
+[1.048s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/launch
+[1.049s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/launch/trajectory_visualization.launch.xml
+[1.051s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/launch/trajectory_visualization.launch.py
+[1.053s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/ament_index/resource_index/package_run_dependencies/trajectory_visualization
+[1.054s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/ament_index/resource_index/parent_prefix_path/trajectory_visualization
+[1.055s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/environment/ament_prefix_path.sh
+[1.056s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/environment/ament_prefix_path.dsv
+[1.057s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/environment/path.sh
+[1.058s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/environment/path.dsv
+[1.059s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/local_setup.bash
+[1.060s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/local_setup.sh
+[1.061s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/local_setup.zsh
+[1.061s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/local_setup.dsv
+[1.062s] -- Installing: /home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/package.dsv
+[1.063s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/ament_index/resource_index/packages/trajectory_visualization
+[1.067s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/cmake/trajectory_visualizationConfig.cmake
+[1.068s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/cmake/trajectory_visualizationConfig-version.cmake
+[1.069s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/trajectory_visualization/share/trajectory_visualization/package.xml
+[1.194s] Invoked command in '/home/dominik/RRM/ros2_ws/build/trajectory_visualization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/trajectory_visualization

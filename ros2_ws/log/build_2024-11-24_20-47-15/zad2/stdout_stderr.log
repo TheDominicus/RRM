@@ -1,0 +1,30 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/zad2_node.dir/src/zad2_node.cpp.o[0m
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:[m[K In member function ‘[01m[Kvoid TrajectoryPlanner::[01;32m[Khandle_service_request[m[K(std::shared_ptr<surani_interface::srv::TeachPoint_Request_<std::allocator<void> > >, std::shared_ptr<surani_interface::srv::TeachPoint_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:81:114:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   81 | void TrajectoryPlanner::handle_service_request([01;35m[Kconst std::shared_ptr<surani_interface::srv::TeachPoint::Request> req[m[K,
+      |                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/dominik/RRM/ros2_ws/src/zad2/src/zad2_node.cpp:82:109:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kres[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   82 |                                                [01;35m[Kstd::shared_ptr<surani_interface::srv::TeachPoint::Response> res[m[K) {
+      |                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[100%] [32m[1mLinking CXX executable zad2_node[0m
+[100%] Built target zad2_node
+-- Install configuration: ""
+-- Installing: /home/dominik/RRM/ros2_ws/install/zad2/lib/zad2/zad2_node
+-- Set non-toolchain portion of runtime path of "/home/dominik/RRM/ros2_ws/install/zad2/lib/zad2/zad2_node" to ""
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2//launch
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2//launch/zad2.launch.xml
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/ament_index/resource_index/package_run_dependencies/zad2
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/ament_index/resource_index/parent_prefix_path/zad2
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/environment/ament_prefix_path.sh
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/environment/path.sh
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/environment/path.dsv
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/local_setup.bash
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/local_setup.sh
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/local_setup.zsh
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/local_setup.dsv
+-- Installing: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/package.dsv
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/ament_index/resource_index/packages/zad2
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/cmake/zad2Config.cmake
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/cmake/zad2Config-version.cmake
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/package.xml

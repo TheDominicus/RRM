@@ -157,6 +157,7 @@ struct TeachPoint_Response_
     {
       this->result = false;
       this->message = "";
+      this->success = false;
     }
   }
 
@@ -168,6 +169,7 @@ struct TeachPoint_Response_
     {
       this->result = false;
       this->message = "";
+      this->success = false;
     }
   }
 
@@ -178,6 +180,9 @@ struct TeachPoint_Response_
   using _message_type =
     std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>;
   _message_type message;
+  using _success_type =
+    bool;
+  _success_type success;
 
   // setters for named parameter idiom
   Type & set__result(
@@ -190,6 +195,12 @@ struct TeachPoint_Response_
     const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> & _arg)
   {
     this->message = _arg;
+    return *this;
+  }
+  Type & set__success(
+    const bool & _arg)
+  {
+    this->success = _arg;
     return *this;
   }
 
@@ -239,6 +250,9 @@ struct TeachPoint_Response_
       return false;
     }
     if (this->message != other.message) {
+      return false;
+    }
+    if (this->success != other.success) {
       return false;
     }
     return true;

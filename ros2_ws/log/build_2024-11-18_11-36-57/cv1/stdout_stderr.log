@@ -1,0 +1,19 @@
+[100%] Built target cv1_node
+-- Install configuration: ""
+-- Installing: /home/dominik/RRM/ros2_ws/install/cv1/lib/cv1/cv1_node
+-- Set non-toolchain portion of runtime path of "/home/dominik/RRM/ros2_ws/install/cv1/lib/cv1/cv1_node" to ""
+-- Installing: /home/dominik/RRM/ros2_ws/install/cv1/share/ament_index/resource_index/package_run_dependencies/cv1
+-- Installing: /home/dominik/RRM/ros2_ws/install/cv1/share/ament_index/resource_index/parent_prefix_path/cv1
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/cv1/share/cv1/environment/ament_prefix_path.sh
+-- Installing: /home/dominik/RRM/ros2_ws/install/cv1/share/cv1/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/cv1/share/cv1/environment/path.sh
+-- Installing: /home/dominik/RRM/ros2_ws/install/cv1/share/cv1/environment/path.dsv
+-- Installing: /home/dominik/RRM/ros2_ws/install/cv1/share/cv1/local_setup.bash
+-- Installing: /home/dominik/RRM/ros2_ws/install/cv1/share/cv1/local_setup.sh
+-- Installing: /home/dominik/RRM/ros2_ws/install/cv1/share/cv1/local_setup.zsh
+-- Installing: /home/dominik/RRM/ros2_ws/install/cv1/share/cv1/local_setup.dsv
+-- Installing: /home/dominik/RRM/ros2_ws/install/cv1/share/cv1/package.dsv
+-- Installing: /home/dominik/RRM/ros2_ws/install/cv1/share/ament_index/resource_index/packages/cv1
+-- Installing: /home/dominik/RRM/ros2_ws/install/cv1/share/cv1/cmake/cv1Config.cmake
+-- Installing: /home/dominik/RRM/ros2_ws/install/cv1/share/cv1/cmake/cv1Config-version.cmake
+-- Up-to-date: /home/dominik/RRM/ros2_ws/install/cv1/share/cv1/package.xml

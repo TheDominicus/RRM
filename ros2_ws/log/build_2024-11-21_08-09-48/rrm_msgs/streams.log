@@ -1,0 +1,24 @@
+[0.098s] Invoking command in '/home/dominik/RRM/ros2_ws/build/rrm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/rrm_msgs -- -j16 -l16
+[0.209s] [  2%] Built target rrm_msgs__rosidl_generator_type_description
+[0.234s] [  2%] Built target ament_cmake_python_copy_rrm_msgs
+[0.257s] [  4%] Built target rrm_msgs__cpp
+[0.267s] [ 22%] Built target rrm_msgs__rosidl_generator_c
+[0.323s] [ 31%] Built target rrm_msgs__rosidl_typesupport_c
+[0.337s] [ 50%] Built target rrm_msgs__rosidl_typesupport_fastrtps_cpp
+[0.337s] [ 50%] Built target rrm_msgs__rosidl_typesupport_introspection_c
+[0.338s] [ 59%] Built target rrm_msgs__rosidl_typesupport_fastrtps_c
+[0.338s] [ 68%] Built target rrm_msgs__rosidl_typesupport_introspection_cpp
+[0.347s] [ 77%] Built target rrm_msgs__rosidl_typesupport_cpp
+[0.376s] [ 77%] Built target rrm_msgs
+[0.400s] [ 79%] Built target rrm_msgs__py
+[0.425s] [ 86%] Built target rrm_msgs__rosidl_generator_py
+[0.457s] [ 93%] Built target rrm_msgs_s__rosidl_typesupport_fastrtps_c
+[0.457s] [ 95%] Built target rrm_msgs_s__rosidl_typesupport_introspection_c
+[0.457s] [100%] Built target rrm_msgs_s__rosidl_typesupport_c
+[0.528s] running egg_info
+[0.546s] writing rrm_msgs.egg-info/PKG-INFO
+[0.546s] writing dependency_links to rrm_msgs.egg-info/dependency_links.txt
+[0.546s] writing top-level names to rrm_msgs.egg-info/top_level.txt
+[0.600s] reading manifest file 'rrm_msgs.egg-info/SOURCES.txt'
+[0.601s] writing manifest file 'rrm_msgs.egg-info/SOURCES.txt'
+[0.643s] [100%] Built target ament_cmake_python_build_rrm_msgs_egg

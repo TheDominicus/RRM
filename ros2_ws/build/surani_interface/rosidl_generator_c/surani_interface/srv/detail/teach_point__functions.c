@@ -251,6 +251,7 @@ surani_interface__srv__TeachPoint_Response__init(surani_interface__srv__TeachPoi
     surani_interface__srv__TeachPoint_Response__fini(msg);
     return false;
   }
+  // success
   return true;
 }
 
@@ -263,6 +264,7 @@ surani_interface__srv__TeachPoint_Response__fini(surani_interface__srv__TeachPoi
   // result
   // message
   rosidl_runtime_c__String__fini(&msg->message);
+  // success
 }
 
 bool
@@ -279,6 +281,10 @@ surani_interface__srv__TeachPoint_Response__are_equal(const surani_interface__sr
   if (!rosidl_runtime_c__String__are_equal(
       &(lhs->message), &(rhs->message)))
   {
+    return false;
+  }
+  // success
+  if (lhs->success != rhs->success) {
     return false;
   }
   return true;
@@ -300,6 +306,8 @@ surani_interface__srv__TeachPoint_Response__copy(
   {
     return false;
   }
+  // success
+  output->success = input->success;
   return true;
 }
 

@@ -1,0 +1,17 @@
+/home/dominik/RRM/ros2_ws/install/zad2/lib/zad2/zad2_node
+/home/dominik/RRM/ros2_ws/install/zad2/share/zad2//launch/zad2.launch.xml
+/home/dominik/RRM/ros2_ws/install/zad2/share/ament_index/resource_index/package_run_dependencies/zad2
+/home/dominik/RRM/ros2_ws/install/zad2/share/ament_index/resource_index/parent_prefix_path/zad2
+/home/dominik/RRM/ros2_ws/install/zad2/share/zad2/environment/ament_prefix_path.sh
+/home/dominik/RRM/ros2_ws/install/zad2/share/zad2/environment/ament_prefix_path.dsv
+/home/dominik/RRM/ros2_ws/install/zad2/share/zad2/environment/path.sh
+/home/dominik/RRM/ros2_ws/install/zad2/share/zad2/environment/path.dsv
+/home/dominik/RRM/ros2_ws/install/zad2/share/zad2/local_setup.bash
+/home/dominik/RRM/ros2_ws/install/zad2/share/zad2/local_setup.sh
+/home/dominik/RRM/ros2_ws/install/zad2/share/zad2/local_setup.zsh
+/home/dominik/RRM/ros2_ws/install/zad2/share/zad2/local_setup.dsv
+/home/dominik/RRM/ros2_ws/install/zad2/share/zad2/package.dsv
+/home/dominik/RRM/ros2_ws/install/zad2/share/ament_index/resource_index/packages/zad2
+/home/dominik/RRM/ros2_ws/install/zad2/share/zad2/cmake/zad2Config.cmake
+/home/dominik/RRM/ros2_ws/install/zad2/share/zad2/cmake/zad2Config-version.cmake
+/home/dominik/RRM/ros2_ws/install/zad2/share/zad2/package.xml

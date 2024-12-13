@@ -1,0 +1,30 @@
+[0.063s] Invoking command in '/home/dominik/RRM/ros2_ws/build/zad2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/zad2 -- -j16 -l16
+[0.180s] [ 50%] [32mBuilding CXX object CMakeFiles/zad2_node.dir/src/zad2_node.cpp.o[0m
+[5.851s] [100%] [32m[1mLinking CXX executable zad2_node[0m
+[6.025s] [100%] Built target zad2_node
+[6.037s] Invoked command in '/home/dominik/RRM/ros2_ws/build/zad2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dominik/RRM/ros2_ws/build/zad2 -- -j16 -l16
+[6.068s] Invoking command in '/home/dominik/RRM/ros2_ws/build/zad2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/zad2
+[6.076s] -- Install configuration: ""
+[6.076s] -- Installing: /home/dominik/RRM/ros2_ws/install/zad2/lib/zad2/zad2_node
+[6.079s] -- Set non-toolchain portion of runtime path of "/home/dominik/RRM/ros2_ws/install/zad2/lib/zad2/zad2_node" to ""
+[6.079s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/launch
+[6.079s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/launch/zad2.launch.xml
+[6.079s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/lib/zad2/zad2_node
+[6.079s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/ament_index/resource_index/package_run_dependencies/zad2
+[6.079s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/ament_index/resource_index/parent_prefix_path/zad2
+[6.079s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/environment/ament_prefix_path.sh
+[6.079s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/environment/ament_prefix_path.dsv
+[6.079s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/environment/path.sh
+[6.079s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/environment/path.dsv
+[6.079s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/local_setup.bash
+[6.080s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/local_setup.sh
+[6.080s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/local_setup.zsh
+[6.080s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/local_setup.dsv
+[6.080s] -- Installing: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/package.dsv
+[6.080s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/ament_index/resource_index/packages/zad2
+[6.080s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.080s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.080s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/cmake/zad2Config.cmake
+[6.080s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/cmake/zad2Config-version.cmake
+[6.080s] -- Up-to-date: /home/dominik/RRM/ros2_ws/install/zad2/share/zad2/package.xml
+[6.082s] Invoked command in '/home/dominik/RRM/ros2_ws/build/zad2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dominik/RRM/ros2_ws/build/zad2

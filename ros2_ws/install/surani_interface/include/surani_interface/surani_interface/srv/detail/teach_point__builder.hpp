@@ -66,16 +66,32 @@ namespace srv
 namespace builder
 {
 
+class Init_TeachPoint_Response_success
+{
+public:
+  explicit Init_TeachPoint_Response_success(::surani_interface::srv::TeachPoint_Response & msg)
+  : msg_(msg)
+  {}
+  ::surani_interface::srv::TeachPoint_Response success(::surani_interface::srv::TeachPoint_Response::_success_type arg)
+  {
+    msg_.success = std::move(arg);
+    return std::move(msg_);
+  }
+
+private:
+  ::surani_interface::srv::TeachPoint_Response msg_;
+};
+
 class Init_TeachPoint_Response_message
 {
 public:
   explicit Init_TeachPoint_Response_message(::surani_interface::srv::TeachPoint_Response & msg)
   : msg_(msg)
   {}
-  ::surani_interface::srv::TeachPoint_Response message(::surani_interface::srv::TeachPoint_Response::_message_type arg)
+  Init_TeachPoint_Response_success message(::surani_interface::srv::TeachPoint_Response::_message_type arg)
   {
     msg_.message = std::move(arg);
-    return std::move(msg_);
+    return Init_TeachPoint_Response_success(msg_);
   }
 
 private:
